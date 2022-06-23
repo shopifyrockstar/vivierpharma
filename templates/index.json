@@ -1,0 +1,503 @@
+{
+  "sections": {
+    "16498210446d2b7d31": {
+      "type": "section-slideshow",
+      "blocks": {
+        "16498210431181fc52-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20220427-Untitled_Session3156.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Banner_image.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "kicker": "INTRODUCING OUR LATEST INNOVATION",
+            "title": "QUINTISERUM™",
+            "richtext": "<p>This must-have <\/p><p>antioxidant collagen booster <\/p><p>firms skin and reduces <\/p><p>signs of aging.<\/p>",
+            "text_align": "align--middle-right",
+            "text_color": "text--white",
+            "link_text": "C THE DIFFERENCE",
+            "link": "shopify:\/\/products\/quintiserum",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "16498210431181fc52-0"
+      ],
+      "settings": {
+        "autoplay": false,
+        "custom_class": "",
+        "autoplay_speed": 15,
+        "height": "use_pixels_500"
+      }
+    },
+    "164383702676f18db7": {
+      "type": "section-video",
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_third",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0048\/0162\/6227\/files\/Dropper_closeup_clip.mp4?v=1647974559",
+        "object_position": "center-center",
+        "bg_position": "right-center",
+        "video_link": "",
+        "popup_text": "watch now",
+        "kicker": "",
+        "title": "The Beauty of Results",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--invert--primary",
+        "overlay_opacity": 15,
+        "overlay_color": "#ffffff",
+        "link_text": "SHOP NOW",
+        "link": "",
+        "button_color": "btn--primary",
+        "button_style": "btn--soft"
+      }
+    },
+    "tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "fan-favourites",
+            "title": "Best Sellers"
+          }
+        }
+      },
+      "block_order": [
+        "tab-0"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "grid": 3,
+        "limit": 12,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16559045109e7d8f31": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/texture_background.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 30,
+        "overlay_color": "#ffffff",
+        "kicker": "Our Mission is to",
+        "title": "Empower you to look and feel your best.",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--invert",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn--outline"
+      }
+    },
+    "165032047775c1ec46": {
+      "type": "section-custom-content",
+      "blocks": {
+        "6e6a60b6-2580-4b3d-93ca-da705cb2b51a": {
+          "type": "product",
+          "settings": {
+            "product": "v-stat-advanced-scar-gel",
+            "kicker": "Experience the healing power of V-STAT",
+            "badge_string": "NEW",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "1a365b6f-9e03-4d91-9bc1-798e9ce06469": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/v-stat_web.png",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#ffffff",
+            "kicker": "Clinically proven to",
+            "title": "HELP HEAL",
+            "richtext": "Scars, burns, dry skin and reduce post-procedure downtime.",
+            "text_align": "align--middle-left",
+            "text_color": "text--neutral",
+            "link_text": "LEARN MORE",
+            "link": "shopify:\/\/products\/v-stat-advanced-scar-gel",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "6e6a60b6-2580-4b3d-93ca-da705cb2b51a",
+        "1a365b6f-9e03-4d91-9bc1-798e9ce06469"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "custom_class": "image-with-product",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1655906386933a3a65": {
+      "type": "section-richtext",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16498218947565be77": {
+      "type": "section-double",
+      "blocks": {
+        "1649821894f132beec-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vivier-3-min.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649821894f132beec-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "THE VIVIER DIFFERENCE",
+            "title": "",
+            "text": "<p>The best products start with the highest quality ingredients. We manufacture our products against pharmaceutical standards ensuring you get the best results.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649821894f132beec-1",
+        "1649821894f132beec-0"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16498210493c2730d5": {
+      "type": "section-double",
+      "blocks": {
+        "16498210486d408015-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Our Vision",
+            "title": "",
+            "text": "<p>To create the world’s best skincare products through ingenious innovation, science and technology, to deliver <strong>The Beauty of Results.<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "LEARN MORE",
+            "button_url": "https:\/\/vivierskin.ca\/pages\/discover-our-vitamin-c",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "16498210486d408015-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vivier_4.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/vivierskin.ca\/pages\/discover-our-vitamin-c",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "16498210486d408015-0",
+        "16498210486d408015-1"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "collection-grid": {
+      "type": "section-collection-grid",
+      "blocks": {
+        "collection-grid-0": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "acne",
+            "title": "ACNE",
+            "link_text": "",
+            "image": "shopify:\/\/shop_images\/ACNE1.png",
+            "button_link": "shopify:\/\/collections\/acne"
+          }
+        },
+        "collection-grid-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aging-skin",
+            "title": "ANTI-AGING",
+            "link_text": "",
+            "image": "shopify:\/\/shop_images\/homepage_collections-03_84998c52-19c3-4c03-a05b-2684e6f1f709.png",
+            "button_link": "shopify:\/\/collections\/aging-skin"
+          }
+        },
+        "9f00645f-726c-44a1-9f47-8fe1985f8bc6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hyperpigmentation",
+            "title": "SKIN BRIGHTENING",
+            "link_text": "",
+            "image": "shopify:\/\/shop_images\/homepage_collections-04_019cd715-14c2-4499-b405-957b5b016c92.png",
+            "button_link": "shopify:\/\/collections\/hyperpigmentation"
+          }
+        },
+        "120aabe8-b26f-409c-8138-b1627300fbb2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "protect",
+            "title": "SUN PROTECTION",
+            "link_text": "",
+            "image": "shopify:\/\/shop_images\/homepage_collections-01.png",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-grid-0",
+        "collection-grid-1",
+        "9f00645f-726c-44a1-9f47-8fe1985f8bc6",
+        "120aabe8-b26f-409c-8138-b1627300fbb2"
+      ],
+      "settings": {
+        "title": "top collections",
+        "grid": 3,
+        "bg": "palette--light bg--accent",
+        "text_color": "text--white",
+        "button_style": "btn--outline",
+        "button_color": "btn--white",
+        "overlay_opacity": 0,
+        "overlay_color": "#ffffff",
+        "aspect_ratio": 1.4
+      }
+    },
+    "164400874207f60a25": {
+      "type": "section-slideshow",
+      "blocks": {
+        "164400874218cea646-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vivier-8-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_138.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "VIVIER’S SUSTAINABLE PRACTICES",
+            "richtext": "<p>Giving back is part of our DNA, and that means giving back to the planet as well. Learn about the ways we are reducing our carbon footprint and increasing sustainble practices.<\/p>",
+            "text_align": "align--middle-left",
+            "text_color": "text--white",
+            "link_text": "Learn More",
+            "link": "https:\/\/vivierskin.ca\/pages\/wecare",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "164400874218cea646-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_138_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_143.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "VIVIER SUPPORTS OUR COMMUNITY",
+            "richtext": "<p>We follow the guiding principle that giving back is the right thing to do - we support many local and national causes<\/p>",
+            "text_align": "align--middle-left",
+            "text_color": "text--white",
+            "link_text": "Learn More",
+            "link": "https:\/\/vivierskin.ca\/pages\/wecare",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "7a2c57da-9ec1-4cab-bafc-e1f2efa9311c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "Introducing",
+            "title": "Image slideshow",
+            "richtext": "<p>Tell your brand's story through images.<\/p>",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "164400874218cea646-0",
+        "164400874218cea646-1",
+        "7a2c57da-9ec1-4cab-bafc-e1f2efa9311c"
+      ],
+      "settings": {
+        "autoplay": true,
+        "custom_class": "middle-slider",
+        "autoplay_speed": 5,
+        "height": "use_pixels_500"
+      }
+    },
+    "16438374777cb8ccc2": {
+      "type": "section-blog",
+      "settings": {
+        "title": "BLOGS From the Experts",
+        "homepage_blog": "vivier-life",
+        "homepage_blog_count": 3,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "overlay_color": "#838383",
+        "aspect_ratio": 1,
+        "show_view_all": false,
+        "button_style": "btn--outline uppercase"
+      }
+    },
+    "16498242313993b168": {
+      "type": "section-double",
+      "blocks": {
+        "1649824230bef2f124-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "The first step is understanding your skin",
+            "title": "",
+            "text": "<p>Get a consultation with a local Vivier skincare professional in your area to help determine the best products for your skin type.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Search Now",
+            "button_url": "shopify:\/\/pages\/sca-store-locator",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1649824230bef2f124-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/waiting_room.png",
+            "bg_position": "center-top",
+            "overlay_opacity": 10,
+            "overlay_color": "#ffffff",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1649824230bef2f124-0",
+        "1649824230bef2f124-1"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165059743358f9e2a2": {
+      "type": "apps",
+      "blocks": {
+        "fe5eecd3-1e6e-4426-bd4b-0a2ed0ac4a8f": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 24,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "fe5eecd3-1e6e-4426-bd4b-0a2ed0ac4a8f"
+      ],
+      "settings": {
+        "custom_class": "instafeed-section",
+        "width": "",
+        "height": "margin--zero",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "16498210446d2b7d31",
+    "164383702676f18db7",
+    "tabs",
+    "16559045109e7d8f31",
+    "165032047775c1ec46",
+    "1655906386933a3a65",
+    "16498218947565be77",
+    "16498210493c2730d5",
+    "collection-grid",
+    "164400874207f60a25",
+    "16438374777cb8ccc2",
+    "16498242313993b168",
+    "165059743358f9e2a2"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "16511595196c389c2c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/treatment_room_2_a6b8ca16-d5f1-4e0d-8f48-6b49ebaee614.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Find a Clinic",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "sca-storelocator": {
+      "type": "sca-storelocator",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16511595196c389c2c",
+    "sca-storelocator"
+  ]
+}
