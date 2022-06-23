@@ -9428,8 +9428,13 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
     cache: false
   })
   .done(function( response ) {
+    console.log(response);
     var $product_wrapper = $(response).find(".collection__content .collection__products");
     $(".collection__content .collection__products").replaceWith($product_wrapper);
+    if ( $(response).find(".collection__content .collection__products").find('.no-match').length ){
+      $(".collection__content .collection__products").find('.no-match').addClass('hidden');
+      $(".collection__content .collection__products").find('.notag-filter-result').removeClass('hidden');
+    }
     
     window.history.pushState("","", request_url);
     document.title = $(response).filter('title').text();
