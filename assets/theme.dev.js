@@ -9363,6 +9363,10 @@
 
 
 var tag_header_button = document.getElementById("tag-header-button");
+var current_url = window.location.pathname;
+var splitted_url_array_length = current_url.split('/').length;
+var tag_parameter = current_url.split('/')[splitted_url_array_length - 1];
+
 tag_header_button.addEventListener('click', function(e){
   this.classList.toggle("collapsed");
   var tag_filter_body = document.getElementsByClassName("tag-filters");  
@@ -9373,6 +9377,12 @@ $(".tag-filters .tag-filters__item").each(function(){
   var product_count = 0;
   var request_url = $(this).find("a").attr("href");  
   var $current  = $(this);
+  if ( splitted_url_array_length > 3 ){
+    var a_tag_title = $(this).find("a").text();  
+    if ( tag_parameter.indexOf(a_tag_title) !== -1 ) {
+      $(this).addClass('active');
+    }
+  }
   
   $.ajax({
     url: request_url,
@@ -9391,20 +9401,125 @@ $(".tag-filters .tag-filters__item").each(function(){
   });
 })
 
-
+//if tag item is clicked
 $(".tag-filters .tag-filters__item a").on('click', function(evt){
-  
   evt.preventDefault();
-  if ( $(this).parent(".tag-filters .tag-filters__item").hasClass("active") ){
-  	$(this).parent(".tag-filters__item").removeClass("active");
-    var request_url = $(this).parent().find(".item_count").data("url");
+
+  var request_url = '';
+  var current_url = window.location.pathname;
+  var splitted_url_array_length = current_url.split('/').length;
+  var tag_parameter = current_url.split('/')[splitted_url_array_length - 1];
+  console.log(splitted_url_array_length);
+
+  if (splitted_url_array_length > 3) { //if tag filter is enabled
+    if ($(this).parent('.tag-filters__item').hasClass("active")) { //if this tag filter is enabled      
+    }else{
+      $(this).parent(".tag-filters__item").addClass("active");
+      request_url = current_url + "+" + $(this).data("own_filter");
+    }
+  }else{ // if tag filer isn't enabled
+      $(this).parent(".tag-filters__item").addClass("active");
+      request_url = $(this).attr("href");
+  }
+  console.log(request_url);
+  $.ajax({
+    url: request_url,
+    method: "GET",
+    cache: false
+  })
+  .done(function( response ) {
+    var $product_wrapper = $(response).find(".collection__content .collection__products");
+    $(".collection__content .collection__products").replaceWith($product_wrapper);
     
-  }else{
-    $(this).parent(".tag-filters .tag-filters__item").siblings().removeClass("active");
-  	$(this).parent(".tag-filters__item").addClass("active");
-    var request_url = $(this).attr("href");
-  }  
+    window.history.pushState("","", request_url);
+    document.title = $(response).filter('title').text();
+    
+    var collection_atc_button = document.getElementsByClassName("atc-button-collection");
+    for(var i = 0; i < collection_atc_button.length; i++) {
+      (function(index) {
+        collection_atc_button[index].addEventListener("click", function(e) {
+          console.log(this.getAttribute("data-variant"));
+
+          let formData = {
+            'items': [{
+              'id': this.getAttribute("data-variant"),
+              'quantity': 1
+            }]
+          };
+
+          fetch(window.Shopify.routes.root + 'cart/add.js', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+          })
+          .then(response => {
+            const variant_id = this.getAttribute("data-variant");
+            const url = `${window.theme.routes.root_url}variants/${variant_id}/?section_id=api-product-popdown`;
+            fetch(url, {
+              method: 'GET',
+            }).then((response) => {
+              return response.text();
+            })
+            .then((response) => {
+              // handle success
+              const fresh = document.createElement('div');
+              fresh.innerHTML = response;            
+              var instance = document.querySelectorAll(".product-add-popdown");
+              instance[0].innerHTML = fresh.querySelector('[data-api-content]').innerHTML;
+              instance[0].className += " is-visible";
+              setTimeout(() => {
+                 instance[0].classList.remove("is-visible");                       
+            }, 2000)
+          })
+          .catch(function (error) {
+            console.warn(error);
+          });
+
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+      })
+    })(i);
+  }
+    
+  });  
   
+})
+
+//if tag remove is clicked
+$(".tag-filters .tag-filters__item .close").on('click', function(evt){
+  evt.preventDefault();
+
+  var request_url = '';
+  var current_url = window.location.pathname;
+  var splitted_url_array_length = current_url.split('/').length;
+  var tag_parameter = current_url.split('/')[splitted_url_array_length - 1];
+  var should_remove_tag_url = $(this).data('own_filter');
+  var necessary_items = [];
+
+  $(this).closest('.tag-filters__item.active').removeClass('active'); //remove active class to hide x button
+  
+  var tag_parameter_splitted_by_plus = tag_parameter.split('+'); //getting array from tag parameter
+
+  for (let i = 0; i < tag_parameter_splitted_by_plus.length; i++) {
+    if (tag_parameter_splitted_by_plus[i].indexOf(should_remove_tag_url) === -1){
+      necessary_items.push(tag_parameter_splitted_by_plus[i]);
+    }    
+  }
+
+  request_url = necessary_items.join("+");
+  if (request_url.length > 0){
+    request_url = $('.tag-filters').data('url') + "/" + request_url;  
+  }else{
+    request_url = $('.tag-filters').data('url');
+  }  
+  console.log(necessary_items);
+
+  console.log(request_url);
+
   $.ajax({
     url: request_url,
     method: "GET",

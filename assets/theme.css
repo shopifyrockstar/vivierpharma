@@ -457,10 +457,19 @@ li.tag-filters__item {
   width: 100%;
   display: block;
 }
-li.tag-filters__item.active a:after {
+li.tag-filters__item .close{
+  display: none;
+}
+li.tag-filters__item.active .close {
+  display: block;
   content: 'X';
   position: absolute;
   right: 5px;
+  top: 0;
+  font-weight: bold;
+}
+li.tag-filters__item.active .close:hover{
+  cursor: pointer;
 }
 button.tag-header:before {
   content: "";
