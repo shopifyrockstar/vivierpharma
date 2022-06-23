@@ -108,7 +108,8 @@
                   {% render 'onboarding-empty-collection' %}
                 {% else %}
                 <div class="js-grid__full-row">
-                  <p>{{ 'collections.general.no_matches' | t }}</p>
+                  <p class="no-match">{{ 'collections.general.no_matches' | t }}</p>
+                  <p class="notag-filter-result hidden">Sorry there are no matches to your filter selection</p>                  
                 </div>
                 {% endif %}
               {% endfor %}
