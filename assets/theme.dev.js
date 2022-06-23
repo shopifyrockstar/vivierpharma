@@ -9428,7 +9428,6 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
     cache: false
   })
   .done(function( response ) {
-    console.log(response);
     var $product_wrapper = $(response).find(".collection__content .collection__products");
     $(".collection__content .collection__products").replaceWith($product_wrapper);
     if ( $(response).find(".collection__content .collection__products").find('.no-match').length ){
