@@ -74,6 +74,7 @@
           },
           "a46e61df-953d-4725-af6d-dbeb682bbd87": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><strong>Free deluxe sample on orders over $100 | 2 samples over $350 | 3 samples over $600<\/strong><\/p>",
               "target_url_enabled": false,
@@ -322,7 +323,8 @@
             "collection_block"
           ],
           "settings": {
-            "main_menu_linklist": "main-menu"
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
           }
         },
         "footer": {
@@ -455,7 +457,8 @@
             "collection_block"
           ],
           "settings": {
-            "main_menu_linklist": "main-menu"
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
           }
         },
         "footer": {
@@ -598,7 +601,8 @@
             "collection_block"
           ],
           "settings": {
-            "main_menu_linklist": "main-menu"
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
           }
         },
         "footer": {
