@@ -298,14 +298,14 @@
     
       {% if current_tags contains tag %}
         <li class="tag-filters__item active">
-          <a href="{{ routes.collections_url }}/{{ collection.handle }}/{{ tag | handleize }}" data-own_filter="{{ tag | downcase }}">{{ tag }}</a>
-          <span class="close" data-own_filter="{{ tag | downcase }}">X</span>
+          <a href="{{ routes.collections_url }}/{{ collection.handle }}/{{ tag | handleize }}" data-own_filter="/{{ tag | handleize }}">{{ tag }}</a>
+          <span class="close" data-own_filter="{{ tag | handleize }}">X</span>
           <span class="item_count" data-url="{{ routes.collections_url }}/{{ collection.handle }}"></span>
         </li>
       {% else %}
         <li class="tag-filters__item">
-          <a href="{{ routes.collections_url }}/{{ collection.handle }}/{{ tag | handleize }}" data-own_filter="{{ tag | downcase }}">{{ tag }}</a>
-          <span class="close" data-own_filter="{{ tag | downcase }}">X</span>
+          <a href="{{ routes.collections_url }}/{{ collection.handle }}/{{ tag | handleize }}" data-own_filter="/{{ tag | handleize }}">{{ tag }}</a>
+          <span class="close" data-own_filter="{{ tag | handleize }}">X</span>
           <span class="item_count" data-url="{{ routes.collections_url }}/{{ collection.handle }}"></span>
         </li>
       {% endif %}

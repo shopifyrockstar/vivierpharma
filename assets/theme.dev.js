@@ -9415,7 +9415,7 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
       if ($(this).closest('.tag-filters__item').hasClass("active")) { //if this tag filter is enabled      
       }else{
         $(this).closest(".tag-filters__item").addClass("active");
-        request_url = current_url + "+" + $(this).data("own_filter");
+        request_url = current_url + "+" + ($(this).data("own_filter")).split('/')[1];
       }
     }else{ // if tag filer isn't enabled
         $(this).closest(".tag-filters__item").addClass("active");
@@ -9426,7 +9426,7 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
       if ( $(this).closest('.tag-filters__item').hasClass("active") ) { //if this tag filter is enabled      
       }else{
         $(this).closest(".tag-filters__item").addClass("active");
-        request_url = current_url + "+" + $(this).data("own_filter");
+        request_url = current_url + "+" + ($(this).data("own_filter")).split('/')[1];
       }
     }else{ // if tag filer isn't enabled
         $(this).closest(".tag-filters__item").addClass("active");
@@ -9519,6 +9519,7 @@ $(".tag-filters .tag-filters__item .close").on('click', function(evt){
   $(this).closest('.tag-filters__item.active').removeClass('active'); //remove active class to hide x button
   
   var tag_parameter_splitted_by_plus = tag_parameter.split('+'); //getting array from tag parameter
+  console.log(tag_parameter_splitted_by_plus);
 
   for (let i = 0; i < tag_parameter_splitted_by_plus.length; i++) {
     if (tag_parameter_splitted_by_plus[i].indexOf(should_remove_tag_url) === -1){
