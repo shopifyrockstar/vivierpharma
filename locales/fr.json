@@ -223,7 +223,6 @@
         "recurring_total_label": "Total récurrent",
         "recurring_total_tooltip": "N'inclut pas les frais d'expédition, les taxes, les frais de douane ou les réductions applicables.",
         "confirmation_number_label": "Confirmation n° %{confirmation_number}",
-        "higher_value_discount_already_applied": "Une remise plus importante a déjà été appliquée.",
         "percent_off_shipping": "%{percent} % de réduction sur les frais d'expédition",
         "amount_off_shipping": "%{amount} de réduction sur les frais d'expédition",
         "deferred_payment_info": {
@@ -233,7 +232,8 @@
         "payment_terms_totals": {
           "due_today": "Total dû aujourd'hui",
           "due_later": "Total dû %{due_at}"
-        }
+        },
+        "higher_value_discount_applied": "Certains codes de réduction ne pouvaient pas être utilisés ensemble. Nous avons appliqué la meilleure combinaison."
       },
       "shipping": {
         "title": "Livraison",
@@ -443,7 +443,8 @@
         },
         "account_connected": "Compte connecté",
         "email_connected": "Compte connecté : ",
-        "mor_disclaimer_html": "En cliquant ci–dessous et en finalisant votre commande, vous acceptez d’acheter vos articles auprès de Flow.io en tant que Merchant of Record\npour cette transaction, conformément aux <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions générales d’utilisation<\/a>\net à la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de confidentialité<\/a> de Flow.io. Flow.io est un fournisseur international de\nservices de traitement des commandes pour %{shop_name}\n"
+        "mor_disclaimer_html": "En cliquant ci–dessous et en finalisant votre commande, vous acceptez d’acheter vos articles auprès de Flow.io en tant que Merchant of Record\npour cette transaction, conformément aux <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions générales d’utilisation<\/a>\net à la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de confidentialité<\/a> de Flow.io. Flow.io est un fournisseur international de\nservices de traitement des commandes pour %{shop_name}\n",
+        "purchase_options_card_update_agreement_label_html": "En mettant à jour votre moyen de paiement, vous autorisez les paiements de tout achat récurrent ou différés, selon la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">pol  résiliation<\/a> de la boutique."
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel %{amount}",
@@ -521,7 +522,10 @@
         "subscription_agreement_blank": "Pour poursuivre votre achat, acceptez les conditions d'abonnement",
         "physical_gift_card_invalid_quantity": "Les rubriques de cartes-cadeaux physiques doivent avoir une quantité correspondant au nombre de codes de carte-cadeau.",
         "physical_gift_card_duplicate_code": "La rubrique de la carte-cadeau physique contient un code en double.",
-        "physical_gift_card_invalid_code": "Le code de la carte-cadeau physique n'est pas valide."
+        "physical_gift_card_invalid_code": "Le code de la carte-cadeau physique n'est pas valide.",
+        "address_first_name_contains_url": "Le prénom ne doit pas contenir d'URL",
+        "address_last_name_contains_url": "Le nom ne doit pas contenir d'URL",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Les cartes-cadeaux ne sont pas prises en charge avec les options d'achat différé."
       },
       "payment_errors": {
         "generic_error": "Un problème est survenu lors du traitement de votre paiement. Réessayez ou utilisez un autre moyen de paiement.",
@@ -787,7 +791,8 @@
             "title": "Ou envoyez un lien à votre téléphone"
           }
         },
-        "view_business_customer_account": "Voir le compte"
+        "view_business_customer_account": "Voir le compte",
+        "company_location_title": "Emplacement"
       },
       "review": {
         "title": "Avis",
@@ -833,7 +838,9 @@
         "legal_notice": "Mentions légales",
         "shipping_policy": "Politique d'expédition",
         "terms_of_sale": "Conditions générales de vente",
-        "subscription_policy": "Politique d'abonnement"
+        "subscription_policy": "Politique d'abonnement",
+        "purchase_options_policy": "Politique sur les options d’achat",
+        "contact_information": "Coordonnées"
       },
       "mor_policies": {
         "terms_and_conditions": "Conditions générales d’utilisation du Merchant of Record",
@@ -1114,7 +1121,8 @@
         "selling_plan_not_available_for_company_locations": "Seul l'achat ponctuel est disponible pour les commandes BtoB",
         "selling_plan_not_applicable": "Impossible d'appliquer le forfait de vente à la variante",
         "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
-        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais d’expédition. Continuez à passer à la caisse pour choisir un tarif d’expédition avant de passer votre commande."
+        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais d’expédition. Continuez à passer à la caisse pour choisir un tarif d’expédition avant de passer votre commande.",
+        "digital_product_not_available_for_company_locations": "Il n'est pas possible d'ajouter cet article à une commande B2B"
       },
       "storefront": {
         "invalid_password": "Mot de passe incorrect, veuillez essayer à nouveau."
@@ -1633,5 +1641,401 @@
   },
   "date_formats": {
     "month_day_year": "%d %B, %Y"
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Masquer le menu du compte",
+        "label": "Compte",
+        "show_accessibility_label": "Afficher le menu du compte"
+      },
+      "action_menu_accessibility_label": "Autres actions",
+      "close_menu_accessibility_label": "Fermer le menu principal",
+      "contact_email_subject": "Coordonnées de la boutique en ligne {{shopName}}",
+      "contact_link": "Nous contacter",
+      "delete_confirmation": {
+        "cancel": "Annuler",
+        "delete": "Supprimer"
+      },
+      "dismiss_toast": "Rejeter",
+      "document_title": "{{sectionName}} – {{shopName}} – Compte",
+      "generic_accessibility_label": "{{label}} : {{value}}",
+      "go_to_store_link": "Accéder à la boutique",
+      "loading_message": "Chargement en cours",
+      "log_out_link": "Se déconnecter",
+      "login_prompt": {
+        "continue": "Continuer",
+        "privacy": "Confidentialité",
+        "title": "Continuer pour se connecter"
+      },
+      "logout_overlay_label": "Déconnexion en cours...",
+      "nav_label_accessibility_label": "Menu principal",
+      "navigation_accessibility_message": "Vous avez accédé à {{sectionName}}",
+      "open_menu_accessibility_label": "Ouvrir le menu principal",
+      "orders_link_label": "Commandes",
+      "shop_logo_accessibility_label": "Logo {{shopName}}"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Informations du compte en cours de chargement",
+      "loading_finished_accessibility_message": "Les informations du compte ont été chargées",
+      "profile_card": {
+        "cancel": "Annuler",
+        "cancel_accessibility_label": "Annuler la modification du profil",
+        "edit": "Modifier",
+        "edit_accessibility_label": "Modifier le profil",
+        "email_help_text": "L'adresse e-mail utilisée pour la connexion ne peut pas être changée",
+        "first_name": "Prénom",
+        "last_name": "Nom",
+        "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être changé",
+        "save": "Enregistrer",
+        "save_accessibility_label": "Enregistrer le profil",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil mis à jour",
+      "title": "Informations du compte"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Options de mise en page",
+      "list_title": "Commandes",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Date de livraison",
+          "order_date": "Date de la commande",
+          "order_number": "Numéro de commande",
+          "status": "Statut",
+          "total": "Total"
+        },
+        "delivered": "Livrée le {{date}}",
+        "empty_state_order_source_description": "Seules les commandes passées par {{email}} s'afficheront ici.",
+        "empty_state_subtitle": "Accédez à la boutique pour passer une commande.",
+        "empty_state_title": "Aucune commande pour l'instant",
+        "estimated": "Prévue le {{date}}",
+        "estimated_delivery": "Livraison prévue le {{date}}",
+        "one_images_accessibility_label": "La commande comprend {{lineItemName1}}",
+        "two_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} article",
+          "other": "{{count}} articles"
+        },
+        "list_view": "Afficher sous forme de liste",
+        "multiple_shipments": "Plusieurs envois",
+        "no_filtered_results_description": "Supprimez ou ajustez les filtres pour voir vos commandes",
+        "no_filtered_results_title": "Aucun résultat filtré",
+        "order_link": "Afficher la commande {{name}}",
+        "order_number": "Commande {{name}}",
+        "orders_title": "Confirmée",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation des commandes",
+          "next": "Suivant",
+          "next_accessibility_label": "Commandes suivantes",
+          "previous": "Précédent",
+          "previous_accessibility_label": "Commandes précédentes"
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées",
+        "sort_title": "Trier",
+        "sort": {
+          "date": {
+            "newest": "Commande la plus récente",
+            "newest_accessibility_label": "Trier à partir de la commande la plus récente",
+            "oldest": "Commande la plus ancienne",
+            "oldest_accessibility_label": "Trier à partir de la commande la plus ancienne"
+          },
+          "location": {
+            "ascending": "Emplacement (de A à Z)",
+            "ascending_accessibility_label": "Trier par emplacement (de A à Z)",
+            "descending": "Emplacement (de Z à A)",
+            "descending_accessibility_label": "Trier par emplacement (de Z à A)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (par ordre croissant)",
+            "ascending_accessibility_label": "Trier par numéro de commande (par ordre croissant)",
+            "descending": "Numéro de commande (par ordre décroissant)",
+            "descending_accessibility_label": "Trier par numéro de commande (par ordre décroissant)"
+          },
+          "order_total": {
+            "ascending": "Total des commandes (par ordre croissant)",
+            "ascending_accessibility_label": "Trier par total des commandes (par ordre croissant)",
+            "descending": "Total des commandes (par ordre décroissant)",
+            "descending_accessibility_label": "Trier par total des commandes (par ordre décroissant)"
+          }
+        },
+        "table_view": "Afficher sous forme de tableau"
+      },
+      "order_status": {
+        "canceled_description": "Votre commande a été annulée le {{date}}.",
+        "canceled_label": "Annulée",
+        "canceled_title": "Votre commande a été annulée",
+        "come_back": "Revenez sur cette page pour voir les mises à jour du statut de votre envoi.",
+        "company_tracking_number": "Numéro de suivi {{company}} :",
+        "confirmed_label": "Confirmée",
+        "confirmed_title": "Votre commande est confirmée",
+        "delivered_description": "Votre envoi a été livré le {{date}}.",
+        "delivered_label": "Livrée",
+        "delivered_title": "Votre envoi a été livré",
+        "estimated_delivery": "Livraison prévue le {{date}}",
+        "in_review_description": "Nous vous contacterons si nous avons besoin d'informations supplémentaires ou lorsque votre commande sera confirmée.",
+        "in_review_label": "En cours d'examen",
+        "in_review_title": "Votre commande est en cours d'examen",
+        "no_tracking_number": "Il n'existe pas de numéro de suivi pour cet envoi.",
+        "on_its_way_label": "En transit",
+        "on_its_way_title": "Votre commande est en transit",
+        "out_for_delivery_label": "En cours de livraison",
+        "out_for_delivery_title": "Votre commande est en cours de livraison",
+        "resume_tracking": "Reprendre le suivi",
+        "submitted_label": "Soumise",
+        "track_shipment": "Suivre l'envoi"
+      },
+      "status_mark_as_delivered": "Marquer comme livrée",
+      "status_title": "Statut de la commande"
+    },
+    "order_details": {
+      "addresses_section_title": "Facturation et expédition",
+      "billing_address": "Adresse de facturation",
+      "card_ending_with": "se terminant par {{lastDigits}}",
+      "contact": "Contact",
+      "fully_refunded_label": "Remboursé",
+      "hide_items": "Masquer les articles",
+      "loading": "Détails de la commande en cours de chargement",
+      "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+      "location": "Emplacement",
+      "not_applicable": "s.o.",
+      "partially_refunded_label": "Partiellement remboursé",
+      "payment": {
+        "status_in_review": "Paiement dû après examen",
+        "status_unpaid": "Paiement dû le {{date}}",
+        "title": "Paiement"
+      },
+      "refunded_amount": "Remboursé",
+      "shipping": {
+        "address": "Adresse d'expédition",
+        "address_map_marker": "Adresse d'expédition",
+        "method": "Mode d'expédition",
+        "summary": "Expédition"
+      },
+      "show_items": "Afficher les articles",
+      "subtitle": "Confirmée le {{date}}",
+      "subtotal": "Sous-total",
+      "summary_list_title_accessibility_label": "Articles de la commande",
+      "summary_title": "Résumé de la commande",
+      "summary_totals_title_accessibility_label": "Totaux de la commande",
+      "taxes": "Taxes",
+      "title": "Commande {{name}}",
+      "total": "Total",
+      "unit_price": "({{price}} pièce)"
+    },
+    "addresses": {
+      "add_button": "Ajouter une adresse",
+      "address_deleted_notification": "Adresse supprimée",
+      "cancel_adding_address_accessibility_label": "Annuler l'ajout de l'adresse",
+      "cancel_deletion_button": "Annuler",
+      "cancel_deletion_button_accessibility_label": "Annuler la suppression de {{address}}",
+      "default_address": {
+        "title": "Adresse par défaut",
+        "title_accessibility_label": "Adresse par défaut : {{address}}"
+      },
+      "delete_button": "Supprimer",
+      "delete_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_button": "Supprimer l’adresse",
+      "delete_confirmation_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_message": "Supprimer l'adresse ? Les commandes déjà passées ne seront pas affectées.",
+      "edit_button": "Modifier",
+      "edit_button_accessibility_label": "Modifier {{address}}",
+      "edit_section_accessibility_label": "Modifier {{address}}",
+      "loading_accessibility_message": "Adresse en cours de chargement",
+      "loading_addresses_accessibility_message": "Adresses en cours de chargement",
+      "loading_billing_accessibility_message": "Adresse de facturation en cours de chargement",
+      "loading_finished_accessibility_message": "La nouvelle page d'adresses a été chargée",
+      "loading_shipping_accessibility_message": "Adresse d'expédition en cours de chargement",
+      "pagination": {
+        "nav_accessibility_label": "Pagination des adresses",
+        "next": "Aller à la page d'adresses suivante",
+        "previous": "Aller à la page d'adresses précédente"
+      },
+      "save_new_address_accessibility_label": "Enregistrer l'adresse",
+      "title": "Adresses"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Fermer les suggestions",
+      "auto_complete_title": "Suggestions",
+      "billing_address": "Utiliser comme adresse de facturation",
+      "cancel": "Annuler",
+      "cancel_accessibility_label": "Annuler la modification de l'adresse {{address}}",
+      "creation_success_notification": "Adresse ajoutée",
+      "default_address": "Ceci est mon adresse par défaut",
+      "default_address_creation_success_notification": "Adresse par défaut ajoutée",
+      "default_address_update_success_notification": "Adresse par défaut mise à jour",
+      "loading_add_form_accessibility_message": "Formulaire de nouvelle adresse en cours de chargement",
+      "loading_edit_form_accessibility_message": "Formulaire de modification d'adresse en cours de chargement",
+      "loading_finished_accessibility_message": "Le formulaire a été chargé",
+      "save": "Enregistrer",
+      "save_accessibility_label": "Enregistrer l'adresse {{address}}",
+      "section_title_accessibility_label": "Ajouter une adresse",
+      "update_success_notification": "Adresse mise à jour"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nom de l’entreprise",
+        "company_card_section_accessibility_label": "Entreprise"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "Personnes",
+        "contact_name": "Nom",
+        "contact_permissions": "Autorisations",
+        "contact_phone_number": "Numéro de téléphone",
+        "location_picker_label": "Nom de l'emplacement",
+        "net_payment_terms_description": "{{name}} : paiements dus sous {{numberOfDays}} jours",
+        "no_addresses": "Aucune adresse d'expédition ou de facturation n'a été ajoutée.",
+        "payment_details_title": "Détails du paiement",
+        "payment_terms": "Modalités de paiement",
+        "permissions_label": "Vos autorisations",
+        "permissions_title": "Autorisations",
+        "section_title": "Emplacement",
+        "shipping_address_required": "Ajoutez une adresse d'expédition à cet emplacement pour commencer à passer des commandes.",
+        "tax_details_title": "Informations fiscales",
+        "tax_id": "Identifiant fiscal"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuer vers la boutique",
+        "description": "Si votre panier contient déjà des articles, changer d'emplacement risque d'en affecter les prix et les quantités.",
+        "list_accessibility_label": "Liste des emplacements",
+        "list_item_accessibility_label": "{{name}} : {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}} : aucune adresse",
+        "list_loading_accessibility_message": "Liste d'emplacements en cours de chargement",
+        "list_loading_address_accessibility_message": "Adresse de {{locationName}} en cours de chargement",
+        "list_loading_finished_accessibility_message": "La liste d'emplacements a été chargée",
+        "loading_store_accessibility_message": "Accès à la boutique",
+        "no_location_title": "Commandes personnelles uniquement",
+        "no_location_description": "Vous n'avez plus l'autorisation de passer des commandes pour {{company}}. Vous pouvez toujours passer des commandes personnelles.",
+        "selection_cancel_button": "Annuler",
+        "selection_confirmation_button": "Choisir l'emplacement",
+        "title": "Pour quel emplacement achetez-vous ?"
+      },
+      "addresses": {
+        "add_billing_address_button": "Ajouter une adresse de facturation",
+        "add_billing_address_section_accessibility_label": "Ajouter une adresse de facturation",
+        "add_shipping_address_button": "Ajouter une adresse d'expédition",
+        "add_shipping_address_section_accessibility_label": "Ajouter une adresse d'expédition",
+        "billing_address_card_title": "Adresse de facturation",
+        "cancel_adding_billing_address_accessibility_label": "Annuler l'ajout de l'adresse de facturation",
+        "cancel_adding_shipping_address_accessibility_label": "Annuler l'ajout de l'adresse d'expédition",
+        "save_new_billing_address_accessibility_label": "Enregistrer l'adresse de facturation",
+        "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse d'expédition",
+        "shipping_address_card_title": "Adresse d'expédition"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Tout masquer",
+          "show_all": "Tout afficher",
+          "hide_all_accessibility_label": "Masquer toutes les commandes en cours d'examen",
+          "show_all_accessibility_label": "Afficher toutes les commandes en cours d'examen",
+          "show_less": "Afficher moins",
+          "show_more": "Afficher plus",
+          "title": "En cours d'examen",
+          "pagination": {
+            "nav_accessibility_label": "Boutons de navigation des commandes en cours d'examen"
+          }
+        },
+        "order_list_column_headers_location": "Emplacement"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmée le {{date}} à partir de la commande {{draftOrderName}}",
+        "loading": "Détails de la commande en cours de chargement",
+        "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Vous accusez un retard de paiement de {{count}} jour",
+              "other": "Vous accusez un retard de paiement de {{count}} jours"
+            },
+            "banner_due": {
+              "one": "Votre paiement est dû dans {{count}} jour",
+              "other": "Votre paiement est dû dans {{count}} jours"
+            },
+            "banner_due_today": "Votre paiement est dû aujourd'hui",
+            "title": "Paiement dû",
+            "title_with_date": "Paiement dû le {{date}}",
+            "description_overdue": "Vous accusez un retard de paiement.",
+            "description_partially_paid": "Cette commande a été partiellement payée. Vous avez un solde restant.",
+            "description_authorized": "Votre moyen de paiement sera débité à la date d'exigibilité, ou vous pouvez payer maintenant."
+          },
+          "draft": {
+            "description": "Les détails du paiement sont décidés après confirmation de la commande.",
+            "title": "Paiement pas encore dû"
+          },
+          "paid": {
+            "title": "Payé",
+            "title_with_date": "Payé le {{date}}",
+            "description": "Votre commande est intégralement payée."
+          },
+          "refund": {
+            "title": "Remboursé",
+            "title_with_date": "Remboursé le {{date}}",
+            "description_full_refund": "Cette commande vous a été entièrement remboursée.",
+            "description_single_refund": "Cette commande vous a été partiellement remboursée.",
+            "description_multiple_refunds": "Vous avez reçu des remboursements partiels pour cette commande."
+          },
+          "canceled": {
+            "title": "Paiement annulé",
+            "description": "Aucun montant ne vous sera prélevé."
+          },
+          "pay_now": "Payer maintenant",
+          "title": "Statut du paiement"
+        },
+        "subtitle": "Soumis le {{date}}",
+        "title": "Commande {{name}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Un problème est survenu lors de la suppression de cette adresse. Réessayez ou actualisez la page."
+      },
+      "addresses_loading_issue": {
+        "description": "Erreur de connexion. Vérifiez votre connexion Internet et réessayez."
+      },
+      "banner_title": {
+        "one": "Il y a {{count}} erreur",
+        "other": "Il y a {{count}} erreurs"
+      },
+      "failed_address_creation": {
+        "description": "Un problème est survenu lors de la création de votre adresse. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "failed_address_update": {
+        "description": "Un problème est survenu lors de la mise à jour de votre adresse. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Se connecter à un autre compte",
+        "description": "Vous n’êtes pas inscrit(e) en tant que client(e) B2B auprès de {{shopName}}",
+        "title": "Aucun accès"
+      },
+      "no_access_to_locations": {
+        "description": "Vous n'avez accès à aucun emplacement"
+      },
+      "not_found": {
+        "description": "Vérifiez l'URL ou réessayez dans quelques minutes.",
+        "title": "Un problème est survenu lors du chargement de cette page"
+      },
+      "order_not_found": {
+        "description": "Cette commande n'existe pas ou vous n'avez pas l'autorisation de la consulter.",
+        "title": "Commande introuvable"
+      },
+      "profile_update_error": {
+        "description": "Un problème est survenu lors de la mise à jour de votre profil. Essayez d'actualiser cette page ou vérifiez votre connexion Internet."
+      },
+      "retry_action_label": "Réessayer"
+    },
+    "shop_policies": {
+      "legal_notice": "Mentions légales",
+      "privacy_policy": "Politique de confidentialité",
+      "refund_policy": "Politique de remboursement",
+      "shipping_policy": "Politique d'expédition",
+      "subscription_policy": "Politique d'abonnement",
+      "terms_of_sale": "Conditions générales de vente",
+      "terms_of_service": "Conditions de service"
+    }
   }
 }

@@ -9409,25 +9409,38 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
   var current_url = window.location.pathname;
   var splitted_url_array_length = current_url.split('/').length;
   var tag_parameter = current_url.split('/')[splitted_url_array_length - 1];
-  console.log(splitted_url_array_length);
 
-  if (splitted_url_array_length > 3) { //if tag filter is enabled
-    if ($(this).parent('.tag-filters__item').hasClass("active")) { //if this tag filter is enabled      
-    }else{
-      $(this).parent(".tag-filters__item").addClass("active");
-      request_url = current_url + "+" + $(this).data("own_filter");
+  if (current_url.indexOf('/fr/') !== -1 ) {
+    if (splitted_url_array_length > 4) { //if tag filter is enabled
+      if ($(this).closest('.tag-filters__item').hasClass("active")) { //if this tag filter is enabled      
+      }else{
+        $(this).closest(".tag-filters__item").addClass("active");
+        request_url = current_url + "+" + $(this).data("own_filter");
+      }
+    }else{ // if tag filer isn't enabled
+        $(this).closest(".tag-filters__item").addClass("active");
+        request_url = $(this).attr("href");
     }
-  }else{ // if tag filer isn't enabled
-      $(this).parent(".tag-filters__item").addClass("active");
-      request_url = $(this).attr("href");
+  }else{
+    if (splitted_url_array_length > 3) { //if tag filter is enabled
+      if ( $(this).closest('.tag-filters__item').hasClass("active") ) { //if this tag filter is enabled      
+      }else{
+        $(this).closest(".tag-filters__item").addClass("active");
+        request_url = current_url + "+" + $(this).data("own_filter");
+      }
+    }else{ // if tag filer isn't enabled
+        $(this).closest(".tag-filters__item").addClass("active");
+        request_url = $(this).attr("href");
+    }
   }
-  console.log(request_url);
+  
+  // console.log(request_url);
   $.ajax({
     url: request_url,
     method: "GET",
     cache: false
   })
-  .done(function( response ) {
+  .done(function( response ) {    
     var $product_wrapper = $(response).find(".collection__content .collection__products");
     $(".collection__content .collection__products").replaceWith($product_wrapper);
     if ( $(response).find(".collection__content .collection__products").find('.no-match').length ){
