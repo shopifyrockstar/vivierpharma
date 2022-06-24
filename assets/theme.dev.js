@@ -9434,7 +9434,6 @@ $(".tag-filters .tag-filters__item a").on('click', function(evt){
     }
   }
   
-  // console.log(request_url);
   $.ajax({
     url: request_url,
     method: "GET",
