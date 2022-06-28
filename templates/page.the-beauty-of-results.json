@@ -51,8 +51,8 @@
             "button_url": "#",
             "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
+            "text_color": "text--white",
+            "bg_color": "#97694f"
           }
         },
         "4fff86c9-273d-41a7-989e-8ab6c9f415c9": {
@@ -112,6 +112,13 @@
         "full_width": false
       }
     },
+    "165633288388b5042f": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
     "165599093169b457b0": {
       "type": "section-richtext",
       "settings": {
@@ -135,6 +142,13 @@
       "type": "section-html",
       "settings": {
         "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-6e4c5653-8e39-4ec1-82cc-3faa8279d322\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1656333367d1f3767e": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
         "full_width": true
       }
     },
@@ -164,6 +178,13 @@
         "full_width": true
       }
     },
+    "1656333386de07c74d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
     "1655990711da9ec2d3": {
       "type": "section-richtext",
       "settings": {
@@ -190,6 +211,13 @@
         "full_width": true
       }
     },
+    "16563334010dc0f361": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
     "165599059657131c86": {
       "type": "section-richtext",
       "settings": {
@@ -213,6 +241,13 @@
       "type": "section-html",
       "settings": {
         "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-ffcd9e0e-4633-4b14-895a-bb3a4d52298a\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1656333415bc46359a": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
         "full_width": true
       }
     },
@@ -249,14 +284,19 @@
     "1650651087e54b282a",
     "1655991564e6d46a07",
     "1655991062347d3c8d",
+    "165633288388b5042f",
     "165599093169b457b0",
     "1655990940a5262a67",
+    "1656333367d1f3767e",
     "16559908421c21a213",
     "1655990851b6d1214d",
+    "1656333386de07c74d",
     "1655990711da9ec2d3",
     "1655990724976226b2",
+    "16563334010dc0f361",
     "165599059657131c86",
     "1651260746df6c2845",
+    "1656333415bc46359a",
     "1651172972f46c5055",
     "16512592975aa85cd9"
   ]

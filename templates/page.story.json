@@ -43,7 +43,7 @@
             "image": "shopify:\/\/shop_images\/furry_friends.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 15,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "kicker": "",
             "title": "",
             "richtext": "",
@@ -552,6 +552,50 @@
         "bg": "palette--dark bg--invert--accent"
       }
     },
+    "1651502243406b074f": {
+      "type": "section-icons",
+      "blocks": {
+        "1651502242826213dc-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#97694f",
+            "title": "Paperless processes",
+            "text": ""
+          }
+        },
+        "1651502242826213dc-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal",
+            "icon_color": "#97694f",
+            "title": "no animal testing",
+            "text": ""
+          }
+        },
+        "1651502242826213dc-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#97694f",
+            "title": "biodegradable microbeads",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651502242826213dc-0",
+        "1651502242826213dc-1",
+        "1651502242826213dc-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--left",
+        "align_text": "text-center"
+      }
+    },
     "1651501635bc26d053": {
       "type": "section-double",
       "blocks": {
@@ -602,52 +646,9 @@
         "wrapper": false
       }
     },
-    "1651502243406b074f": {
-      "type": "section-icons",
-      "blocks": {
-        "1651502242826213dc-0": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-leaf",
-            "icon_color": "#97694f",
-            "title": "Paperless processes",
-            "text": ""
-          }
-        },
-        "1651502242826213dc-1": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-animal",
-            "icon_color": "#97694f",
-            "title": "no animal testing",
-            "text": ""
-          }
-        },
-        "1651502242826213dc-2": {
-          "type": "icon_block",
-          "settings": {
-            "icon_name": "icon-water",
-            "icon_color": "#97694f",
-            "title": "biodegradable microbeads",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1651502242826213dc-0",
-        "1651502242826213dc-1",
-        "1651502242826213dc-2"
-      ],
-      "settings": {
-        "title": "",
-        "bg": "palette--light bg--accent",
-        "icon_size": "icon--medium",
-        "icon_alignment": "icon--top",
-        "align_text": "text-center"
-      }
-    },
     "1651501681a9c3fc28": {
       "type": "section-double",
+      "disabled": true,
       "blocks": {
         "165150168197da7277-1": {
           "type": "image",
@@ -716,8 +717,8 @@
     "1651172972f46c5055",
     "165065016775d3fc78",
     "1651501632c63a41fd",
-    "1651501635bc26d053",
     "1651502243406b074f",
+    "1651501635bc26d053",
     "1651501681a9c3fc28"
   ]
 }

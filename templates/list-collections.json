@@ -7,7 +7,7 @@
         "bg_position": "center-center",
         "height": "use_screen_two_thirds",
         "overlay_opacity": 15,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "kicker": "Introducing",
         "title": "Image with text overlay",
         "richtext": "<p>This area is used to describe your store.<\/p>",

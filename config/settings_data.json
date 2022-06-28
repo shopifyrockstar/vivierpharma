@@ -25,7 +25,7 @@
     "type_base_font": "helvetica_n4",
     "type_body_size": 105,
     "button_radius": 4,
-    "animations_scroll_enable": true,
+    "animations_scroll_enable": false,
     "parallax_enable": true,
     "collection_text_alignment": "text-center",
     "product_grid_style": "under",
