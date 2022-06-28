@@ -114,7 +114,7 @@
         "1a365b6f-9e03-4d91-9bc1-798e9ce06469": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/v-stat_web.png",
+            "image": "shopify:\/\/shop_images\/V-STAT_homepage-01_c80210de-640d-4389-a19d-d685edc82b68.png",
             "bg_position": "left-center",
             "overlay_opacity": 0,
             "overlay_color": "#ffffff",
@@ -207,7 +207,7 @@
       ],
       "settings": {
         "height": "use_pixels_500",
-        "padding": false,
+        "padding": true,
         "borders": false,
         "wrapper": false
       }
@@ -257,7 +257,7 @@
       ],
       "settings": {
         "height": "use_pixels_500",
-        "padding": false,
+        "padding": true,
         "borders": false,
         "wrapper": false
       }
@@ -296,7 +296,7 @@
             "button_link": "shopify:\/\/collections\/hyperpigmentation"
           }
         },
-        "120aabe8-b26f-409c-8138-b1627300fbb2": {
+        "082362d6-f166-4145-bbc9-194a7d4aa37f": {
           "type": "featured_collection",
           "settings": {
             "collection": "protect",
@@ -311,14 +311,14 @@
         "collection-grid-0",
         "collection-grid-1",
         "9f00645f-726c-44a1-9f47-8fe1985f8bc6",
-        "120aabe8-b26f-409c-8138-b1627300fbb2"
+        "082362d6-f166-4145-bbc9-194a7d4aa37f"
       ],
       "settings": {
         "title": "top collections",
         "grid": 3,
         "bg": "palette--light bg--accent",
         "text_color": "text--white",
-        "button_style": "btn--outline",
+        "button_style": "btn--soft",
         "button_color": "btn--white",
         "overlay_opacity": 0,
         "overlay_color": "#ffffff",

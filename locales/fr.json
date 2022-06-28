@@ -444,7 +444,8 @@
         "account_connected": "Compte connecté",
         "email_connected": "Compte connecté : ",
         "mor_disclaimer_html": "En cliquant ci–dessous et en finalisant votre commande, vous acceptez d’acheter vos articles auprès de Flow.io en tant que Merchant of Record\npour cette transaction, conformément aux <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions générales d’utilisation<\/a>\net à la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de confidentialité<\/a> de Flow.io. Flow.io est un fournisseur international de\nservices de traitement des commandes pour %{shop_name}\n",
-        "purchase_options_card_update_agreement_label_html": "En mettant à jour votre moyen de paiement, vous autorisez les paiements de tout achat récurrent ou différés, selon la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">pol  résiliation<\/a> de la boutique."
+        "purchase_options_card_update_agreement_label_html": "En mettant à jour votre moyen de paiement, vous autorisez les paiements de tout achat récurrent ou différés, selon la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">pol  résiliation<\/a> de la boutique.",
+        "giropay_label": "Giropay"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Solde actuel %{amount}",
@@ -1825,7 +1826,9 @@
       "taxes": "Taxes",
       "title": "Commande {{name}}",
       "total": "Total",
-      "unit_price": "({{price}} pièce)"
+      "unit_price": "({{price}} pièce)",
+      "discount": "Réduction",
+      "no_data": "Aucun"
     },
     "addresses": {
       "add_button": "Ajouter une adresse",
