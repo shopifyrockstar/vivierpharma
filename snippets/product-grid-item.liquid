@@ -203,6 +203,19 @@
     </div>
   </div>
 
+  {%- assign product_in_collects = '[' -%}
+  {%- for collection in product.collections -%} 
+  {%- assign product_in_collects = product_in_collects | append: '{"collection_id":"' | append: collection.id | append: '","product_id":"' | append: product.id | append: '"' | append: ',"product_handle":"' | append: product.handle | append: '"}' -%}
+  {% if forloop.last == false %}
+  {%- assign product_in_collects =  product_in_collects | append: ',' -%}
+  {% endif %}
+  {%- endfor -%}
+  {%- assign product_in_collects =  product_in_collects | append: ']' -%}
+<span class="col_clct" clct='{{product_in_collects}}'></span>
+
+  
+  
+  
 
   <div class="product__details_collection">
     {% render 'product-form-collection', product: product, section: section %}

@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "1656613659d878fdc2": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/waiting_room.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "kicker": "",
+        "title": "BECOME A RESELLER",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1656601814224da5a3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div id=\"page\" class=\"desktop-8 desktop-push-2 tablet-6 mobile-3 centered-form\">\n  <div class=\"rte\">\n    {{ page.content }}    \n    \n    {% form 'contact' %}\n              <div id=\"contactFormWrapper\">\n                {% if form.errors %}\n                  <div class=\"notice error\">\n                    <p>{{ 'general.forms.post_error' | t }}<\/p>\n                    <ul class=\"disc\">\n                      {% for field in form.errors %}\n                        {% if field == 'form' %}\n                          <li>\n                            {{ form.errors.messages[field] }}\n                          <\/li>\n                        {% else %}\n                          <li>\n                            <strong>{{ field | replace: 'body', 'Message' }}<\/strong> {{ form.errors.messages[field] }}\n                          <\/li>\n                        {% endif %}\n                      {% endfor %}\n                    <\/ul>\n                  <\/div>\n                {% endif %}\n\n\n                {% if form.posted_successfully? %}\n                  <div class=\"successForm feedback\">\n                    <p>{{ 'contact.form.post_success' | t }}<\/p>\n                  <\/div>\n                {% endif %}\n\n\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormClinicName\" name=\"contact[clinic_name]\" placeholder=\"Clinic Name\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormClinicWebsite\" name=\"contact[clinic_website]\" placeholder=\"Clinic Website\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormClinicType_Specialty\" name=\"contact[clinic_type\/specialty]\" placeholder=\"Clinic Type\/Specialty\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormLocation_city_state\" name=\"contact[clinic_location_city_state]\" placeholder=\"Location (city\/state)\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormContactName\" name=\"contact[contact_name]\" placeholder=\"Contact Name\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormPhoneNumber\" name=\"contact[phone_number]\" placeholder=\"Phone Number\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"email\" id=\"contactFormEmail\" name=\"contact[email]\" placeholder=\"Email\" required \/>\n                  <\/p>\n                <\/div>                \n                <div class=\"desktop-12 tablet-6 mobile-3\">\n                  <p>\n                    <input type=\"text\" id=\"contactFormMedicalDirector\" name=\"contact[medical_director]\" placeholder=\"Medical Director\" required \/>\n                  <\/p>\n                <\/div>\n                <div class=\"desktop-12 mobile-3\">\n                  <p>\n                    <input type=\"submit\" id=\"contactFormSubmit\"  value=\"Send\" \/>\n                  <\/p>\n                <\/div>\n              <\/div>\n\n              <div class=\"clear\"><\/div>\n\n              {% if form.posted_successfully? %}\n                <div class=\"successForm feedback\">\n                  <p>{{ 'contact.form.post_success' | t }}<\/p>\n                <\/div>\n              {% endif %}\n\n            {% endform %}\n\n            <div class=\"clear\"><\/div> \n  <\/div>\n<\/div>",
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "1656613659d878fdc2",
+    "1656601814224da5a3",
+    "main"
+  ]
+}

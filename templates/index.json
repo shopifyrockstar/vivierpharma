@@ -6,20 +6,20 @@
         "16498210431181fc52-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20220427-Untitled_Session3156.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile_Banner_image.png",
+            "image": "shopify:\/\/shop_images\/banner_middle-02-02.png",
+            "mobile_image": "shopify:\/\/shop_images\/banner_middle-02-02.png",
             "bg_position": "center-center",
-            "overlay_opacity": 10,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
-            "kicker": "INTRODUCING OUR LATEST INNOVATION",
-            "title": "QUINTISERUM™",
-            "richtext": "<p>This must-have <\/p><p>antioxidant collagen booster <\/p><p>firms skin and reduces <\/p><p>signs of aging.<\/p>",
-            "text_align": "align--middle-right",
+            "kicker": "July 13-27",
+            "title": "SAVE 20% ON SUMMER HYDRATION",
+            "richtext": "<p><em>CODE: <\/em><em><strong>SUMMER20<\/strong><\/em><\/p>",
+            "text_align": "align--middle-center",
             "text_color": "text--white",
-            "link_text": "C THE DIFFERENCE",
-            "link": "shopify:\/\/products\/quintiserum",
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/pages\/promo",
             "button_color": "btn--white",
-            "button_style": "btn"
+            "button_style": "btn--outline"
           }
         }
       },
@@ -225,7 +225,7 @@
             "text_columns": 1,
             "align_text": "text-left",
             "button_text": "LEARN MORE",
-            "button_url": "https:\/\/vivierskin.ca\/pages\/discover-our-vitamin-c",
+            "button_url": "shopify:\/\/pages\/the-vivier-difference",
             "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
             "text_color": "text--neutral",
@@ -342,7 +342,7 @@
             "text_align": "align--middle-left",
             "text_color": "text--white",
             "link_text": "Learn More",
-            "link": "https:\/\/vivierskin.ca\/pages\/wecare",
+            "link": "shopify:\/\/pages\/vivierpharmastory",
             "button_color": "btn--white",
             "button_style": "btn--outline"
           }
@@ -361,7 +361,7 @@
             "text_align": "align--middle-left",
             "text_color": "text--white",
             "link_text": "Learn More",
-            "link": "https:\/\/vivierskin.ca\/pages\/wecare",
+            "link": "shopify:\/\/pages\/vivierpharmastory",
             "button_color": "btn--white",
             "button_style": "btn--outline"
           }

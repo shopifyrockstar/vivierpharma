@@ -1,3 +1,4 @@
+{%- comment -%}v1.0.0{%- endcomment -%}
 {%- assign current_language_num = 0 -%}
 {%- for language in shop.metafields.language_codes -%}
   {%- if language.last == request.locale.iso_code  -%}
@@ -29,8 +30,8 @@
   {%- assign translation_namespace = language | append: "ncu" -%}
   {%- assign translation_key = "id" | append: key -%}
   {%- if shop.metafields[translation_namespace][translation_key] -%}
-	{%- assign translation = shop.metafields[translation_namespace][translation_key] -%}
-    [ly_custom]{{- src.text -}}[ly_custom_split]{{- translation -}}
+    {%- assign translation = shop.metafields[translation_namespace][translation_key] -%}
+    [ly_custom]{%- if src.type == 'json' -%}{{- src.value.text -}}{%- else -%}{{- src.text -}}{%- endif -%}[ly_custom_split]{{- translation -}}
   {%- endif-%}
 {%- endfor -%}
 
@@ -66,7 +67,7 @@
   {%- assign translation_key = "id" | append: key -%}
   {%- if shop.metafields[translation_namespace][translation_key] -%}
 	{%- assign translation = shop.metafields[translation_namespace][translation_key] -%}
-    [ly_custom]{{- src.text -}}[ly_custom_split]{{- translation -}}
+    [ly_custom]{%- if src.type == 'json' -%}{{- src.value.text -}}{%- else -%}{{- src.text -}}{%- endif -%}[ly_custom_split]{{- translation -}}
   {%- endif-%}
 {%- endfor -%}
 
@@ -79,7 +80,7 @@
     {%- assign translation_key = "id" | append: key -%}
     {%- if used_object.metafields[translation_namespace][translation_key] -%}
       {%- assign translation = used_object.metafields[translation_namespace][translation_key] -%}
-      [ly_custom]{{- src.text -}}[ly_custom_split]{{- translation -}}
+      [ly_custom]{%- if src.type == 'json' -%}{{- src.value.text -}}{%- else -%}{{- src.text -}}{%- endif -%}[ly_custom_split]{{- translation -}}
     {%- endif-%}
   {%- endfor -%}
 {%- endif -%}

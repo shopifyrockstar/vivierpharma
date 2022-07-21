@@ -849,7 +849,6 @@
       },
       "remember_me": {
         "shopify_pay_label": "Shop Pay",
-        "save": "Enregistrer",
         "title": "Se souvenir de moi",
         "label": "Sauvegardez mes données pour effectuer des paiements rapidement",
         "description_html": "La prochaine fois que vous passerez à la caisse ici ou dans d'autres boutiques optimisées par Shopify, vous recevrez un code par SMS pour sécuriser votre achat avec Shop Pay.",
@@ -1597,7 +1596,7 @@
       "sold_out": "Épuisé",
       "pre_order": "Pré-commander",
       "subscription": "Abonnement",
-      "save": "Enregistrer",
+      "save": "économiser",
       "each": "Chacun",
       "one_time_purchase": "Achat unique",
       "sale": "Soldes",

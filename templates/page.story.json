@@ -340,7 +340,7 @@
             "text_columns": 1,
             "align_text": "text-left",
             "button_text": "LEARN MORE",
-            "button_url": "",
+            "button_url": "https:\/\/jamaicavolunteerprograms.com",
             "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
             "text_color": "text--neutral",

@@ -9367,11 +9367,17 @@ var current_url = window.location.pathname;
 var splitted_url_array_length = current_url.split('/').length;
 var tag_parameter = current_url.split('/')[splitted_url_array_length - 1];
 
-tag_header_button.addEventListener('click', function(e){
-  this.classList.toggle("collapsed");
-  var tag_filter_body = document.getElementsByClassName("tag-filters");  
-  tag_filter_body[0].style.display = (tag_filter_body[0].style.display == 'none') ? 'block' : 'none';
-})
+
+//   tag_header_button.addEventListener('click', function(e){
+  
+//   })
+
+  $("#tag-header-button").click(function(){
+    this.classList.toggle("collapsed");
+    var tag_filter_body = document.getElementsByClassName("tag-filters");  
+    tag_filter_body[0].style.display = (tag_filter_body[0].style.display == 'none') ? 'block' : 'none';
+  })
+
 
 $(".tag-filters .tag-filters__item").each(function(){
   var product_count = 0;
@@ -9614,3 +9620,4 @@ $(".drawer__button-mobile").on('click', function(){
   $(".collection__filters__wrapper").removeClass("drawer--visible");
   $(".collection__filters__wrapper").addClass("hidden");
 })
+

@@ -20,9 +20,9 @@
   {%- endfor -%}
 {%- endif -%}
 {%- assign key = 'ly_theme_settings_' | append: theme.id -%}
-{%- assign themeSettings = shop.metafields.global[key] -%}
+{%- if shop.metafields.global[key].type -%}{%- assign themeSettings = shop.metafields.global[key].value -%}{%- else -%}{%- assign themeSettings = shop.metafields.global[key] -%}{%- endif -%}
 {%- assign key = 'ly_switcher_data_' | append: theme.id -%}
-{%- assign switcherSettings = shop.metafields.global[key] -%}
+{%- if shop.metafields.global[key].type -%}{%- assign switcherSettings = shop.metafields.global[key].value -%}{%- else -%}{%- assign switcherSettings = shop.metafields.global[key] -%}{%- endif -%}
 {%- assign languages = localization.available_languages -%}
 {%- if shop.metafields.langify_v2.cross_domain_links and switcherSettings.languages.size > 1 -%}
   {%- assign languages = switcherSettings.languages -%} 
@@ -38,27 +38,27 @@
   /**
   * 
   * 
-  * @class Helper
+  * @class LyHelper
   */
-  class Helper {
+  class LyHelper {
     constructor() {
       return {
-        ajax: function(params) { return Helper.ajax(params); },
-        isIE: function() { return Helper.isIE(); },
-        extractImageObject: function(val) { return Helper.extractImageObject(val); },
-        getCurrentLanguage: function() { return Helper.getCurrentLanguage(); },
-        getCookie: function(name) { return Helper.getCookie(name); },
-        setCookie: function(name, value, days) { return Helper.setCookie(name, value, days); },
-        getVersion: function() { return Helper.getVersion(); },
-        isOutOfViewport: function(elem) { return Helper.isOutOfViewport(elem); },
-        isDomainFeatureEnabled: function() { return Helper.isDomainFeatureEnabled(); },
-        getVal: function(str) { return Helper.getVal(str); },
-        inIframe: function() { return Helper.inIframe(); },
-        shopifyAPI: function() { return Helper.shopifyAPI(); },
-        loadScript: function(url, callback) { return Helper.loadScript(url, callback); },
-        localizationRedirect: function(type, code, additionalFields, additionalParams, domain) { return Helper.localizationRedirect(type, code, additionalFields, additionalParams, domain); },
-        changeCurrency: function(code) { return Helper.changeCurrency(code); },
-        log: function(title, data, type) { return Helper.log(title, data, type); },
+        ajax: function(params) { return LyHelper.ajax(params); },
+        isIE: function() { return LyHelper.isIE(); },
+        extractImageObject: function(val) { return LyHelper.extractImageObject(val); },
+        getCurrentLanguage: function() { return LyHelper.getCurrentLanguage(); },
+        getCookie: function(name) { return LyHelper.getCookie(name); },
+        setCookie: function(name, value, days) { return LyHelper.setCookie(name, value, days); },
+        getVersion: function() { return LyHelper.getVersion(); },
+        isOutOfViewport: function(elem) { return LyHelper.isOutOfViewport(elem); },
+        isDomainFeatureEnabled: function() { return LyHelper.isDomainFeatureEnabled(); },
+        getVal: function(str) { return LyHelper.getVal(str); },
+        inIframe: function() { return LyHelper.inIframe(); },
+        shopifyAPI: function() { return LyHelper.shopifyAPI(); },
+        loadScript: function(url, callback) { return LyHelper.loadScript(url, callback); },
+        localizationRedirect: function(type, code, additionalFields, additionalParams, domain) { return LyHelper.localizationRedirect(type, code, additionalFields, additionalParams, domain); },
+        changeCurrency: function(code) { return LyHelper.changeCurrency(code); },
+        log: function(title, data, type) { return LyHelper.log(title, data, type); },
       }
     }
     static ajax(params) {
@@ -92,20 +92,21 @@
         val = val.split(/([0-9]+w?h?x?,)/gi)[0];
       }
 
+      var hostBegin = val.indexOf('//') ? val.indexOf('//') : 0;
+      var hostEnd = val.lastIndexOf('/') + 1;
+      var host = val.substring(hostBegin, hostEnd);      
+      var afterHost = val.substring(hostEnd, val.length);
+
       var url = val;
-      var host = ''; 
       var file = ''; 
       var name = ''; 
       var type = '';
-      url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
-      url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
-      url = url.substring(url.lastIndexOf("/") + 1, url.length);
-      var hostBegin = val.indexOf('//') ? val.indexOf('//') : 0;
-      host = val.substring(hostBegin, val.lastIndexOf('/') + 1);
-      name = url.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, "");
-      type = url.substring(url.lastIndexOf('.')+1, url.length);
-      file = url.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, '.'+type);
-      
+      afterHost = afterHost.substring(0, (afterHost.indexOf("#") == -1) ? afterHost.length : afterHost.indexOf("#"));
+      afterHost = afterHost.substring(0, (afterHost.indexOf("?") == -1) ? afterHost.length : afterHost.indexOf("?"));
+      name = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, "");
+      type = afterHost.substring(afterHost.lastIndexOf('.')+1, afterHost.length);
+      file = afterHost.replace(/(_[0-9]+x[0-9]*|_{width}x|_{size})?(_crop_(top|center|bottom|left|right))?(@[0-9]*x)?(\.progressive)?\.(jpe?g|png|gif|webp)/gi, '.'+type);
+
       return {
         host: host,
         name: name,
@@ -169,7 +170,7 @@
           return attribute.trim();
         },
         getCart: function(callback) {
-          Helper.ajax({
+          LyHelper.ajax({
             method: 'GET',
             url: root_url+'/cart.js',
             success: function (cart, textStatus) {
@@ -188,7 +189,7 @@
             success: function(cart) {if((typeof callback) === 'function') {callback(cart);}},
             error: this.onError
           };
-          Helper.ajax(params);
+          LyHelper.ajax(params);
         },
         updateCartAttributes: function(attributes, callback) {
           var params = {
@@ -203,7 +204,7 @@
             },
             error: this.onError
           };
-          Helper.ajax(params);
+          LyHelper.ajax(params);
         },
         onError: function(XMLHttpRequest, textStatus) {
 
@@ -331,13 +332,16 @@
   */
   class TranslationObserver {
     constructor() {
-      Helper.log('TranslationObserver instantiation')
+      LyHelper.log('TranslationObserver instantiation')
     }
 
     init() {
-      if(!Helper.isIE()){
+      if(langify.settings.observe && !LyHelper.isIE()) {
         var langifyObserver = this.langifyObserverCore();
         langifyObserver.init();
+        
+        // HOTFIX: translation observer sometimes refuses to trigger on page load_
+        langifyObserver.triggerCustomContents();
 
         langify.api = {
           observer: {
@@ -433,7 +437,8 @@
           var target = document.documentElement || document.body; // main window
         } else {
           if (observerTarget.nodeName  === 'IFRAME') {
-            var target = observerTarget.contentDocument || observerTarget.contentWindow.document; // iframe
+            try { var target = observerTarget.contentDocument || observerTarget.contentWindow.document; }
+            catch { return false; }
           } else {
             var target = observerTarget;
           }
@@ -531,8 +536,11 @@
       }
     
       function translateNodeAttrs(node) {
-        if(Object.keys(customContents_attr).length > 0) {
-    
+        if (node.attributes && node.getAttribute('placeholder')) {
+          var src = node.getAttribute('placeholder').trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+          if(customContents_text[src] && node.getAttribute('placeholder') !== customContents_text[src]) {
+            node.setAttribute('placeholder', customContents_text[src]);
+          }
         }
       }
     
@@ -551,7 +559,7 @@
               node.textContent = newContent;
     
               mutationCount = mutationCount + 1;
-              Helper.log('REPLACED (TEXT)', {
+              LyHelper.log('REPLACED (TEXT)', {
                   oldValue: src,
                   newValue: customContents_text[src],
                   mutationCount,
@@ -598,7 +606,7 @@
             if(node.hasAttribute('data-'+attrName)) node.setAttribute('data-'+attrName, newLink);
     
             mutationCount = mutationCount + 1;
-            Helper.log('REPLACED (LINK)', {
+            LyHelper.log('REPLACED (LINK)', {
                 attrName,
                 oldValue: url,
                 newValue: newLink,
@@ -632,7 +640,7 @@
           node.setAttribute('data-ly-processed', timeStamp);
           attrs.forEach(function(attr) {
             if(node.hasAttribute(attr)) {
-              var imgObject = Helper.extractImageObject(node.getAttribute(attr));
+              var imgObject = LyHelper.extractImageObject(node.getAttribute(attr));
               var imgKey = imgObject ? imgObject.file.toLowerCase() : '';
     
               if(customContents_image[imgKey]) {
@@ -653,7 +661,7 @@
                   node.setAttribute(attr, translation);
     
                   mutationCount = mutationCount + 1;
-                  Helper.log('REPLACED (IMAGE)', {
+                  LyHelper.log('REPLACED (IMAGE)', {
                     attrName: attr,
                     oldValue: oldValue,
                     newValue: translation,
@@ -685,7 +693,7 @@
         var imgMatches = node.getAttribute('style').match(/url\(("|')?(.*)("|')?\)/gi);
         if(imgMatches !== null) {
           var imgSource = imgMatches[0].replace(/url\(("|')?|("|')?\)/, '');
-          var imgObject = Helper.extractImageObject(imgSource);
+          var imgObject = LyHelper.extractImageObject(imgSource);
           var imgKey = imgObject ? imgObject.file.toLowerCase() : '';
           var attr = 'style';
     
@@ -749,10 +757,10 @@
         Object.entries(customContents).forEach(function(entry) {
           //if(/<\/?[a-z][\s\S]*>/i.test(entry[0])) customContents_html[entry[0]] = entry[1];
           //else if(/(http(s?):)?([/|.|\w|\s|-])*\.(?:jpe?g|gif|png)/.test(entry[0])) customContents_image[getFileName(entry[0])] = getFileName(entry[1]);
-          if(/(http(s?):)?([/|.|\w|\s|-])*\.(?:jpe?g|gif|png|webp)/.test(entry[0])) customContents_image[Helper.extractImageObject(entry[0]).file] = Helper.extractImageObject(entry[1]);
+          if(/(http(s?):)?([/|.|\w|\s|-])*\.(?:jpe?g|gif|png|webp)/.test(entry[0])) customContents_image[LyHelper.extractImageObject(entry[0]).file] = LyHelper.extractImageObject(entry[1]);
           else customContents_text[entry[0]] = entry[1];
         });
-        Helper.log('CUSTOM CONTENTS:', {customContents, customContents_text, customContents_image}, 'info')
+        LyHelper.log('CUSTOM CONTENTS:', {customContents, customContents_text, customContents_image}, 'info')
       }
     
       // Polyfill for old browsers
@@ -776,7 +784,7 @@
         var walker = document.createTreeWalker(rootnode, NodeFilter.SHOW_ALL, null, false)
         
         while (walker.nextNode()) {
-          //Helper.log(walker.currentNode.tagName)
+          //LyHelper.log(walker.currentNode.tagName)
           translate(walker.currentNode, null);
         }
       }
@@ -803,7 +811,7 @@
   */
   class Switcher {
     constructor(switcherSettings) {
-      Helper.log('Switcher instantiation');
+      LyHelper.log('Switcher instantiation');
 
       this.lyForceOff = location.search.split('ly-force-off=')[1];
       this.switcherElements = Array.prototype.slice.call(document.getElementsByClassName('ly-switcher-wrapper'));
@@ -812,10 +820,10 @@
     init() {
 
       // Initial cart.attributes update
-      Helper.shopifyAPI().getCart(function (cart) {
+      LyHelper.shopifyAPI().getCart(function (cart) {
         var currentLanguage = langify.locale.iso_code;
         if(!cart.attributes.language || cart.attributes.language != currentLanguage) {
-          Helper.shopifyAPI().updateCartAttributes({"language": currentLanguage}, function(data){});
+          LyHelper.shopifyAPI().updateCartAttributes({"language": currentLanguage}, function(data){});
         }
       });
 
@@ -842,7 +850,7 @@
       var switcher = document.getElementsByClassName('ly-custom-dropdown-switcher');
       for(var a = 0; a < switcher.length; a++) {
         switcher[a].classList.toggle('ly-is-open');
-        var isOut = Helper.isOutOfViewport(switcher[a]);
+        var isOut = LyHelper.isOutOfViewport(switcher[a]);
         if(isOut.bottom && isOut.inViewport) {
           switcher[a].classList.add('ly-is-dropup');
           var arrows = switcher[a].querySelectorAll('.ly-arrow');
@@ -872,11 +880,11 @@
       for(var l = 0; l < links.length; l++) {
         links[l].addEventListener('click', function(event) {
           event.preventDefault();
-          if(Helper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#') {
           	var domain = this.getAttribute('href');
           }
-          Helper.setCookie('ly-lang-selected', this.getAttribute('data-language-code'), 365);
-          Helper.localizationRedirect('language_code', this.getAttribute('data-language-code'), null, null, domain);
+          LyHelper.setCookie('ly-lang-selected', this.getAttribute('data-language-code'), 365);
+          LyHelper.localizationRedirect('language_code', this.getAttribute('data-language-code'), null, null, domain);
         });
       }
 
@@ -885,11 +893,11 @@
       for(var i = 0; i < nativeLangifySelects.length; i++) {
         nativeLangifySelects[i].onchange = function() {
           event.preventDefault();
-          if(Helper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#') {
             var domain = this[this.selectedIndex].getAttribute('data-domain');
           }
-          Helper.setCookie('ly-lang-selected', this[this.selectedIndex].getAttribute('data-language-code'), 365);
-          Helper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), null, null, domain);
+          LyHelper.setCookie('ly-lang-selected', this[this.selectedIndex].getAttribute('data-language-code'), 365);
+          LyHelper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), null, null, domain);
         };
       }
     }
@@ -899,12 +907,12 @@
       var countryCustomSwitcher = document.querySelectorAll('div.ly-country-switcher a');
       for(var i=0; i<countryCustomSwitcher.length; i++) {
         countryCustomSwitcher[i].addEventListener('click', function(e) {
-          Helper.localizationRedirect('country_code', this.getAttribute('data-country-code'));
+          LyHelper.localizationRedirect('country_code', this.getAttribute('data-country-code'));
         });
       }
       for(var a=0; a<countrySelectSwitcher.length; a++) {
         countrySelectSwitcher[a].addEventListener('change', function(){
-          Helper.localizationRedirect('country_code', this[this.selectedIndex].getAttribute('data-country-code'));
+          LyHelper.localizationRedirect('country_code', this[this.selectedIndex].getAttribute('data-country-code'));
         });
       }  
     }
@@ -914,12 +922,12 @@
       var currencyCustomSwitcher = document.querySelectorAll('div.ly-currency-switcher a');
       for(var i=0; i<currencyCustomSwitcher.length; i++) {
         currencyCustomSwitcher[i].addEventListener('click', function(e) {
-          Helper.changeCurrency(this.getAttribute('data-currency-code'));
+          LyHelper.changeCurrency(this.getAttribute('data-currency-code'));
         });
       }
       for(var a=0; a<currencySelectSwitcher.length; a++) {
         currencySelectSwitcher[a].addEventListener('change', function(){
-          Helper.changeCurrency(this[this.selectedIndex].getAttribute('data-currency-code'));
+          LyHelper.changeCurrency(this[this.selectedIndex].getAttribute('data-currency-code'));
         });
       }  
     }
@@ -954,7 +962,7 @@
         }
       }
       target.classList.toggle('ly-is-open');
-      var isOut = Helper.isOutOfViewport(target);
+      var isOut = LyHelper.isOutOfViewport(target);
       if(isOut.bottom) {
         target.classList.add('ly-is-dropup');
       }
@@ -995,120 +1003,162 @@
   * @class LanguageDetection
   */
   class LanguageDetection {
+    hreflangList = null;
+
     constructor() {
-      Helper.log('LanguageDetection instantiation');
+      LyHelper.log('LanguageDetection instantiation');
     }
 
     init() {
-      var currentLang = langify.locale.iso_code;
-      var localizationData = this.getLocalizationData();
+      var currentLang = langify.locale.iso_code.toLowerCase();
+      //var localizationData = this.getLocalizationData();
+      this.hreflangList = this.getHreflangList();
 
       var userLang = navigator.language || navigator.userLanguage;
+      userLang = userLang.toLowerCase();
       var bot = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex|Chrome-Lighthouse/i.test(navigator.userAgent);
       var blockedRoutes = window.lyBlockedRoutesList || [];
       var blockedRoute = blockedRoutes.find(x => window.location.pathname.indexOf(x) === 0);
       var is404 = document.getElementsByClassName('template-404').length;
 
-      if(Helper.getVal('redirected') === 'true') {
-        Helper.setCookie('ly-lang-selected', langify.locale.iso_code, 365);
+      if(LyHelper.getVal('redirected') === 'true') {
+        LyHelper.setCookie('ly-lang-selected', currentLang, 365);
         var _href = window.location.href;
         history.replaceState(null, '', _href.replace(/(\?|&)(redirected=true)/i, ''));
-
         return null;
       }
 
-      if(!Helper.inIframe() && !is404 && !bot && !blockedRoute && Helper.getVal('ly-lang-detect') !== 'off') {
-        if(userLang && !Helper.getCookie('ly-lang-selected')) {
-          if(currentLang !== userLang) {
-            Helper.setCookie('ly-lang-selected', userLang, 365);
-            this.redirect(localizationData);
+      if(!LyHelper.inIframe() && !is404 && !bot && !blockedRoute && LyHelper.getVal('ly-lang-detect') !== 'off') {
+        if(userLang && !LyHelper.getCookie('ly-lang-selected')) {
+          var hasMatch = this.redirectMatched(userLang);
+          // Redirect to default language
+          if(!hasMatch && langify.settings.switcher.languageDetectionDefault) {
+            this.redirectMatched(langify.settings.switcher.languageDetectionDefault);
           }
         } else {
-          if(Helper.getCookie('ly-lang-selected') && Helper.getCookie('ly-lang-selected') !== currentLang) {
+          if(LyHelper.getCookie('ly-lang-selected') && LyHelper.getCookie('ly-lang-selected') !== this._langToHreflang(currentLang)) {
 
             // Only save cookie when the domain feature is active
-            if(Helper.isDomainFeatureEnabled()) {
-              Helper.setCookie('ly-lang-selected', currentLang, 365);
+            if(LyHelper.isDomainFeatureEnabled()) {
+              LyHelper.setCookie('ly-lang-selected', this._langToHreflang(currentLang), 365);
             }
-            this.redirect(localizationData);
+            this.redirectMatched(LyHelper.getCookie('ly-lang-selected'));
           }
         }
       }
-
-      /*
-      if(!langify.helper.inIframe() && !is404 && !bot && !blockedRoute && langify.helper.getVal('ly-lang-detect') !== 'off') {
-        if(userLang && !langify.helper.getCookie('ly-lang-selected')) {
-          var rootUrl = languageUrls[userLang];
-          if(!rootUrl) {
-            userLang = userLang.substring(0, 2);
-            rootUrl = languageUrls[userLang];
-          }
-          if(!rootUrl) {
-            for(var lang in languageUrls) {
-              if(lang.substring(0, 2) === userLang) {
-                userLang = lang;
-                rootUrl = languageUrls[userLang];
-              }
-            }
-          }
-          if(langify.settings.switcher.languageDetectionDefault) {
-            if(!rootUrl) {
-              userLang = langify.settings.switcher.languageDetectionDefault;
-              rootUrl = languageUrls[userLang];
-            }
-          }
-          if(rootUrl) {
-            if(currentLang !== userLang) {
-              langify.helper.setCookie('ly-lang-selected', userLang, 365);
-              this.redirect(rootUrl);
-            }
-          }
-        } else {
-          if(langify.helper.getCookie('ly-lang-selected') && langify.helper.getCookie('ly-lang-selected') !== currentLang) {
-            if(languageUrls[langify.helper.getCookie('ly-lang-selected')]) {
-
-              // Only save cookie when the domain feature is active
-              if(langify.helper.isDomainFeatureEnabled()) {
-                langify.helper.setCookie('ly-lang-selected', currentLang, 365);
-              }
-              this.redirect(languageUrls[langify.helper.getCookie('ly-lang-selected')]);
-            }
-          }
-        }
-      }
-      */
       
       this._geolocationAppSupport();
     }
-    redirect(localizationData) {
-      var additionalFields = [];
-      var additionalParams = '?redirected=true';
-      if(location.search.indexOf('?') >= 0) {
-        additionalParams = '&redirected=true';
+    redirectMatched(userLang) {
+      var match = this.matchHreflangList(userLang);
+      if(match) {
+        this.redirectHref(match.href, userLang);
       }
-      if(localizationData.country_code) {
-        additionalFields.push({
-          name: 'country_code',
-          value: localizationData.country_code
-        });
-      }
-      if(localizationData.currency_code) {
-        additionalFields.push({
-          name: 'currency_code',
-          value: localizationData.currency_code
-        });
-      }
-      Helper.localizationRedirect('language_code', localizationData.language_code, additionalFields, additionalParams);
+      
+      return match;
     }
-    getLocalizationData() {
-      var browserLang = navigator.language || navigator.userLanguage;
-      var localization = browserLang.split('-');
-      var data = {};
-      data.language_code = localization[0];
-      if(localization.length === 2) {
-        data.country_code = localization[1];
+    matchHreflangList(userLang) {
+      var matchedHreflang = false;
+      var browserLang = userLang;
+
+      // Find candidates
+      var candidates = this.hreflangList.filter(item => item.lang === browserLang);
+      if(candidates.length === 0) {
+        browserLang = userLang.toLowerCase();
+        candidates = this.hreflangList.filter(item => item.lang.toLowerCase().indexOf(browserLang) === 0);
       }
-      return data;
+      if(candidates.length === 0) {
+        browserLang = userLang.toLowerCase().substring(0, 2);
+        candidates = this.hreflangList.filter(item => item.lang.toLowerCase().indexOf(browserLang) === 0);
+      }
+
+      // Handle candidates
+      if(candidates.length === 1) {
+        return({href: candidates[0].href, lang: browserLang});
+      } 
+      else if(candidates.length > 1) {
+        var preferedCandidate = candidates.find(item => item.href.indexOf(window.location.host) >= 0)
+        if(preferedCandidate) {
+          return({href: preferedCandidate.href, lang: browserLang});
+        } else {
+          return({href: candidates[0].href, lang: browserLang});
+        }
+      } 
+      
+      return false;
+    }
+    redirectHref(href, userLang) {
+      LyHelper.setCookie('ly-lang-selected', this._langToHreflang(userLang), 365);
+
+      var additionalParams = '';
+      if(href.indexOf(window.location.origin) !== 0) {
+        additionalParams = '?redirected=true';
+        if(href.indexOf('?') >= 0) {
+          additionalParams = '&redirected=true';
+        }
+      }
+
+      window.location.replace(href + additionalParams);
+    }
+    getHreflangList() {
+      var hreflangTags = document.querySelectorAll('link[hreflang]');
+      var hreflangList = [];
+      var countryCode = false;
+      // Cross Domain Links option
+      if(LyHelper.isDomainFeatureEnabled()) {
+        for(var i = 0; i < langify.locale.languages.length; i++) {
+          hreflangList.push({
+            href: 'https://' + langify.locale.languages[i].domain + window.location.pathname + window.location.search + window.location.hash,
+            lang: langify.locale.languages[i].iso_code,
+          });
+        }
+      }
+      for(var i = 0; i < hreflangTags.length; i++) {
+        var hreflang = hreflangTags[i].getAttribute('hreflang').toLowerCase();
+        hreflang = hreflang.replace('zh-hans', 'zh-cn').replace('zh-hant', 'zh-tw'); // Chinese special cases
+        hreflangList.push({
+          href: hreflangTags[i].getAttribute('href'),
+          lang: hreflang
+        });
+      }
+      return hreflangList;
+    }
+    _langToHreflang(userLang) {
+      var hreflang = '';
+      this.hreflangList.map(function(item) {
+        if(item.lang === userLang) {
+          hreflang = userLang;
+        }
+      });
+      if(hreflang === '') {
+        this.hreflangList.map(function(item) {
+          var browserLang = userLang.toLowerCase();
+          if(item.lang.toLowerCase().indexOf(browserLang) === 0) {
+            hreflang = browserLang;
+          }
+          else if(item.lang.toLowerCase().indexOf(browserLang.substring(0, 2)) === 0) {
+            hreflang = browserLang.substring(0, 2);
+          }
+        });        
+      }
+      return hreflang || userLang;
+    }
+    _hreflangToLanguageCode(hreflangTag) {
+      if(!hreflangTag || !hreflangTag.lang) return false;
+	  var languageCode = false;
+      langify.locale.languages.forEach(function(item) {
+        if(item.iso_code.toLowerCase() === hreflangTag.lang.toLowerCase()) {
+          languageCode = item.iso_code;
+        }
+      });
+      if(!languageCode) {
+        langify.locale.languages.forEach(function(item) {
+          if(item.iso_code.toLowerCase() === hreflangTag.lang.substring(0, 2).toLowerCase()) {
+            languageCode = item.iso_code;
+          }
+        });
+      }
+      return languageCode;
     }
     _geolocationAppSupport() {
       var target = document.querySelector('body');
@@ -1124,7 +1174,7 @@
                 if(selector.length >= 1) {
                   locale_code = selector[0].options[selector[0].selectedIndex].value;
                 }
-                Helper.setCookie('ly-lang-selected', locale_code, 365);
+                LyHelper.setCookie('ly-lang-selected', locale_code, 365);
               };
             }
             var selectors = mutation.target.getElementsByClassName('locale-selectors__selector');
@@ -1133,7 +1183,7 @@
                 if(selector.getAttribute('name') === 'locale_code') {
                   selector.onchange = function() {
                     var locale_code = selector.options[selector.selectedIndex].value;
-                    Helper.setCookie('ly-lang-selected', locale_code, 365);
+                    LyHelper.setCookie('ly-lang-selected', locale_code, 365);
                   };        
                 }
               }
@@ -1155,50 +1205,45 @@
   * @class Recommendation
   */
   class Recommendation extends LanguageDetection {
+    
     constructor() {
       super();
-      Helper.log('Recommendation instantiation');
+      LyHelper.log('Recommendation instantiation');
     }
 
     init() {
-      this.recommended_language_code = this._findRecommendedLanguage();
-      this.recommended_country_code = null;
-      this.recommended_currency_code = null;
-      if(this.recommended_language_code && this.recommended_language_code !== langify.locale.iso_code && !Helper.getCookie('ly-lang-selected')) {
-        this._translateStrings(this.recommended_language_code);
+      this.hreflangList = this.getHreflangList();
+
+      var userLang = navigator.language || navigator.userLanguage;
+      userLang = userLang.toLowerCase();
+
+      var recommendation = this.matchHreflangList(userLang);
+      var recommendationLanguageCode = this._hreflangToLanguageCode(recommendation);
+      if(recommendationLanguageCode && recommendationLanguageCode !== langify.locale.iso_code && !LyHelper.getCookie('ly-lang-selected')) {
+        this.recommended_language_code = recommendationLanguageCode;
+        this.recommended_country_code = null;
+        this.recommended_currency_code = null;
+        this._translateStrings(recommendationLanguageCode);
         this._bindings();
       } else {
         return false;
       }
     }
 
-    _findRecommendedLanguage() {
-      var browserLang = this.getLocalizationData().language_code;
-      var match = langify.locale.languages.find(function(lang) { return lang.iso_code === browserLang; });
-      var recommendedLang = false;
-      if(!match) {
-        browserLang = browserLang.substring(0, 2);
-        match = langify.locale.languages.find(function(lang) { return lang.iso_code === browserLang; });
-      }
-      if(match) {
-        recommendedLang = browserLang;
-      }
-      return recommendedLang;
-    }
-
     _translateStrings(languageCode) {
       var recommendationElement = document.querySelectorAll('.ly-recommendation')[0];
       var strings = langify.settings.switcher.recommendation_strings[languageCode];
-      var recommendationStr = 'Looks like your browser is set to English. Change the language?';
+      var recommendationStr = 'Looks like your browser is set to [[language]]. Change the language?';
       var buttonStr = 'Change';
-      var languageStr = 'English';
+      var matchedLanguageCode = this._langToHreflang(languageCode).toLowerCase();
+      var languageStr = langify.settings.switcher.languages.find(x => x.iso_code.toLowerCase() === matchedLanguageCode) ? langify.settings.switcher.languages.find(x => x.iso_code.toLowerCase() === matchedLanguageCode).name : languageCode.toUpperCase();
       if(strings) {
-        recommendationStr = strings.recommendation ? strings.recommendation : 'Looks like your browser is set to English. Change the language?';
-        buttonStr = strings.button ? strings.button : 'Change';
-        languageStr = strings.language ? strings.language : 'English';
+        recommendationStr = strings.recommendation ? strings.recommendation : recommendationStr;
+        buttonStr = strings.button ? strings.button : buttonStr;
+        languageStr = strings.language ? strings.language : languageStr;
       }
       var newCode = recommendationElement.innerHTML;
-      newCode = newCode.replaceAll('[[recommendation]]', recommendationStr).replaceAll('[[button]]', buttonStr);
+      newCode = newCode.replaceAll('[[recommendation]]', recommendationStr).replaceAll('[[button]]', buttonStr).replaceAll('[[language]]', languageStr);
       recommendationElement.innerHTML = newCode;     
     }
 
@@ -1213,21 +1258,28 @@
 
       form.addEventListener('submit', function(e) {
         e.preventDefault();
-        var additionalFields = [];
-        if(_this.recommended_country_code) {
-          additionalFields.push({
-            name: 'country_code',
-            value: _this.recommended_country_code
-          });
+        
+        if(_this.recommended_country_code || _this.recommended_currency_code) {
+          // When a country or currency is involved, use old redirection
+          var additionalFields = [];
+          if(_this.recommended_country_code) {
+            additionalFields.push({
+              name: 'country_code',
+              value: _this.recommended_country_code
+            });
+          }
+          if(_this.recommended_currency_code) {
+            additionalFields.push({
+              name: 'currency_code',
+              value: _this.recommended_currency_code
+            });
+          }
+          LyHelper.setCookie('ly-lang-selected', _this.recommended_language_code, 365);
+          LyHelper.localizationRedirect('language_code', _this.recommended_language_code, additionalFields);
+        } else {
+          //...or use new hreflang redirection
+          _this.redirectMatched(_this.recommended_language_code);
         }
-        if(_this.recommended_currency_code) {
-          additionalFields.push({
-            name: 'currency_code',
-            value: _this.recommended_currency_code
-          });
-        }
-        Helper.setCookie('ly-lang-selected', _this.recommended_language_code, 365);
-        Helper.localizationRedirect('language_code', _this.recommended_language_code, additionalFields);
       });
       
       // Overwrite switchers
@@ -1246,10 +1298,10 @@
       }
 
       for(var i = 0; i < nativeSelects.length; i++) {
-        nativeSelects[i].onchange = this._selectNativeDropdownEntry.bind(this);
+        nativeSelects[i].onchange = _this._selectNativeDropdownEntry.bind(this);
         
         if(nativeSelects[i].classList.contains('ly-languages-switcher')) {
-          nativeSelects[i].value = this.recommended_language_code;
+          nativeSelects[i].value = _this.recommended_language_code;
         }
       }
 
@@ -1259,7 +1311,7 @@
         }
         
         if(customDropdown[i].classList.contains('ly-languages-switcher')) {
-          this._selectCustomDropdownEntry(customDropdown[i], customDropdown[i].querySelector('.ly-custom-dropdown-list a[data-language-code="'+ this.recommended_language_code +'"]'));
+          _this._selectCustomDropdownEntry(customDropdown[i], customDropdown[i].querySelector('.ly-custom-dropdown-list a[data-language-code="'+ _this.recommended_language_code +'"]'));
         }
       } 
       if(!lyForceOff) {
@@ -1284,6 +1336,7 @@
     }
 
     _selectCustomDropdownEntry(element, entry) {
+      if(!entry) return;
       var _this = this;
       var currentElem = element.querySelector('.ly-custom-dropdown-current');
       var currentIcon = currentElem.querySelector('.ly-icon');        
@@ -1317,7 +1370,7 @@
     toggleOpen(e) {
       e.closest('.ly-recommendation').classList.toggle('ly-is-open');
       if(!e.closest('.ly-recommendation').classList.contains('ly-is-open')) {
-        Helper.setCookie('ly-lang-selected', this.recommended_language_code, 365);
+        LyHelper.setCookie('ly-lang-selected', this.recommended_language_code, 365);
       }
     }
   }
@@ -1330,12 +1383,12 @@
   */
   class Langify {
     constructor(settings, locale) {
-      Helper.log('Langify instantiation')
+      LyHelper.log('Langify instantiation')
 
       var translationObserver = new TranslationObserver().init();
 
-      langify.helper = new Helper();
-      Helper.log(langify.helper)
+      langify.helper = new LyHelper();
+      LyHelper.log(langify.helper);
 
 
       var lyForceOff = location.search.split('ly-force-off=')[1];
@@ -1346,7 +1399,7 @@
 
       if(settings.theme && ((settings.theme.loadJquery && settings.theme.loadJquery === true) || typeof settings.theme.loadJquery === 'undefined')) {
         if(typeof jQuery === 'undefined') {
-          Helper.loadScript('//cdn.jsdelivr.net/jquery/1.9.1/jquery.min.js', function() {});
+          LyHelper.loadScript('//cdn.jsdelivr.net/jquery/1.9.1/jquery.min.js', function() {});
         } 
       }
 
@@ -1359,7 +1412,7 @@
             langify.recommendation = new Recommendation();
             langify.recommendation.init();
           } else {
-            if(settings.switcher.languageDetection && parseInt(settings.switcher.version.replaceAll('.', '')) >= 300) {
+            if(settings.switcher.languageDetection) {
               langify.languageDetection = new LanguageDetection();
               langify.languageDetection.init();
             }        
@@ -1377,7 +1430,7 @@
   var langify = window.langify || {};
   var customContents = {};
   var customContents_image = {};
-
+  var langifySettingsOverwrites = {};
   var defaultSettings = {
     debug: false,               // BOOL : Enable/disable console logs
     observe: true,              // BOOL : Enable/disable the entire mutation observer (off switch)
@@ -1387,12 +1440,17 @@
     maxMutations: 5,
     timeout: 100,               // INT : Milliseconds to wait after a mutation, before the next mutation event will be allowed for the element
     linksBlacklist: [],
+  };
+
+  if(langify.settings) { 
+    langifySettingsOverwrites = Object.assign({}, langify.settings);
+    langify.settings = Object.assign(defaultSettings, langify.settings); 
+  } else { 
+    langify.settings = defaultSettings; 
   }
 
-  if(langify.settings) { langify.settings = Object.assign(defaultSettings, langify.settings) } else { langify.settings = defaultSettings }
-
   {%- if themeSettings -%}
-    langify.settings = Object.assign(langify.settings, {{ themeSettings | json }});
+    langify.settings = Object.assign(langify.settings, {{ themeSettings | json }}, langifySettingsOverwrites);
   {% endif %}
 
   langify.settings.theme = {{ themeSettings | json }};
@@ -1443,7 +1501,7 @@
   }
 
   window.addEventListener('DOMContentLoaded', function() {
-    langify.helper = new Helper();
+    langify.helper = new LyHelper();
 
     // Custom Contents Section
     {%- capture customs -%}{%- render 'ly-get-customs' -%}{%- endcapture -%}

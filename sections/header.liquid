@@ -127,6 +127,7 @@
     </div>
     {{ logos }}
     <div class="header__mobile__right">
+      <span class="ly-custom-0"></span>
       <a class="header__mobile__button"
        data-drawer-toggle="drawer-cart"
         href="{{ routes.cart_url }}">
@@ -151,7 +152,7 @@
   {%- endcapture -%}
   
   <div class="header__desktop__buttons{% if section.settings.use_icons %} header__desktop__buttons--icons{% endif %}" {{ text_wrapper }}>
-
+    <span class="ly-custom-769"></span>
     {%- if shop.customer_accounts_enabled and section.settings.enable_account -%}
       <div class="header__desktop__button {% if request.path contains routes.account_url %} main-menu--active{% endif %}" {{ text_hover }}>
         <a href="{{ routes.account_url }}" class="navlink">

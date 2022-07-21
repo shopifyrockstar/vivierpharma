@@ -37,6 +37,7 @@
     },
     "1650651087e54b282a": {
       "type": "section-custom-content",
+      "disabled": true,
       "blocks": {
         "781875b4-cc7e-4ca3-b011-757c814ac248": {
           "type": "text",
@@ -48,7 +49,7 @@
             "text_columns": 1,
             "align_text": "text-left",
             "button_text": "SHOP NOW",
-            "button_url": "#",
+            "button_url": "shopify:\/\/collections\/all",
             "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
             "text_color": "text--neutral",
@@ -80,6 +81,57 @@
       ],
       "settings": {
         "height": "use_screen_two_thirds",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1657726906fc9a93ba": {
+      "type": "section-custom-content",
+      "blocks": {
+        "4c027de8-72fe-4569-8d52-3c2d16b4d706": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_Lifestyle_-_beakers.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "c234135d-ec5f-477d-8559-9a4850200a85": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "THE VIVIER DIFFERENCE",
+            "text": "<p>Vivier is an innovative skincare brand with over 20 years of history in the pharmaceutical industry. <\/p><p>Manufactured with care in North America, we are held to the highest pharmaceutical production standards. <\/p><p><\/p><p>Our vision is to create the world’s best skincare products through ingenious innovation, science and technology to deliver <strong>The Beauty of Results.<\/strong><\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "4c027de8-72fe-4569-8d52-3c2d16b4d706",
+        "c234135d-ec5f-477d-8559-9a4850200a85"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
         "custom_class": "",
         "padding": true,
         "borders": false,
@@ -522,7 +574,7 @@
             "text_columns": 1,
             "align_text": "text-left",
             "button_text": "Shop anti-aging",
-            "button_url": "",
+            "button_url": "shopify:\/\/collections\/aging-skin",
             "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
             "text_color": "text--neutral",
@@ -572,6 +624,7 @@
     "hero",
     "main",
     "1650651087e54b282a",
+    "1657726906fc9a93ba",
     "165117229558c6219c",
     "1651173884dc299607",
     "1651174819c2a7546f",

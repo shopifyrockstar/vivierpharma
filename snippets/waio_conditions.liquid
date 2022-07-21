@@ -1,0 +1,51 @@
+
+
+
+
+{%- assign ac = shop.metafields.waio.waio_ac |first -%}
+{% assign waio__isEnabled = ac.enable%}
+{% assign waio__isBreak = false%}
+{% assign waio__keyType = ac.key_type | first|strip%}
+{% assign waio__tags = ac.tags%}
+{%assign waio_allow = false%}
+{%if waio__isEnabled%}
+  {%if template contains 'index'%}
+    {%if ac.exclude_homepage%}
+		{%assign waio_allow = true%}
+		{% assign waio__isBreak = true%}
+    {%endif%}
+  {%endif%}
+  {%if template contains 'customers'%}
+    {%if ac.exclude_customer_area%}
+		{%assign waio_allow = true%}
+		{% assign waio__isBreak = true%}
+    {%endif%}
+  {%endif%}
+	{%unless waio__isBreak %}
+		{%if customer%}
+          {%if waio__keyType == 'tag_based'%}
+          {%for tag in waio__tags%}
+			{%assign waio__customerTags = customer.tags|downcase%}
+			{%assign _waiotag = tag|downcase%}
+			{%if waio__customerTags contains _waiotag%}
+			{%assign waio_allow = true%}
+			{%endif%}
+          {%endfor%}
+          {%else%}
+			{%assign waio_allow = true%}
+          {%endif%}
+      	{%endif%}
+	{%endunless%}
+{%endif%}
+{%if ac == nil or waio__isEnabled == false%}
+{%assign waio_allow = true%}
+{%endif%}
+{%unless waio_allow%}
+<div style="width:100%" class="waio__guestMsg">
+{{ac.msg}}
+</div>
+<div class="waio__ac--container" style="padding:20px 0">
+{%include 'waio_template'%}
+</div>
+{%endunless%}
+

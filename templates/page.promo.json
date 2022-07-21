@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_middle-02-02.png",
+        "mobile_image": "shopify:\/\/shop_images\/banner_middle-02-02.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "SAVE ON SUMMER HYDRATION",
+        "richtext": "<p>code SUMMER20<\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1657729621e42ac666": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16577296209c96d8b6-0": {
+          "type": "product",
+          "settings": {
+            "product": "grenzcine-face",
+            "kicker": "",
+            "badge_string": "SAVE 20%",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "100b6087-1672-4849-9b77-d93fe3e13337": {
+          "type": "text",
+          "settings": {
+            "kicker": "use code",
+            "title": "SUMMER20",
+            "text": "<p>at checkout to receive 20% off each of these summer hydration must-haves!<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16577296209c96d8b6-0",
+        "100b6087-1672-4849-9b77-d93fe3e13337"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165772941978c8b1d8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "165772941980a8c4ca-0": {
+          "type": "product",
+          "settings": {
+            "product": "age-defying-body-lotion",
+            "kicker": "SHOP THE SALE",
+            "badge_string": "SAVE 20%",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "bf5b27c1-f93f-4429-9f55-36421d40ae2a": {
+          "type": "product",
+          "settings": {
+            "product": "daily-moisturizing-cream-with-spf-15",
+            "kicker": "SHOP THE SALE",
+            "badge_string": "SAVE 20%",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "165772941980a8c4ca-0",
+        "bf5b27c1-f93f-4429-9f55-36421d40ae2a"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16577295404f37bf79": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16577295406d80ea33-0": {
+          "type": "product",
+          "settings": {
+            "product": "derma-v",
+            "kicker": "",
+            "badge_string": "SAVE 20%",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "ad228341-011d-4381-a3f2-826e914b5426": {
+          "type": "product",
+          "settings": {
+            "product": "ultimage",
+            "kicker": "",
+            "badge_string": "SAVE 20%",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16577295406d80ea33-0",
+        "ad228341-011d-4381-a3f2-826e914b5426"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "1657729621e42ac666",
+    "165772941978c8b1d8",
+    "16577295404f37bf79"
+  ]
+}

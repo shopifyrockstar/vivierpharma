@@ -32,9 +32,10 @@
     "image_hover_enable": true,
     "product_grid_image": "scale",
     "product_grid_aspect_ratio": 0.9,
+    "badge_sale_discount": true,
     "badge_sale_type": "percentage",
-    "color_badge": "#f0f0f0",
-    "color_badge_text": "#fff",
+    "color_badge": "#c3a38a",
+    "color_badge_text": "#f0f0f0",
     "product_grid_show_rating": false,
     "product_grid_show_rating_count": false,
     "cart_style": "drawer",
@@ -42,6 +43,9 @@
     "favicon": "shopify:\/\/shop_images\/PopupLogo_1bd9a85f-0664-4f38-bf58-d5ddc4b33467.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/PopupLogo_1bd9a85f-0664-4f38-bf58-d5ddc4b33467.png",
     "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#97694f",
     "product_background_color": "#fcfcfc",
     "sections": {
       "announcement": {
@@ -71,30 +75,16 @@
               "target_device_enabled": false,
               "target_device": "mobile"
             }
-          },
-          "a46e61df-953d-4725-af6d-dbeb682bbd87": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "text": "<p><strong>Free deluxe sample on orders over $100 | 2 samples over $350 | 3 samples over $600<\/strong><\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
           }
         },
         "block_order": [
           "announce_text",
-          "announce_shipping",
-          "a46e61df-953d-4725-af6d-dbeb682bbd87"
+          "announce_shipping"
         ],
         "settings": {
           "text_size": 3,
           "layout": "slider",
-          "speed": 5
+          "speed": 1
         }
       },
       "header": {
@@ -131,7 +121,7 @@
           "logo_max_limit": 120,
           "main_menu_linklist": "left-menu",
           "main_menu_right_linklist": "right-menu",
-          "mobile_main_menu_linklist": "main-menu",
+          "mobile_main_menu_linklist": "new-menu",
           "full_width": true,
           "underline_current": false,
           "enable_search": true,
@@ -249,6 +239,18 @@
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
+        }
+      },
+      "18209738915288330680": {
+        "type": "shopify:\/\/apps\/wholesale-all-in-one\/blocks\/wholesale-all-in-one\/5a3d95fb-5647-47d5-8445-d5858f91ff9d",
+        "disabled": false,
+        "settings": {
+          "wsaio_app_access_token": "pipeline_wsaiouvh6qz",
+          "wsaio_main_js_file": "",
+          "wsaio_main_liquid_file": "",
+          "wsaio_modules_liquid_file": "",
+          "wsaio_addons_liquid_file": "{% render 'minimum-order-quantity' %}",
+          "wsaio_custom_css_file": ""
         }
       }
     }
