@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-14.jpg",
+        "bg_position": "center-top",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 25,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "We're here to help!",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "contact": {
+      "type": "section-contact",
+      "blocks": {
+        "name": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "message": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "settings": {
+        "title": "Contact us",
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16642970907d5d0582": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Company details",
+        "title": "",
+        "text": "<p><strong>Canadian Office:<\/strong><br\/>288 Adrien-Patenaude<br\/>Vaudreuil-Dorion, QC, J7V 5V5<\/p><p><strong>United States Office:<\/strong><br\/>30 Lawrence Paquette Industrial Drive<br\/>Champlain, NY  12919<\/p><p><\/p><p><strong>CUSTOMER CARE:<\/strong><\/p><p><strong>Call us: <\/strong>1-877-484-8437 ext. 1 <\/p><p><strong>Email us: <\/strong><a href=\"mailto:onlinecare@vivierpharma.com\" title=\"mailto:onlinecare@vivierpharma.com\">onlinecare@vivierpharma.com<\/a>﻿ <\/p><p><strong>Text us:<\/strong> 1-877-859-2645<\/p><p>Assistance from Monday to Friday, from 8:30 am to 5:00 pm EST<\/p>",
+        "text_size": 2,
+        "text_columns": 2,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "contact",
+    "main",
+    "16642970907d5d0582"
+  ]
+}

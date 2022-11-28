@@ -1,0 +1,25 @@
+ <section class="page__template {{ section.settings.text_color }} {{ section.settings.height }} {{ section.settings.bg }}" data-section-id="{{ section.id }}" data-section-type="page">
+    <div class="{{ section.settings.width }}">
+      <div class="text__standard {{ section.settings.align_text }}">
+       
+          <h2 class="h2 standard__heading"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="2" style="text-align: center;">
+            {{ page.title }}
+          </h2>
+  
+      
+       
+          <div class="rte standard__rte {{ font_size_class }}"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="3">
+            <div class="rte">
+              {{ page.content }}
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>

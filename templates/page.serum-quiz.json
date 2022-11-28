@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "165661852607e2465c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
+        "bg_position": "center-bottom",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "kicker": "Which vitamin C serum is right for you?",
+        "title": "TAKE THE QUIZ!",
+        "richtext": "",
+        "text_align": "align--middle-right",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 1,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "abbd8aa9-915d-4fcf-b0a3-579b9c28aa6e": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div class=\"octane-ai-quiz \" data-quiz-id=\"63FwybAWaGvn0aMI\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/lu6nywcvjzs9t22v\/quiz.js\" async defer><\/script>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "165661852607e2465c",
+    "main",
+    "abbd8aa9-915d-4fcf-b0a3-579b9c28aa6e"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "16528797309ebde902": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Introducing",
+        "title": "Image with text overlay",
+        "richtext": "<p>This area is used to describe your store.<\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "list-collections",
+      "settings": {
+        "style": "product",
+        "aspect_ratio": 1,
+        "grid_collection": 2,
+        "grid": 3,
+        "rows": 1
+      }
+    }
+  },
+  "order": [
+    "16528797309ebde902",
+    "main"
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Our story",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1655986927a30d678e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "92c35ab4-7c46-4ca7-9a19-a193fbe2aa5c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furry_friends.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "a364871c-66f5-447d-9c9d-64846a740600": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "We Care",
+            "text": "<p>It might sound cliché, but we truly believe that beauty is more than skin-deep. <\/p><p><\/p><p>At Vivier our Mission is to Empower you to Look and Feel your Best. For us, feeling our best means giving back to the community and helping to make the world a more beautiful place. <\/p><p><\/p><p>Giving back is part of our DNA.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "92c35ab4-7c46-4ca7-9a19-a193fbe2aa5c",
+        "a364871c-66f5-447d-9c9d-64846a740600"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165117229558c6219c": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--invert--secondary",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1655926040fb31808b": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Vivier supports",
+        "title": "The Elton John AIDS Foundation",
+        "text": "<p>Vivier is proud to support the Elton John AIDS Foundation by donating and standing behind the organization’s mission to end the <a href=\"https:\/\/www.instagram.com\/explore\/tags\/aids\/\">#AIDS<\/a> epidemic by 2030. The 30th anniversary event raised over $8.6 million to support worldwide programs helping those affected by HIV. <\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "LEARN MORE",
+        "button_url": "https:\/\/www.eltonjohnaidsfoundation.org\/event\/30th-annual-academy-awards-viewing-party\/",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "16559251701edca80e": {
+      "type": "section-video",
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "video_link_bg": "",
+        "object_position": "center-center",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-22_at_3.17.29_PM.png",
+        "bg_position": "center-center",
+        "video_link": "https:\/\/youtu.be\/QssDp604bYU",
+        "popup_text": "",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "165592639603264a27": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165117172965bcba58": {
+      "type": "section-custom-content",
+      "blocks": {
+        "dde34ca6-417a-4db1-a538-d02837263a77": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0048\/0162\/6227\/files\/VIVIER-EJAF_2022-2-2.mp4?v=1651172686",
+            "object_position": "center-center",
+            "bg_position": "center-center",
+            "video_link": "https:\/\/youtu.be\/kmMSdLcB_4U",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "36a7a9fc-0bc4-4dcd-9f55-48a7aae26282": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "BEHIND THE SCENES",
+            "text": "<p>Check out some behind the scenes footage of the Vivier Team prepping for the 30th Anniversary EJAF Oscar viewing party! <\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "dde34ca6-417a-4db1-a538-d02837263a77",
+        "36a7a9fc-0bc4-4dcd-9f55-48a7aae26282"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": true,
+        "borders": true,
+        "wrapper": false
+      }
+    },
+    "1651170859757cf65a": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "91674195-dfbb-4725-8fd5-38b7c3a5d582": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--white",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "91674195-dfbb-4725-8fd5-38b7c3a5d582"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1655926455acfd8fd0": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651172861493a1678": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "VIVIER",
+        "title": "VOLUNTEERS",
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "1655926504fd6eb602": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165117069996b2f818": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b550fa54-83c2-49e5-9793-6172f67cb638": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vivier-Jamaica_2.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "636248d8-e47a-40e7-b451-7d2584b9ddb5": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "The Exchange All Age School in Saint Ann Jamaica",
+            "text": "<p>Very special connections were made between the Vivier Team and the children of The Exchange All Age School just outside Ocho Rios Jamaica. Spending time with these children was an experience we will never forget! To help support these underprivileged communities in Jamaica you can reach out to the wonderful people at Jamaica Volunteer Programs.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "LEARN MORE",
+            "button_url": "https:\/\/jamaicavolunteerprograms.com",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "b550fa54-83c2-49e5-9793-6172f67cb638",
+        "636248d8-e47a-40e7-b451-7d2584b9ddb5"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Hope for the Homeless social giveback challenge",
+            "text": "<p>The Vivier Team came together to pack 250 snack bags to support the services of The Old Brewery Mission in Montreal. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Learn More",
+            "button_url": "https:\/\/www.missionoldbrewery.ca\/en\/donate.",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "b2531a50-6425-49a7-8d4e-a33614c1c93b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hope_for_the_homeless.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 5,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "b2531a50-6425-49a7-8d4e-a33614c1c93b"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "437559d1-2be8-4363-8f26-e814dbe92298": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/furry_friends.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Furry Friends event in support of The Lighthouse",
+            "text": "<p>The Vivier Team gave life to some very special furry friends to help comfort children in Palliative Care.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "More ways to donate",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7"
+          }
+        }
+      },
+      "block_order": [
+        "437559d1-2be8-4363-8f26-e814dbe92298",
+        "custom-content-1-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1651172972f46c5055": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "We also support many other causes",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--invert--secondary",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "165065016775d3fc78": {
+      "type": "section-logos",
+      "blocks": {
+        "1650650167d2328402-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canadian_cancer_society_119a13b8-6277-4d78-b438-698decee05f2.png",
+            "link": "https:\/\/cancer.ca\/en\/"
+          }
+        },
+        "1650650167d2328402-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kidney_foundation.png",
+            "link": "https:\/\/kidney.ca"
+          }
+        },
+        "1650650167d2328402-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canadian_skin_cancer.png",
+            "link": "https:\/\/www.canadianskincancerfoundation.com"
+          }
+        },
+        "1650650167d2328402-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/childrens_hospital.png",
+            "link": "https:\/\/fondationduchildren.com\/en\/"
+          }
+        },
+        "1650650167d2328402-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YMCA.png",
+            "link": "https:\/\/www.ymca.ca"
+          }
+        }
+      },
+      "block_order": [
+        "1650650167d2328402-0",
+        "1650650167d2328402-3",
+        "1650650167d2328402-1",
+        "1650650167d2328402-2",
+        "1650650167d2328402-4"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651501632c63a41fd": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Our Sustainability Efforts",
+        "text": "<p>Our initiative to make the world a more beautiful place puts social responsibility and sustainability at the forefront of our efforts. Vivier is continually working to reduce our carbon footprint.<\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "1651502243406b074f": {
+      "type": "section-icons",
+      "blocks": {
+        "1651502242826213dc-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_color": "#97694f",
+            "title": "Paperless processes",
+            "text": ""
+          }
+        },
+        "1651502242826213dc-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-animal",
+            "icon_color": "#97694f",
+            "title": "no animal testing",
+            "text": ""
+          }
+        },
+        "1651502242826213dc-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#97694f",
+            "title": "biodegradable microbeads",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651502242826213dc-0",
+        "1651502242826213dc-1",
+        "1651502242826213dc-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--accent",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--left",
+        "align_text": "text-center"
+      }
+    },
+    "1651501635bc26d053": {
+      "type": "section-double",
+      "blocks": {
+        "1651501635223254f3-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Sustainable packaging",
+            "title": "",
+            "text": "<p>We source only sustainable product packaging that is Forest Stewardship Certified.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Learn more",
+            "button_url": "https:\/\/www.fsc.org",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1651501635223254f3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sustainability.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1651501635223254f3-0",
+        "1651501635223254f3-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1651501681a9c3fc28": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "165150168197da7277-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-pine-trees-mountains.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 20,
+            "overlay_color": "#d2cbc1",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "165150168197da7277-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Carbon offset",
+            "title": "",
+            "text": "<p>We support reforestation initiatives by planting trees to offset our carbon footprint. We strive to be carbon neutral by 2030.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "165150168197da7277-1",
+        "165150168197da7277-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "1655986927a30d678e",
+    "165117229558c6219c",
+    "1655926040fb31808b",
+    "16559251701edca80e",
+    "165592639603264a27",
+    "165117172965bcba58",
+    "1651170859757cf65a",
+    "1655926455acfd8fd0",
+    "1651172861493a1678",
+    "1655926504fd6eb602",
+    "165117069996b2f818",
+    "custom-content-2",
+    "custom-content-1",
+    "1651172972f46c5055",
+    "165065016775d3fc78",
+    "1651501632c63a41fd",
+    "1651502243406b074f",
+    "1651501635bc26d053",
+    "1651501681a9c3fc28"
+  ]
+}

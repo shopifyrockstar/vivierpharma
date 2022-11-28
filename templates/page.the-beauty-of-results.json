@@ -1,0 +1,303 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Science-3.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "THE VIVIER DIFFERENCE",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1650651087e54b282a": {
+      "type": "section-custom-content",
+      "blocks": {
+        "781875b4-cc7e-4ca3-b011-757c814ac248": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "The Beauty of Results",
+            "text": "<p>Vivier is a results driven, science-backed company and we are committed to delivering you The Beauty of Results with our products. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "#",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--white",
+            "bg_color": "#97694f"
+          }
+        },
+        "4fff86c9-273d-41a7-989e-8ab6c9f415c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cropped_model.jpg",
+            "bg_position": "center-top",
+            "overlay_opacity": 0,
+            "overlay_color": "#ffffff",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "781875b4-cc7e-4ca3-b011-757c814ac248",
+        "4fff86c9-273d-41a7-989e-8ab6c9f415c9"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1655991564e6d46a07": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "GrenzCine Eye",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/grenzcine-eye",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1655991062347d3c8d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-a2b3b3f7-15b1-4dd2-b6a7-74cc6a3fb545\"><\/div>",
+        "full_width": false
+      }
+    },
+    "165633288388b5042f": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
+    "165599093169b457b0": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Acne Treatment System",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/acne-treatment-lotion",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1655990940a5262a67": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-6e4c5653-8e39-4ec1-82cc-3faa8279d322\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1656333367d1f3767e": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
+    "16559908421c21a213": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "AHA \/ BHA Exfoliating Cream",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/aha-bha-exfoliating-cream",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1655990851b6d1214d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-580a7864-ff5b-4eef-8c59-cecee0c72ce0\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1656333386de07c74d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
+    "1655990711da9ec2d3": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Ultimage",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/ultimage",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1655990724976226b2": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-4ef5aa68-9a84-4ea3-83ea-d013c4c1e78d\"><\/div>",
+        "full_width": true
+      }
+    },
+    "16563334010dc0f361": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
+    "165599059657131c86": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "Advanced Skin Lightening Serum",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/advanced-skin-lightening-serum",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1651260746df6c2845": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-ffcd9e0e-4633-4b14-895a-bb3a4d52298a\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1656333415bc46359a": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'> <\/div>",
+        "full_width": true
+      }
+    },
+    "1651172972f46c5055": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "V-STAT Advanced Repair Gel",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify:\/\/products\/v-stat-advanced-scar-gel",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper--full",
+        "text_color": "text--invert--secondary",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "16512592975aa85cd9": {
+      "type": "section-html",
+      "settings": {
+        "html": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-b31f8a5f-cc48-4585-a110-baee4fbd879c\"><\/div>",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "1650651087e54b282a",
+    "1655991564e6d46a07",
+    "1655991062347d3c8d",
+    "165633288388b5042f",
+    "165599093169b457b0",
+    "1655990940a5262a67",
+    "1656333367d1f3767e",
+    "16559908421c21a213",
+    "1655990851b6d1214d",
+    "1656333386de07c74d",
+    "1655990711da9ec2d3",
+    "1655990724976226b2",
+    "16563334010dc0f361",
+    "165599059657131c86",
+    "1651260746df6c2845",
+    "1656333415bc46359a",
+    "1651172972f46c5055",
+    "16512592975aa85cd9"
+  ]
+}

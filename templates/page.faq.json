@@ -1,0 +1,275 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "FAQ",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1657029342adfef1af": {
+      "type": "section-faq",
+      "blocks": {
+        "16570293424de080ce-0": {
+          "type": "text",
+          "settings": {
+            "title": "How can I track my order?",
+            "content": "<p>Once your order has shipped, you will receive your Shipping Confirmation by email and it will include the tracking # for your order.<\/p>"
+          }
+        },
+        "16570293424de080ce-1": {
+          "type": "text",
+          "settings": {
+            "title": "I’ve just submitted an order, how can I make changes to my order?",
+            "content": "<p>Once an order is placed it cannot be modified as orders are typically processed and shipped very quickly. However, if you have made a mistake on your order we encourage you to contact our Customer Care team as quickly as possible during our business hours (8:30AM-5:00PM EST) by email at <a href=\"mailto:%20onlinecare@vivierpharma.com\" target=\"_blank\"><span style=\"text-decoration:underline\">onlinecare@vivierpharma.com<\/span><\/a>or by phone at 1-877-484-8437 ext 1.<\/p>"
+          }
+        },
+        "16570293424de080ce-2": {
+          "type": "text",
+          "settings": {
+            "title": "Do I get free samples with my order?",
+            "content": "<p>Online orders over $100 receive the choice of 1 deluxe sample. Orders over $350 receive the choice of 2 deluxe samples. If your order is over $600 you get the choice of 3 deluxe samples. <\/p>"
+          }
+        },
+        "cce80f86-dafc-4a48-9cbe-94b687294d7b": {
+          "type": "text",
+          "settings": {
+            "title": "I forgot my password, how do I log in?",
+            "content": "<p>Simply click <a href=\"https:\/\/vivierskin.ca\/account\/login\" title=\"Account Login\"><strong>here<\/strong><\/a> to access the account login page and then click “Forgot my password”<\/p>"
+          }
+        },
+        "ae49adec-44c6-41a6-828e-2a9f63b36497": {
+          "type": "text",
+          "settings": {
+            "title": "What are the shipping costs and delivery options?",
+            "content": "<p>For all shipping options and rates click <a href=\"https:\/\/vivierskin.ca\/pages\/shipping-information\" title=\"Shipping Options\"><strong>here<\/strong><\/a>.<\/p>"
+          }
+        },
+        "5e771467-445f-4a0b-9d80-d81a71b13e16": {
+          "type": "text",
+          "settings": {
+            "title": "Can I pick up my order at Vivier Pharma head office?",
+            "content": "<p>All orders are shipped directly to your address of choice. In person pickups are not available.<\/p>"
+          }
+        },
+        "6c645032-de2f-4fd0-9030-b4d1e3e8f7d5": {
+          "type": "text",
+          "settings": {
+            "title": "Who can I contact if I am looking for more information on Vivier products?",
+            "content": "<p>Our Customer Care team can help you with your questions. Please feel free to contact us at any time during our business hours (8:30AM-5:00PM EST) by email a <a href=\"mailto:%20onlinecare@vivierpharma.com\" target=\"_blank\"><span style=\"text-decoration:underline\">onlinecare@vivierpharma.com<\/span><\/a> or by phone at 1-877-484-8437 ext 1.<\/p>"
+          }
+        },
+        "b9c259c5-8f18-4521-8991-e910cf53eee9": {
+          "type": "text",
+          "settings": {
+            "title": "Do you accept phone orders?",
+            "content": "<p>Yes, you can place your order over the phone. Please contact our Customer Care team during business hours (8:30AM-5:00PM EST) by phone at 1-877-484-8437 ext 1.<\/p><p>If you reach our voicemail, please leave a message and Customer Care team will return your call within 24 hours or the next business day.<\/p><p>To best serve you please have the following information ready for us:<\/p><p>Your credit card information (Visa, MasterCard, American Express or Discover).The names of the products you wish to order. If you need help choosing your products, our dedicated Customer Care team can help you select the most suitable solutions for your skincare needs.Your shipping address.<\/p><p>All telephone orders will be processed through our secure payment gateway at the time of purchase. We do not keep your credit card information on file.<\/p>"
+          }
+        },
+        "5ffe72bb-c961-4e7f-88b3-33c4647b8900": {
+          "type": "text",
+          "settings": {
+            "title": "Do you accept returns or exchange?",
+            "content": "<p>Yes, we do accept returns. For all information on returns please click <a href=\"https:\/\/vivierskin.ca\/pages\/returns-policy\" title=\"Returns Policy\"><strong>here<\/strong><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16570293424de080ce-0",
+        "16570293424de080ce-1",
+        "16570293424de080ce-2",
+        "cce80f86-dafc-4a48-9cbe-94b687294d7b",
+        "ae49adec-44c6-41a6-828e-2a9f63b36497",
+        "5e771467-445f-4a0b-9d80-d81a71b13e16",
+        "6c645032-de2f-4fd0-9030-b4d1e3e8f7d5",
+        "b9c259c5-8f18-4521-8991-e910cf53eee9",
+        "5ffe72bb-c961-4e7f-88b3-33c4647b8900"
+      ],
+      "settings": {
+        "title": "FAQ Orders",
+        "align_text": "text-left",
+        "text_size": 2,
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16570296070744c794": {
+      "type": "section-faq",
+      "blocks": {
+        "1657029607c4141776-0": {
+          "type": "text",
+          "settings": {
+            "title": "What is Vivier’s animal testing policy? Is Vivier a cruelty-free company?",
+            "content": "<p>At Vivier, we love animals and most of us are pet owners. We do not test our products or ingredients on animals. We use the highest pharmaceutical-grade quality ingredients and patented skin care technology to deliver the most visible results for your skin.<\/p>"
+          }
+        },
+        "1657029607c4141776-1": {
+          "type": "text",
+          "settings": {
+            "title": "Does Vivier use animal derivatives in the products; are the products Vegan?",
+            "content": "<p>Most of our products are Vegan and do not contain any animal derivatives. You may verify an individual product’s Vegan status directly on the product page.<\/p>"
+          }
+        },
+        "1657029607c4141776-2": {
+          "type": "text",
+          "settings": {
+            "title": "Are there parabens in Vivier skin care solutions?",
+            "content": "<p>Yes, some Vivier skin care solutions contain parabens. Parabens are the most widely used and effective preservatives approved by Health Canada and the FDA for cosmetics and pharmaceutical drug products. Parabens continue to be fully regulated and recognized as GRAS (Generally Recognized as Safe) by Health Canada and the FDA. Vivier uses pharmaceutical grade ingredients.<\/p>"
+          }
+        },
+        "52a3fb28-01bf-4a5f-ac12-6a5b7375605c": {
+          "type": "text",
+          "settings": {
+            "title": "Are Vivier skin care solutions Reef Safe?",
+            "content": "<p>For consumers looking for “reef safe” options, our Triple Protection Sunscreen Broad Spectrum SPF 30 does not contain any Octinoxate or Oxybenzone.<\/p><p>On May 1st, 2018, Hawaii became the first state in the USA to pass a law (Bill 2571) forbidding the use of sunscreen containing Octinoxate or Oxybenzone. At this time, only one other city, Key West in Florida has followed suit while others are waiting for more conclusive studies.<\/p><p>We, at Vivier Pharma, take consumer and environment safety extremely seriously and only use ingredients that are approved by Health Canada and the FDA. We continue to monitor this situation closely.<\/p>"
+          }
+        },
+        "c5744382-03b0-40f5-a97b-2be96ccdfeb4": {
+          "type": "text",
+          "settings": {
+            "title": "Are Vivier skin care solutions safe to use during pregnancy or while breastfeeding?",
+            "content": "<p>Vivier skin care solutions are not tested on pregnant or nursing women. We recommend consulting your physician. Our ingredients are available directly on our website.<\/p>"
+          }
+        },
+        "63445681-19c7-44a3-aefb-b5087397bc89": {
+          "type": "text",
+          "settings": {
+            "title": "I have an allergy; can I use Vivier skin care solutions?",
+            "content": "<p>With any allergy concern, we recommend verifying all ingredients with your physician or allergy specialist before use. Our ingredients are available directly on our website.<\/p>"
+          }
+        },
+        "63c2527c-58b4-4c3a-a3f8-abb7bcce9c43": {
+          "type": "text",
+          "settings": {
+            "title": "Are Vivier skin care solutions organic?",
+            "content": "<p>The ingredients used in Vivier skin care solutions are plant-based, naturally derived or synthetic ingredients that are pharmaceutical-grade and highly purified. Each ingredient in the formulation is carefully selected by a pharmacist in the development process to deliver the most visible results while meeting the highest quality and safety standards approved by Health Canada and the FDA. Our ingredients are available directly on our website.<\/p>"
+          }
+        },
+        "ee8bb168-b353-44bb-91ab-a11ade67ccb2": {
+          "type": "text",
+          "settings": {
+            "title": "What is the percentage of active ingredients in Vivier skin care solutions?",
+            "content": "<p>All active and non-active ingredients are available directly on our website. The percentages of active ingredients are listed.<\/p>"
+          }
+        },
+        "90b03711-422f-4f0c-8305-6db73a186657": {
+          "type": "text",
+          "settings": {
+            "title": "Are Vivier skin care solutions Fragrance-free?",
+            "content": "<p>Most of our skin care solutions are fragrance-free. You will find the fragrance-free icon listed on the individual product pages.<\/p>"
+          }
+        },
+        "22ffa21a-5c11-44ea-8695-8d23d9c76a34": {
+          "type": "text",
+          "settings": {
+            "title": "Do your skin care solutions have an expiration date?",
+            "content": "<p>For cosmetic products, it is recommended they are used within 6 months after opening. <\/p><p><\/p><p>For drug products with Drug Identification Number (DIN) or Natural Product Number (NPN), the expiration date will be indicated on the outer box and inside container.<\/p>"
+          }
+        },
+        "4cfb916f-e491-4424-9c63-49762c1f43ad": {
+          "type": "text",
+          "settings": {
+            "title": "My serum has turned yellow, is it still good to use?",
+            "content": "<p>L-Ascorbic Acid USP (pure Vitamin C), the key ingredient found in Vivier’s USP Vitamin C serums, will tend to change to a light yellow color with time. This change in color is natural and will not significantly alter the product’s effectiveness. Once opened, the serums are recommended to be used within 6 months.<\/p>"
+          }
+        },
+        "3ba1a69a-5fc4-40b6-ac9d-608413fa9369": {
+          "type": "text",
+          "settings": {
+            "title": "In what order do I apply my products?",
+            "content": "<p>We recommend the following steps:<\/p><p>1. Prepare (Cleanse & Tone)<\/p><p>2. Target (Eye Contour, Serum, Speciality Product & Exfoliant)<\/p><p>3. Moisturize<\/p><p>4. Protect (AM only)<\/p>"
+          }
+        },
+        "05c3b512-c235-418a-a438-6989d1f6ad27": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to see results?",
+            "content": "<p>With regular use and applied as directed, results can be seen in as little as 4 weeks. Results may vary.<\/p>"
+          }
+        },
+        "f8b6826a-cf42-4e54-a60a-ad4a4e438ab7": {
+          "type": "text",
+          "settings": {
+            "title": "Is your packaging recyclable?",
+            "content": "<p>Our packaging that is recyclable is identified with the recycling symbol on the containers. <\/p><p><\/p><p>All our skin care solutions are packaged in boxes that are made from certified sustainable forestry initiative (SFI) sources <a href=\"http:\/\/www.sfiprogram.org\/\" target=\"_blank\"><span style=\"text-decoration:underline\">sfiprogram.org<\/span><\/a>.<\/p>"
+          }
+        },
+        "28c8e5bd-c9b2-4837-99bd-5bb45ab80110": {
+          "type": "text",
+          "settings": {
+            "title": "I would like to try your products before purchasing; can you please send me samples?",
+            "content": "<p>We would recommend visiting a clinic in your area to have your skin assessed by a skin care professional. You may consult our <a href=\"https:\/\/vivierskin.ca\/pages\/sca-store-locator\" target=\"_blank\" title=\"https:\/\/vivierskin.ca\/pages\/sca-store-locator\">Find a clinic<\/a> section directly on our website to find locations in your area. Many clinics offer samples & testers; they will assist in selecting the best Vivier skin care solutions for your needs and for best results.<\/p>"
+          }
+        },
+        "568be41d-93dc-4286-b2f1-bbc0a89c6cc2": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I purchase Vivier products?",
+            "content": "<p>You can refer to the <a href=\"\/pages\/sca-store-locator\" target=\"_blank\" title=\"Find a clinic near you\">Find a Clinic <\/a>section of our website to find a location in your area. We recommend calling the clinic ahead of time to verify availability of the Vivier skin care solutions of interest. For additional information, you can also email us at <a href=\"mailto:info@vivierpharma.com\"><span style=\"text-decoration:underline\">info@vivierpharma.com<\/span><\/a> or contact our Customer Care team at 1-877-484-8437 ext. 1. It will be our pleasure to serve you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657029607c4141776-0",
+        "1657029607c4141776-1",
+        "1657029607c4141776-2",
+        "52a3fb28-01bf-4a5f-ac12-6a5b7375605c",
+        "c5744382-03b0-40f5-a97b-2be96ccdfeb4",
+        "63445681-19c7-44a3-aefb-b5087397bc89",
+        "63c2527c-58b4-4c3a-a3f8-abb7bcce9c43",
+        "ee8bb168-b353-44bb-91ab-a11ade67ccb2",
+        "90b03711-422f-4f0c-8305-6db73a186657",
+        "22ffa21a-5c11-44ea-8695-8d23d9c76a34",
+        "4cfb916f-e491-4424-9c63-49762c1f43ad",
+        "3ba1a69a-5fc4-40b6-ac9d-608413fa9369",
+        "05c3b512-c235-418a-a438-6989d1f6ad27",
+        "f8b6826a-cf42-4e54-a60a-ad4a4e438ab7",
+        "28c8e5bd-c9b2-4837-99bd-5bb45ab80110",
+        "568be41d-93dc-4286-b2f1-bbc0a89c6cc2"
+      ],
+      "settings": {
+        "title": "FAQ Products",
+        "align_text": "text-left",
+        "text_size": 1,
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1657029342adfef1af",
+    "main",
+    "16570296070744c794"
+  ]
+}

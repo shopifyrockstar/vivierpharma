@@ -1,0 +1,187 @@
+<!-- /snippets/product-tabs.liquid -->
+{% comment %}
+  {% render 'product-tabs', section: section, product: product %}
+{% endcomment %}
+{%- if product == nil -%}
+  {%- assign product_description_content = 'home_page.onboarding.product_description' | t -%}
+{%- endif -%}
+
+{%- if block.settings.style == 'tabs' -%}
+  {%- assign tab_links_html = '' -%}
+  {%- assign tab_contents_html = '' -%}
+  {%- assign count = 0 -%}
+
+  {%- if product_description_content != blank -%}
+    {%- capture tab_links_html -%}
+      <li class="tab-link tab-link-0" data-block-id="{{ section.id | append: '-0' }}" data-focus-element data-tab="0" tabindex="0" data-attributes-placeholder>{{ 'products.general.description' | t }}</li>
+    {%- endcapture -%}
+
+    {%- capture tab_contents_html -%}
+      <div class="tab-content tab-content-0">
+        <div class="tab-content__holder {% if block.settings.read_more %}tab-content__holder--truncate{% endif %}" {% if block.settings.read_more %}data-truncated-holder{% endif %} >
+          <div class="tab-content__inner">
+            <div class="tab-content__entry" {% if block.settings.read_more %}data-truncated-content="tab-content__entry--truncate"{% endif %}>
+              {% if block.settings.read_more %}
+                {{ product_description_content }}
+              {% else %}
+                {{ product.description }}
+                {% if product.title == 'Vivier C E PEPTIDES' %}
+                  <div class="description-image-wrapper ingredient-icon-wrapper">
+                    <div class="item-wrapper">
+                      <img src="https://cdn.shopify.com/s/files/1/0048/0162/6227/files/AttributeIcon_CrueltyFree.png?v=1647887788">		
+                      <p>
+                        CRUELTY-FREE
+                      </p>
+                    </div>
+                    <div class="item-wrapper">
+                      <img src="https://cdn.shopify.com/s/files/1/0048/0162/6227/files/AttributeIcon_Hypoallergenic.png?v=1647887814">		
+                      <p>
+                        HYPOALLERGENIC
+                      </p>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endif %}
+            </div>
+          </div>
+
+          {% if block.settings.read_more %}  
+            <div class="tab-content__actions">
+              {{ truncate_html }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {%- endcapture -%}
+
+    {%- assign count = 1 -%}
+  {%- endif -%}
+
+  {%- for i in (1..5) -%}
+    {%- assign _title = 'title_' | append: forloop.index -%}
+    {%- assign _title = block.settings[_title] -%}
+
+    {%- assign _content = 'raw_content_' | append: forloop.index -%}
+    {%- assign _content = block.settings[_content] -%}
+
+    {%- if _title != '' and _content != '' -%}
+      {%- capture tab_links_html -%}
+        {{ tab_links_html }}
+
+        <li class="tab-link tab-link-{{ count }}" data-focus-element data-tab="{{ count }}" data-block-id="{{ block.id }}" tabindex="0" {{ block.shopify_attributes }}>{{ _title }}</li>
+      {%- endcapture -%}
+
+      {%- capture tab_contents_html -%}
+        {{ tab_contents_html }}
+
+        <div class="tab-content tab-content-{{ count }}">
+          {{ _content }}
+        </div>
+      {%- endcapture -%}
+
+      {%- assign count = count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  {%- if tab_contents_html -%}  
+    <div class="product-tabs" data-tabs-holder>
+      <div class="tabs__head product-tabs__head">
+        <ul class="tabs product-tabs-title" data-scrollbar data-scrollbar-slider>
+          {{ tab_links_html }}
+        </ul>
+
+        <button type="button" class="tabs__arrow tabs__arrow--prev product-tabs__arrow product-tabs__arrow--prev is-hidden is-not-relative" data-scrollbar-arrow-prev>
+          <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        </button>
+
+        <button type="button" class="tabs__arrow tabs__arrow--next product-tabs__arrow product-tabs__arrow--next is-hidden is-not-relative" data-scrollbar-arrow-next>
+          <span class="visually-hidden">{{ 'general.accessibility.see_all' | t }}</span>
+        </button>
+      </div>
+      
+      {{ tab_contents_html }}
+    </div>
+  {%- endif -%}
+{%- elsif block.settings.style == 'accordions' -%}
+  <div class="product-accordion" data-accordion-group>
+    {%- assign accordion_blocks_html = '' -%}
+    {% assign description_close =  false %}
+    {%- for i in (1..5) -%}
+      {%- assign _title = 'title_' | append: forloop.index -%}
+      {%- assign _title = block.settings[_title] -%}
+
+      {%- assign _content = 'raw_content_' | append: forloop.index -%}
+      {%- assign _content = block.settings[_content] -%}
+
+      {% assign block_id = block.id | append: '-' | append: forloop.index %}
+
+      {%- if _title != '' and _content != '' -%}
+      {% if _title contains 'Before & After' %}
+      	{% assign description_close =  true %}
+      {% endif %}
+        {%- capture accordion_blocks_html -%}
+          {{ accordion_blocks_html }}
+          <div class="accordion__wrapper">
+            <button class="accordion__title"
+              data-accordion-trigger="{{ block_id }}"
+              aria-controls="{{ block_id }}"
+              aria-haspopup="true" 
+              aria-expanded="false">
+              {{ _title }}
+            </button>
+
+            <div class="accordion__body" id="{{ block_id }}" data-accordion-body>
+              {{ _content }}
+            </div>
+          </div>
+        {%- endcapture -%}
+      {%- endif -%}
+    {%- endfor -%}
+    
+
+    {%- if product_description_content != blank -%}
+      {% assign block_id = block.id | append: '-main' %}
+      <div class="accordion__wrapper">
+        <button class="accordion__title accordion-is-open"
+          data-accordion-trigger="{{ block_id }}"
+          aria-controls="{{ block_id }}"
+          aria-haspopup="true" 
+          aria-expanded="false">
+          {{ 'products.general.description' | t }}
+        </button>
+
+        <div class="accordion__body" id="{{ block_id }}" data-accordion-body>
+          <div class="accordion-content__holder {% if block.settings.read_more %}accordion-content__holder--truncate{% endif %}" {% if block.settings.read_more %}data-truncated-holder{% endif %}>
+            <div class="accordion-content__inner">
+              <div class="accordion-content__entry" {% if block.settings.read_more %}data-truncated-content="accordion-content__entry--truncate"{% endif %}>
+                {% if block.settings.read_more %}
+                  {{ product_description_content }}  
+                {% else %}
+                  {{ product.description }}  
+                  <div class="usage-details-image-wrapper" style="display:none;">
+                    <div class="item-wrapper">
+                      <img src="https://cdn.shopify.com/s/files/1/0048/0162/6227/files/AttributeIcon_CrueltyFree_ae4a31db-ca03-4d77-9344-c78b92c2feb1.png?v=1649437442">
+                      <p>CRUELTY FREE</p>	
+                    </div>
+                    <div class="item-wrapper">
+                      <img src="https://cdn.shopify.com/s/files/1/0048/0162/6227/files/AttributeIcon_Hypoallergenic_96ba1206-d098-4e84-b4d3-e02044bea4ae.png?v=1649437482">
+                      <p>HYPOALLERGENIC FREE</p>	
+                    </div>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+
+            {% if block.settings.read_more %}  
+              <div class="accordion-content__actions">
+                {{ truncate_html }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {{ accordion_blocks_html }}
+  </div>
+{%- endif -%}

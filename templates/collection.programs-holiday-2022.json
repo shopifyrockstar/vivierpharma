@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "2cab3fd4-f80b-4925-8a09-c4a89eee5109": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Holiday2022-Overview_Banner.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "245131d4-000f-45ce-9784-b8bd1c2a8d8c": {
+      "type": "section-announcement",
+      "blocks": {
+        "template--14908067414131__245131d4-000f-45ce-9784-b8bd1c2a8d8c-1666807105d62e329d-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BUY ANY VIVIER PROGRAM AND GET A <strong>FREE<\/strong> VITAMIN C SCRUB AND ULTRA PURIFYING CLAY MASK<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14908067414131__245131d4-000f-45ce-9784-b8bd1c2a8d8c-1666807105d62e329d-0"
+      ],
+      "settings": {
+        "bg_color": "#fafafa",
+        "color": "#97694f",
+        "text_size": 5
+      }
+    },
+    "af1cb28c-805f-4232-9388-346e42c327db": {
+      "type": "section-double",
+      "blocks": {
+        "template--14908067414131__af1cb28c-805f-4232-9388-346e42c327db-1666807050ba4cb9ca-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "buy any skin care program",
+            "title": "Get a FREE full-sized Vitamin C Scrub and Ultra Purifying Clay Mask",
+            "text": "<p>Free gifts automatically added to your cart, no code required. Offer ends 11\/24. While quantities last. Excludes Acne Treatment System. Cannot be combined with other offers. Orders containing gifts with purchase are not eligible for free samples. Contact your local Vivier clinic for availability. <\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "caps--link",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff"
+          }
+        },
+        "template--14908067414131__af1cb28c-805f-4232-9388-346e42c327db-1666807050ba4cb9ca-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free_gifts_2022-holiday_circle-01.png",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--14908067414131__af1cb28c-805f-4232-9388-346e42c327db-1666807050ba4cb9ca-0",
+        "template--14908067414131__af1cb28c-805f-4232-9388-346e42c327db-1666807050ba4cb9ca-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "show_image": false,
+        "bg_position": "left-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "821b6eed-2641-4b38-be66-e8308df6e255": {
+          "type": "filters",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "821b6eed-2641-4b38-be66-e8308df6e255"
+      ],
+      "settings": {
+        "grid_setting_large": 3,
+        "grid_setting_small": 2,
+        "product_limit": 50,
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    }
+  },
+  "order": [
+    "2cab3fd4-f80b-4925-8a09-c4a89eee5109",
+    "245131d4-000f-45ce-9784-b8bd1c2a8d8c",
+    "af1cb28c-805f-4232-9388-346e42c327db",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

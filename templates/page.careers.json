@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "16566196403c205297": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-1851464_1920-flip.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/woman-1851464_1920-flip.jpg",
+        "bg_position": "center-bottom",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "kicker": "Share our passion",
+        "title": "JOIN OUR TEAM",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 1,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1656619646c7f48a1a": {
+      "type": "section-double",
+      "blocks": {
+        "1656619646ce5ca52e-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "We'd love to meet you!",
+            "title": "",
+            "text": "<p>As a growing cosmetic dermatology company, we are always looking for motivated and committed employees across North America. <br\/><br\/>If you are interested in a new career challenge in a fun and dynamic industry, please submit your CV to <a href=\"mailto:cv@vivierpharma.com\" target=\"_blank\" title=\"mailto:cv@vivierpharma.com\">cv@vivierpharma.com<\/a> or apply directly to one of the open positions below.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1656619646ce5ca52e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group-14.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1656619646ce5ca52e-0",
+        "1656619646ce5ca52e-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1656619657855effc3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding: 20px 0;'><div id=\"BambooHR\"><script src=\"https:\/\/vivierpharma.bamboohr.com\/js\/jobs2.php\" type=\"text\/javascript\"><\/script><div id=\"BambooHR-Footer\">Powered by<a href=\"http:\/\/www.bamboohr.com\" target=\"_blank\" rel=\"noopener external nofollow noreferrer\"><img src=\"https:\/\/resources.bamboohr.com\/images\/footer-logo.png\" alt=\"BambooHR - HR software\"\/><\/a><\/div><\/div>",
+        "full_width": false
+      }
+    },
+    "1656940144ae93f6bd": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Join us",
+        "title": "",
+        "text": "<p>Be part of a team that delivers <strong>The Beauty of Results!<\/strong><\/p>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "CONTACT US",
+        "button_url": "mailto:cv@vivierpharma.com",
+        "button_color": "btn--white",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    }
+  },
+  "order": [
+    "16566196403c205297",
+    "main",
+    "1656619646c7f48a1a",
+    "1656619657855effc3",
+    "1656940144ae93f6bd"
+  ]
+}

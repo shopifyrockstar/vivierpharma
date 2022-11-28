@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "16511595196c389c2c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/treatment_room_2_a6b8ca16-d5f1-4e0d-8f48-6b49ebaee614.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Find a Clinic",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "32004471-8b11-423e-a9fa-6ebb2e46fd17": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "Looking for holiday gift sets?",
+        "title": "",
+        "text": "<p>Contact your local clinic for availability. <\/p>",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "sca-storelocator": {
+      "type": "sca-storelocator",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16511595196c389c2c",
+    "32004471-8b11-423e-a9fa-6ebb2e46fd17",
+    "sca-storelocator"
+  ]
+}

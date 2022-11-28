@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "1656613659d878fdc2": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/waiting_room.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "ACCOUNT OPENING FORM",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1656601814224da5a3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div id=\"wsaio-form\" data-id=\"be71c9e7-885a-4a34-8cfc-f5a228104dce\" data-shop=\"vivierpharma.myshopify.com\"><\/div><script>(function(d, s, id){var js,wjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src=\"https:\/\/wholesales.digitalcoo.com\/forms\/embed.js\";wjs.parentNode.insertBefore(js,wjs);}(document,'script','wsaio-customer-form-embed'));<\/script>\n<div style=\"text-align: center;\">\n<div>Please allow up to 3 business days to process the opening of your Vivier account.\n<ol><\/ol>",
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "1656613659d878fdc2",
+    "1656601814224da5a3",
+    "main"
+  ]
+}

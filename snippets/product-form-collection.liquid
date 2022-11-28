@@ -1,0 +1,23 @@
+{% assign current_variant = product.selected_or_first_available_variant %}
+{% assign button_text = 'products.product.add_to_cart' | t %}
+{% if product.tags contains '_preorder' %}
+	{% assign button_text =  'products.product.pre_order' | t %}
+{% endif %}
+{% unless current_variant.available %}
+	{% assign button_text =  'products.product.sold_out' | t %}
+{% endunless %}
+
+<button class="btn--outline btn--full btn--primary uppercase btn--add-to-cart atc-button-collection"
+        data-variant="{{ current_variant.id }}"
+        {% unless current_variant.available %}disabled="disabled"{% endunless %}>
+  <span class="btn-state-ready">
+    <span data-add-to-cart-text>
+      {{ button_text }}
+    </span>
+    
+    <span>•</span>
+    <span class="coll_price" data-button-price>{{ current_variant.price | money }}</span>
+    
+  </span>
+
+</button>

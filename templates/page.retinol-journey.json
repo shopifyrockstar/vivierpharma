@@ -1,0 +1,429 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Retinol_trio-banner_edited_d1e1e1cb-b4b6-4a5b-a4cf-51ae8689b40c.png",
+        "mobile_image": "shopify:\/\/shop_images\/Retinol_0.5_lifestyle1-cropped.png",
+        "bg_position": "center-bottom",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Start Your Retinol Journey",
+        "richtext": "",
+        "text_align": "align--middle-right",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1663263438a899c7fc": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 10px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1655986927a30d678e": {
+      "type": "section-custom-content",
+      "blocks": {
+        "a364871c-66f5-447d-9c9d-64846a740600": {
+          "type": "text",
+          "settings": {
+            "kicker": "Whether you’re a skin care rookie or pro",
+            "title": "USING A RETINOL IS A MUST",
+            "text": "<p>It is commonly known as the gold standard anti-aging skin care ingredient due to its versatility and results. Retinol boosts cellular turnover and offers an impressive range of benefits including reducing the look of fine lines and wrinkles, evening skin tone, improving skin texture, and minimizing breakouts by unclogging and minimizing pores.<\/p><p>Achieve results that are <strong>impressive <\/strong><em><strong>not irritating<\/strong><\/em><em> <\/em>with Vivier retinol products and enjoy smoother, firmer, more radiant-looking skin.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "3a56b93d-bde5-454e-85a8-3f148c40c772": {
+          "type": "collection",
+          "settings": {
+            "collection": "retinol",
+            "kicker": "Find your perfect retinol",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "a364871c-66f5-447d-9c9d-64846a740600",
+        "3a56b93d-bde5-454e-85a8-3f148c40c772"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1663263574c7d45928": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "REAL CUSTOMER REVIEWS",
+        "title": "",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "1664370509ac4fb239": {
+      "type": "section-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div data-oke-carousel data-oke-reviews-group-id=\"5c677c7b-1782-483d-a745-215e897f8872\"><\/div>"
+      }
+    },
+    "166265125853eecef4": {
+      "type": "apps",
+      "blocks": {
+        "1a009379-9211-4b63-8d99-3e0d266ed9f0": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "Why people love our retinol",
+            "badge_link": "",
+            "product": "retinol-1-0-night-complex"
+          }
+        }
+      },
+      "block_order": [
+        "1a009379-9211-4b63-8d99-3e0d266ed9f0"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--small",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651172972f46c5055": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "VIVIER'S RETINOL JOURNEY",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 2,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--white",
+        "button_style": "btn--outline btn--long uppercase",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "166376484895931099": {
+      "type": "section-html",
+      "settings": {
+        "html": "<span id=\"3steps\"><br><br><\/span>",
+        "full_width": true
+      }
+    },
+    "1663596453d0cb54eb": {
+      "type": "section-columns",
+      "blocks": {
+        "166359645323d30441-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/0.3_Retinol_SR_Complex.jpg",
+            "title": "0.3% Retinol SR Complex",
+            "text": "<p>Vivier 0.3% Retinol SR Complex is the ideal choice for retinol beginners and those with mild skin concerns.<\/p>",
+            "button_label": "Level 1",
+            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "166359645323d30441-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_product_shot-web.png",
+            "title": "NEW! Retinol 0.5%",
+            "text": "<p>After pre-conditioning the skin with Vivier 0.3% retinol SR, this is the next step in your journey for targeting moderate skin concerns.<\/p>",
+            "button_label": "Level 2",
+            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "166359645323d30441-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_retinol_night_complex.png",
+            "title": "Retinol 1% Night Complex",
+            "text": "<p>Vivier Retinol 1% Night Complex is our most potent and fastest acting formula, ideal for experienced retinol users with advanced skin concerns.<\/p>",
+            "button_label": "Level 3",
+            "button_link": "shopify:\/\/products\/retinol-1-0-night-complex",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "166359645323d30441-0",
+        "166359645323d30441-1",
+        "166359645323d30441-2"
+      ],
+      "settings": {
+        "title": "A simple 3-step approach",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "16636009861d165b59": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1663600986deb0a70a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_lifestyle3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Retinol_0.5_mobile-right.jpg",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "ALL RETINOLS ARE THE SAME",
+            "title": "MYTH",
+            "richtext": "<p><strong>FACT:<\/strong> Not all retinols are created equal. Ingredient quality, strength, formula base and complimentary ingredients all play an important role.<\/p>",
+            "text_align": "align--middle-right",
+            "text_color": "text--white",
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/collections\/retinol",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "1663600986deb0a70a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_lifestyle3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Retinol_0.5_mobile-right.jpg",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "REDNESS, FLAKING AND IRRITATION ARE SIGNS YOUR RETINOL IS WORKING",
+            "title": "MYTH",
+            "richtext": "<p><strong>FACT:<\/strong> Retinol is a powerful skincare ingredient, but it doesn't need to be aggressive on the skin to be effective.<\/p>",
+            "text_align": "align--middle-right",
+            "text_color": "text--white",
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/collections\/retinol",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        },
+        "2d18767d-d992-4882-920f-45a9a6ccaf45": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_lifestyle3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Retinol_0.5_mobile-right.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "retinol products are only for aging skin",
+            "title": "MYTH",
+            "richtext": "<p><strong>FACT: <\/strong> Incorporating a low-strength retinol into your skincare routine in your 20's will help prevent the development of fine lines and wrinkles. <\/p>",
+            "text_align": "align--middle-right",
+            "text_color": "text--white",
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/collections\/retinol",
+            "button_color": "btn--white",
+            "button_style": "btn--outline"
+          }
+        }
+      },
+      "block_order": [
+        "1663600986deb0a70a-0",
+        "1663600986deb0a70a-1",
+        "2d18767d-d992-4882-920f-45a9a6ccaf45"
+      ],
+      "settings": {
+        "autoplay": true,
+        "custom_class": "",
+        "autoplay_speed": 8,
+        "height": "use_screen_two_thirds"
+      }
+    },
+    "166326386321f6202a": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "1663263210df8a606b": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 30px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "1662569603c585220f": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "1662569603830b5cbb-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>With three levels of pure retinol to choose from, we have a formula perfect for you no matter your skin type, concern, experience with retinol, or desired results. Reinforced with powerhouse ingredients Vitamin C & E to maximize your results, plus Squalane to boost hydration and reduce inflammation and redness.<\/p><p>Achieve results that are <strong>impressive <\/strong><em><strong>not irritating<\/strong><\/em><em> <\/em>with Vivier retinol products and enjoy smoother, firmer, more radiant-looking skin.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "start your retinol journey",
+            "button_url": "shopify:\/\/collections\/retinol",
+            "button_color": "btn--primary",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1662569603830b5cbb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_trio.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1662569603830b5cbb-0",
+        "1662569603830b5cbb-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "166256132426917b9b": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "16625613249bc858bf-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_lifestyle1.jpg",
+            "bg_position": "left-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "16625613249bc858bf-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>Our effective yet gentle formulas feature high potency microencapsulated pure retinol that is released over time to deliver outstanding results without the irritation and redness often associated with retinol products. All formulas are reinforced with powerhouse ingredients Vitamin C & E to maximize your results, plus Squalane to boost hydration and reduce inflammation and redness.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "START YOUR JOURNEY",
+            "button_url": "shopify:\/\/collections\/retinol",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16625613249bc858bf-1",
+        "16625613249bc858bf-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1663263438a899c7fc",
+    "main",
+    "1655986927a30d678e",
+    "1663263574c7d45928",
+    "1664370509ac4fb239",
+    "166265125853eecef4",
+    "1651172972f46c5055",
+    "166376484895931099",
+    "1663596453d0cb54eb",
+    "16636009861d165b59",
+    "166326386321f6202a",
+    "1663263210df8a606b",
+    "1662569603c585220f",
+    "166256132426917b9b"
+  ]
+}

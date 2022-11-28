@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "16645533575aac65ea": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/VivierLifeBanner-01.png",
+        "mobile_image": "shopify:\/\/shop_images\/VivierLifeBanner-01.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "layout": "grid",
+        "blog_show_meta": true,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "image_height": "use_screen_one_third",
+        "text_color": "text--primary",
+        "tags": false
+      }
+    }
+  },
+  "order": [
+    "16645533575aac65ea",
+    "main"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "sections": {
+    "7ba24d43-5ad9-4ad1-8bbb-4b2e08d31c1f": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Grenzcine_face-elle_header-big_3c24ea15-84bb-4e64-bb53-dd09817e58bc.png",
+        "mobile_image": "shopify:\/\/shop_images\/Grenzcine_face-elle_header_1de21f0e-596f-49aa-9b3f-b96fac5e6a5c.png",
+        "bg_position": "center-top",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-right",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Usage",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.usage.value }}<\/p>",
+            "title_2": "Ingredients",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
+            "title_3": "FAQ",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "title_4": "Before & After",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.beforeafter.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a6f354b0-0746-480e-bd09-5a4747952ab1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "36458",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "description",
+        "sharing",
+        "a6f354b0-0746-480e-bd09-5a4747952ab1"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1649819827fb75749c": {
+      "type": "section-double",
+      "blocks": {
+        "1649819827ba1f47e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sample_Sizes.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649819827ba1f47e6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "spend more, try more",
+            "title": "GET YOUR CHOICE OF SAMPLE !",
+            "text": "<p><\/p><p>Get <strong>1 FREE<\/strong> deluxe sample with every order of <strong>$100.<\/strong><\/p><p>Get <strong>2 FREE<\/strong> deluxe samples with every order of <strong>$350.<\/strong><\/p><p>Get <strong>3 FREE<\/strong> deluxe samples with every order of <strong>$600.<\/strong><\/p><p><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649819827ba1f47e6-1",
+        "1649819827ba1f47e6-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": ""
+      }
+    },
+    "164982083885be647e": {
+      "type": "apps",
+      "blocks": {
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        },
+        "51f90231-6b0c-4b90-8581-35d98bd147cd": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf",
+        "51f90231-6b0c-4b90-8581-35d98bd147cd"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "7ba24d43-5ad9-4ad1-8bbb-4b2e08d31c1f",
+    "main",
+    "1649819827fb75749c",
+    "reviews",
+    "related",
+    "164982083885be647e"
+  ]
+}

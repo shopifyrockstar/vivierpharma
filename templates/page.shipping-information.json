@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "165661852607e2465c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/texture_background.png",
+        "mobile_image": "shopify:\/\/shop_images\/texture_background.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Shipping Information",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 1,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "165661852607e2465c",
+    "main"
+  ]
+}

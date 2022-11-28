@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Usage",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.usage.value }}<\/p>",
+            "title_2": "Ingredients",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
+            "title_3": "FAQ",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "title_4": "Before & After",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.beforeafter.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a6f354b0-0746-480e-bd09-5a4747952ab1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "36458",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "form",
+        "description",
+        "sharing",
+        "a6f354b0-0746-480e-bd09-5a4747952ab1"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "235148cb-ae0b-4b1a-b44d-644206e1435e": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/0.3_Retinol_SR_Complex_c52199c5-bab3-49ba-8933-5130017ed927.png",
+            "title": "0.3% RETINOL SR COMPLEX",
+            "text": "<p>Vivier 0.3% Retinol SR Complex is the ideal choice for retinol beginners and those with mild skin concerns.<\/p>",
+            "button_label": "LEVEL 1",
+            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Retinol_0.5_65d41fb6-d712-4645-b86f-c3652aaf5c11.png",
+            "title": "NEW! RETINOL 0.5%",
+            "text": "<p>After pre-conditioning the skin with Vivier 0.3% retinol SR, this is the next step in your journey for targeting moderate skin concerns.<\/p>",
+            "button_label": "LEVEL 2",
+            "button_link": "shopify:\/\/products\/vivier-retinol-0-5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Retinol_1_Night_Complex_fb78ec7a-e2fa-4b74-8fb1-9c393b45aa12.png",
+            "title": "RETINOL 1% NIGHT COMPLEX",
+            "text": "<p>Vivier Retinol 1% Night Complex is our most potent and fastest acting formula, ideal for experienced retinol users with advanced skin concerns.<\/p>",
+            "button_label": "LEVEL 3",
+            "button_link": "shopify:\/\/products\/retinol-1-0-night-complex",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-0",
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-1",
+        "template--15006727503987__235148cb-ae0b-4b1a-b44d-644206e1435e-1669126163c5583db6-2"
+      ],
+      "settings": {
+        "title": "A simple 3-step approach to retinol",
+        "bg": "palette--light bg--accent",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1.5
+      }
+    },
+    "fce63dee-b232-45c9-a946-a18b70e4fec3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": ""
+      }
+    },
+    "1649819827fb75749c": {
+      "type": "section-double",
+      "blocks": {
+        "1649819827ba1f47e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sample_Sizes.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649819827ba1f47e6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "spend more, try more",
+            "title": "GET YOUR CHOICE OF SAMPLE !",
+            "text": "<p><\/p><p>Get <strong>1 FREE<\/strong> deluxe sample with every order of <strong>$100.<\/strong><\/p><p>Get <strong>2 FREE<\/strong> deluxe samples with every order of <strong>$350.<\/strong><\/p><p>Get <strong>3 FREE<\/strong> deluxe samples with every order of <strong>$600.<\/strong><\/p><p><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649819827ba1f47e6-1",
+        "1649819827ba1f47e6-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "164982083885be647e": {
+      "type": "apps",
+      "blocks": {
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        },
+        "51f90231-6b0c-4b90-8581-35d98bd147cd": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf",
+        "51f90231-6b0c-4b90-8581-35d98bd147cd"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "reviews",
+    "235148cb-ae0b-4b1a-b44d-644206e1435e",
+    "fce63dee-b232-45c9-a946-a18b70e4fec3",
+    "related",
+    "1649819827fb75749c",
+    "164982083885be647e"
+  ]
+}

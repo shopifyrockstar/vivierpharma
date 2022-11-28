@@ -1,0 +1,643 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Science-3.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "THE VIVIER DIFFERENCE",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1650651087e54b282a": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "781875b4-cc7e-4ca3-b011-757c814ac248": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "THE VIVIER DIFFERENCE",
+            "text": "<p>Vivier is an innovative skincare brand with over 20 years of history in the pharmaceutical industry. <\/p><p>Manufactured with care in North America, we are held to the highest pharmaceutical production standards. <\/p><p><\/p><p>Our vision is to create the world’s best skincare products through ingenious innovation, science and technology to deliver <strong>The Beauty of Results.<\/strong><\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "4fff86c9-273d-41a7-989e-8ab6c9f415c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_Lifestyle_-_beakers.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "overlay_color": "#ffffff",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "781875b4-cc7e-4ca3-b011-757c814ac248",
+        "4fff86c9-273d-41a7-989e-8ab6c9f415c9"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1657726906fc9a93ba": {
+      "type": "section-custom-content",
+      "blocks": {
+        "4c027de8-72fe-4569-8d52-3c2d16b4d706": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_Lifestyle_-_beakers.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "c234135d-ec5f-477d-8559-9a4850200a85": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "THE VIVIER DIFFERENCE",
+            "text": "<p>Vivier is an innovative skincare brand with over 20 years of history in the pharmaceutical industry. <\/p><p>Manufactured with care in North America, we are held to the highest pharmaceutical production standards. <\/p><p><\/p><p>Our vision is to create the world’s best skincare products through ingenious innovation, science and technology to deliver <strong>The Beauty of Results.<\/strong><\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "4c027de8-72fe-4569-8d52-3c2d16b4d706",
+        "c234135d-ec5f-477d-8559-9a4850200a85"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "165117229558c6219c": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "OUR APPROACH IS SIMPLE",
+        "text": "<p>A 4-step skin care routine, with the highest quality products, to achieve The Beauty of Results!<\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper--full",
+        "text_color": "text--invert--secondary",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "1651173884dc299607": {
+      "type": "section-gallery",
+      "blocks": {
+        "165117388490f33487-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PREPARE.png",
+            "link": ""
+          }
+        },
+        "165117388490f33487-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TARGET_0b2ca522-3119-4153-b833-429242ea36a6.png",
+            "link": ""
+          }
+        },
+        "165117388490f33487-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOISTURIZE.png",
+            "link": ""
+          }
+        },
+        "8f125cb0-2f43-4840-ba35-1e6f4582ad09": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PROTECT.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165117388490f33487-0",
+        "165117388490f33487-1",
+        "165117388490f33487-2",
+        "8f125cb0-2f43-4840-ba35-1e6f4582ad09"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 1,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651174819c2a7546f": {
+      "type": "section-gallery-text",
+      "blocks": {
+        "1651174819d2906e6f-0": {
+          "type": "text",
+          "settings": {
+            "title": "PREPARE",
+            "text": "<p>Our cleansers and toners remove pore-clogging impurities and rebalance the skin's natural pH.<\/p>",
+            "text_align": "text-center"
+          }
+        },
+        "5bcd4b80-a63a-47f7-80ce-ec05207141f2": {
+          "type": "text",
+          "settings": {
+            "title": "TARGET",
+            "text": "<p>Our target products contain powerful ingredients that penetrate deep into the skin to achieve the best results.<\/p>",
+            "text_align": "text-center"
+          }
+        },
+        "a36f1989-0aa7-441a-8845-df93917f74a0": {
+          "type": "text",
+          "settings": {
+            "title": "MOISTURIZE",
+            "text": "<p>Our moisturizers maintain the skin's balance and barrier function to protect it from damage.<\/p>",
+            "text_align": "text-center"
+          }
+        },
+        "604e9d67-6da5-4716-aa5b-8cc69a9377cf": {
+          "type": "text",
+          "settings": {
+            "title": "PROTECT",
+            "text": "<p>Our sunscreens contain the newest technology plus added antioxidants to maximize protection from damaging UV rays.<\/p>",
+            "text_align": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1651174819d2906e6f-0",
+        "5bcd4b80-a63a-47f7-80ce-ec05207141f2",
+        "a36f1989-0aa7-441a-8845-df93917f74a0",
+        "604e9d67-6da5-4716-aa5b-8cc69a9377cf"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651172861493a1678": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "we use",
+        "title": "USP CERTIFIED ACTIVE INGREDIENTS",
+        "text": "",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--dark bg--invert--accent"
+      }
+    },
+    "165117069996b2f818": {
+      "type": "section-custom-content",
+      "blocks": {
+        "b550fa54-83c2-49e5-9793-6172f67cb638": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Science-3.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "636248d8-e47a-40e7-b451-7d2584b9ddb5": {
+          "type": "text",
+          "settings": {
+            "kicker": "THIS MEANS THEY ARE",
+            "title": "Always 99.9% Pure",
+            "text": "<p>They must meet the highest standards of quality and purity set by the <a href=\"https:\/\/www.usp.org\/about\" target=\"_blank\" title=\"https:\/\/www.usp.org\/about\">United States Pharmacopeia<\/a>, an independent, scientific non-profit organization.<\/p><p>This means you get the purest and most potent formulations, everytime you buy a Vivier product in order to maximize your results.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP NOW",
+            "button_url": "shopify:\/\/collections\/all",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "b550fa54-83c2-49e5-9793-6172f67cb638",
+        "636248d8-e47a-40e7-b451-7d2584b9ddb5"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "16512381869afdb2e8": {
+      "type": "section-gallery",
+      "disabled": true,
+      "blocks": {
+        "165123818617b18ed6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/L-ascorbic_acid_USP.jpg",
+            "link": ""
+          }
+        },
+        "165123818617b18ed6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HQ_USP.png",
+            "link": ""
+          }
+        },
+        "165123818617b18ed6-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Polyamine_DAB.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165123818617b18ed6-0",
+        "165123818617b18ed6-1",
+        "165123818617b18ed6-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding": true,
+        "scale_image": true,
+        "aspect_ratio": 0.6,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651238193c74aaa3d": {
+      "type": "section-gallery-text",
+      "disabled": true,
+      "blocks": {
+        "16512381931c35a592-0": {
+          "type": "text",
+          "settings": {
+            "title": "L-Ascorbic Acid USP",
+            "text": "",
+            "text_align": "text-left"
+          }
+        },
+        "7103b200-274a-4747-92fb-d89ed25e8123": {
+          "type": "text",
+          "settings": {
+            "title": "Hydroquinone usp",
+            "text": "",
+            "text_align": "text-left"
+          }
+        },
+        "c0225d0a-3a8b-44a6-b377-fff77837715c": {
+          "type": "text",
+          "settings": {
+            "title": "polyamine-dab",
+            "text": "",
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "16512381931c35a592-0",
+        "7103b200-274a-4747-92fb-d89ed25e8123",
+        "c0225d0a-3a8b-44a6-b377-fff77837715c"
+      ],
+      "settings": {
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1651172972f46c5055": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "OUR TECHNOLOGIES",
+        "text": "",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper--full",
+        "text_color": "text--invert--secondary",
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "165125253858ee0cb3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "0a68349f-bd25-48af-8e52-334366f5b1a3": {
+          "type": "collection",
+          "settings": {
+            "collection": "serums-1",
+            "kicker": "",
+            "align_text": "text-center",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "2540c258-7776-4752-887e-a86bb7427a60": {
+          "type": "text",
+          "settings": {
+            "kicker": "Deeper penetration into the skin with our",
+            "title": "IntraDermal System",
+            "text": "<p>Our innovative and proprietary IDS delivery system allows the highest quality active ingredients to penetrate deep into the skin yielding maximum benefits and results.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP OUR SERUMS",
+            "button_url": "shopify:\/\/collections\/serums",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "0a68349f-bd25-48af-8e52-334366f5b1a3",
+        "2540c258-7776-4752-887e-a86bb7427a60"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "ChromaTint",
+            "text": "<p>Our pure saturation tint that adapts and blends into your skin to create a flawless glow on all skin tones. <\/p><p>It helps to protect against blue light, infrared rays and boosts sunscreen filters for added protection. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP SUNSCREENS",
+            "button_url": "shopify:\/\/collections\/protect",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "b2531a50-6425-49a7-8d4e-a33614c1c93b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-6.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/products\/sheer-spf-30-mineral-tinted",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "b2531a50-6425-49a7-8d4e-a33614c1c93b"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "16512592975aa85cd9": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding:10px 0;'><\/div>",
+        "full_width": true
+      }
+    },
+    "16512539103764cbad": {
+      "type": "section-custom-content",
+      "blocks": {
+        "df0c3a14-64a5-4841-a354-d49dfea25a79": {
+          "type": "collection",
+          "settings": {
+            "collection": "thin-skin",
+            "kicker": "",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "c169ea01-11a4-4880-ad9d-0fc8382110f7": {
+          "type": "text",
+          "settings": {
+            "kicker": "Our breakthrough ingredient backed with 20+ years of research",
+            "title": "Polyamine-DAB",
+            "text": "<p>Polyamines are organic compounds naturally found in the human body which allow for the proper functioning of our skin. As we age, our Polyamide levels significantly decline resulting in aging, thinning skin. <\/p><p><\/p><p>By introducing Polyamine-DAB we increase firmness and hydration of the skin as well as diminish fine lines and wrinkles, increase luminosity and improve tone, texture and elasticity.<\/p><p><\/p><p>Polyamine-DAB also plays an important role in scar prevention and healing.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "SHOP Grenzcine",
+            "button_url": "shopify:\/\/collections\/thin-skin",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "df0c3a14-64a5-4841-a354-d49dfea25a79",
+        "c169ea01-11a4-4880-ad9d-0fc8382110f7"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "Retinol",
+            "title": "Microencapsulated Slow Release",
+            "text": "<p>Retinol is known to be a powerful exfoliator with amazing anti-aging properties, but it can sometimes cause redness and irritation. Our retinols are uniquely micro-encapsulated so they release slowly into the skin to mitigate any irritation or redness without sacrificing effectiveness.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop anti-aging",
+            "button_url": "shopify:\/\/collections\/aging-skin",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "06995198-36ed-4092-a61c-4c5e9f9b3d5b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker-7.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/aging-skin",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-1-1",
+        "06995198-36ed-4092-a61c-4c5e9f9b3d5b"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1651260746df6c2845": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='text-align: center; padding:10px 0;'><\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "1650651087e54b282a",
+    "1657726906fc9a93ba",
+    "165117229558c6219c",
+    "1651173884dc299607",
+    "1651174819c2a7546f",
+    "1651172861493a1678",
+    "165117069996b2f818",
+    "16512381869afdb2e8",
+    "1651238193c74aaa3d",
+    "1651172972f46c5055",
+    "165125253858ee0cb3",
+    "custom-content-2",
+    "16512592975aa85cd9",
+    "16512539103764cbad",
+    "custom-content-1",
+    "1651260746df6c2845"
+  ]
+}
