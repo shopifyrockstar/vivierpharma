@@ -1,5 +1,77 @@
 {
   "sections": {
+    "ebc6f0a2-711f-498d-8f30-8a2c80429ee7": {
+      "type": "section-hero-new",
+      "blocks": {
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Introducing<\/p>",
+            "enable_caps": false,
+            "kicker_color": "#d93939",
+            "kicker_size": 19
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Image banner<\/p>",
+            "title_color": "#a2f463",
+            "title_size": 35
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "View products",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "Learn More",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn uppercase",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>This area is used to describe your store.<\/p>",
+            "content_text_color": "#458aea",
+            "content_text_size": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_mobile_banner_2a3ddd48-fc31-472b-9599-a1494fffdb06.png",
+        "bg_position": "center-bottom",
+        "height": "use_pixels_500",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "content_width": 600,
+        "text_align": "align--top-right",
+        "text_align_mobile": "align--bottom-left",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16498210446d2b7d31": {
       "type": "section-slideshow",
       "disabled": true,
@@ -12,15 +84,22 @@
             "bg_position": "right-center",
             "overlay_opacity": 10,
             "overlay_color": "#97694f",
+            "content_width": 400,
             "kicker": "In-Clinic Exclusive!",
+            "kicker_color": "#010000",
+            "kicker_size": 10,
             "title": "Vivier Holiday Gift Sets",
+            "title_color": "#838383",
+            "title_size": 32,
             "richtext": "<p>Visit your local Vivier clinic to get these exclusive holiday gift sets while supplies last!<\/p>",
-            "text_align": "align--middle-right",
-            "text_color": "text--white",
+            "content_text_color": "#e22120",
+            "content_text_size": 18,
+            "text_align": "align--bottom-right",
             "link_text": "Find a clinic",
             "link": "shopify:\/\/pages\/store-locator",
-            "button_color": "btn--primary",
-            "button_style": "btn"
+            "button_text_color": "#f20b0b",
+            "button_bg_color": "#ffffff",
+            "button_text_size": 15
           }
         },
         "37b8354e-3f7e-4bba-ac45-12e64ab1a761": {
@@ -29,16 +108,23 @@
             "image": "shopify:\/\/shop_images\/Holiday2022-Overview_Banner.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
+            "content_width": 500,
             "kicker": "",
+            "kicker_color": "#ffffff",
+            "kicker_size": 15,
             "title": "",
+            "title_color": "#ffffff",
+            "title_size": 45,
             "richtext": "",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22,
             "text_align": "align--middle-center",
-            "text_color": "text--white",
             "link_text": "",
             "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn"
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_text_size": 22
           }
         }
       },
@@ -50,7 +136,7 @@
         "autoplay": false,
         "custom_class": "",
         "autoplay_speed": 15,
-        "height": "use_pixels_500"
+        "height": "use_pixels_650"
       }
     },
     "c18fe421-ec5c-441a-81f7-268d3b8c8645": {
@@ -639,15 +725,22 @@
             "bg_position": "center-center",
             "overlay_opacity": 5,
             "overlay_color": "#000000",
+            "content_width": 500,
             "kicker": "",
+            "kicker_color": "#ffffff",
+            "kicker_size": 15,
             "title": "VIVIER’S SUSTAINABLE PRACTICES",
+            "title_color": "#ffffff",
+            "title_size": 45,
             "richtext": "<p>Giving back is part of our DNA, and that means giving back to the planet as well. Learn about the ways we are reducing our carbon footprint and increasing sustainble practices.<\/p>",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22,
             "text_align": "align--middle-left",
-            "text_color": "text--white",
             "link_text": "Learn More",
             "link": "shopify:\/\/pages\/vivierpharmastory",
-            "button_color": "btn--white",
-            "button_style": "btn--outline"
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_text_size": 22
           }
         },
         "164400874218cea646-1": {
@@ -658,15 +751,22 @@
             "bg_position": "center-center",
             "overlay_opacity": 5,
             "overlay_color": "#000000",
+            "content_width": 500,
             "kicker": "",
+            "kicker_color": "#ffffff",
+            "kicker_size": 15,
             "title": "VIVIER SUPPORTS OUR COMMUNITY",
+            "title_color": "#ffffff",
+            "title_size": 45,
             "richtext": "<p>We follow the guiding principle that giving back is the right thing to do - we support many local and national causes<\/p>",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22,
             "text_align": "align--middle-left",
-            "text_color": "text--white",
             "link_text": "Learn More",
             "link": "shopify:\/\/pages\/vivierpharmastory",
-            "button_color": "btn--white",
-            "button_style": "btn--outline"
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_text_size": 22
           }
         },
         "7a2c57da-9ec1-4cab-bafc-e1f2efa9311c": {
@@ -676,15 +776,22 @@
             "bg_position": "center-center",
             "overlay_opacity": 15,
             "overlay_color": "#000000",
+            "content_width": 500,
             "kicker": "Introducing",
+            "kicker_color": "#ffffff",
+            "kicker_size": 15,
             "title": "Image slideshow",
+            "title_color": "#ffffff",
+            "title_size": 45,
             "richtext": "<p>Tell your brand's story through images.<\/p>",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22,
             "text_align": "align--middle-center",
-            "text_color": "text--white",
             "link_text": "View products",
             "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn"
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_text_size": 22
           }
         }
       },
@@ -789,6 +896,7 @@
     }
   },
   "order": [
+    "ebc6f0a2-711f-498d-8f30-8a2c80429ee7",
     "16498210446d2b7d31",
     "c18fe421-ec5c-441a-81f7-268d3b8c8645",
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742",

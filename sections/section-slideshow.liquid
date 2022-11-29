@@ -13,7 +13,7 @@
       data-slideshow-slides="{{ section.blocks.size }}"
       data-slideshow-speed="{{ section.settings.autoplay_speed | times: 1000 }}">
       {% for block in section.blocks %}
-        <div class="slideshow__slide js-overflow-container section--image {{ block.settings.text_color }}"
+        <div class="slideshow__slide js-overflow-container section--image {{ block.settings.text_color }} slide-wrapper-{{ forloop.index }}"
           data-overlay-header
           id="aos-{{block.id}}"
           data-slideshow-index="{{ forloop.index0 }}"
@@ -42,7 +42,7 @@
                 </div>
               {% endunless %}
               {% unless block.settings.link_text == '' %}
-                <a class="{{ block.settings.button_color }} {{ block.settings.button_style }} hero__btn btn--long uppercase" 
+                <a class="{{ block.settings.button_color }} {{ block.settings.button_style }} hero__btn btn--long uppercase btn" 
                   href="{{ block.settings.link }}"
                   data-aos="hero"
                   data-aos-order="4">
@@ -94,6 +94,31 @@
   {% endif %}
 
 </div>
+
+<style>
+  {% for block in section.blocks %}
+    #shopify-section-{{ section.id }} .homepage-slideshow .slideshow__wrapper .slide-wrapper-{{ forloop.index }} .hero__content__wrapper .hero__content{
+      max-width: {{ block.settings.content_width }}px;
+    }
+    #shopify-section-{{ section.id }} .homepage-slideshow .slideshow__wrapper .slide-wrapper-{{ forloop.index }} .hero__content__wrapper .hero__content .hero__kicker{
+      color: {{ block.settings.kicker_color }};
+      font-size: {{ block.settings.kicker_size }}px;
+    }
+    #shopify-section-{{ section.id }} .homepage-slideshow .slideshow__wrapper .slide-wrapper-{{ forloop.index }} .hero__content__wrapper .hero__content .hero__title{
+      color: {{ block.settings.title_color }};
+      font-size: {{ block.settings.title_size }}px;
+    }
+    #shopify-section-{{ section.id }} .homepage-slideshow .slideshow__wrapper .slide-wrapper-{{ forloop.index }} .hero__content__wrapper .hero__content .hero__description p{
+      color: {{ block.settings.content_text_color }};
+      font-size: {{ block.settings.content_text_size }}px;
+    }
+    #shopify-section-{{ section.id }} .homepage-slideshow .slideshow__wrapper .slide-wrapper-{{ forloop.index }} .hero__content__wrapper .hero__content .btn{
+      color: {{ block.settings.button_text_color }};
+      font-size: {{ block.settings.button_text_size }}px;
+      background-color: {{ block.settings.button_bg_color }};
+    }
+  {% endfor %}
+</style>
 
 {% schema %}
 {
@@ -189,10 +214,36 @@
           "content": "Text"
         },
         {
+          "type":    "range",
+          "id":      "content_width",
+          "min":     100,
+          "max":     800,
+          "step":    20,
+          "label":   "Content width",
+          "info":    "update the content width",
+          "default": 500
+        },
+        {
           "type": "text",
           "id": "kicker",
           "label": "Kicker",
           "default": "Introducing"
+        },
+        {
+          "type": "color",
+          "id": "kicker_color",
+          "label": "Kicker color",
+          "default": "#fff"
+        },
+        {
+          "type":    "range",
+          "id":      "kicker_size",
+          "min":     10,
+          "max":     30,
+          "step":    1,
+          "label":   "Kicker Size",
+          "info":    "Update the Kicker size",
+          "default": 15
         },
         {
           "type": "text",
@@ -201,10 +252,42 @@
           "default": "Image slideshow"
         },
         {
+          "type": "color",
+          "id": "title_color",
+          "label": "title color",
+          "default": "#fff"
+        },
+        {
+          "type":    "range",
+          "id":      "title_size",
+          "min":     20,
+          "max":     50,
+          "step":    1,
+          "label":   "Title Size",
+          "info":    "Update the Title size",
+          "default": 45
+        },
+        {
           "type": "richtext",
           "id": "richtext",
           "label": "Text",
           "default": "<p>Tell your brand's story through images.</p>"
+        },
+        {
+          "type": "color",
+          "id": "content_text_color",
+          "label": "text color",
+          "default": "#fff"
+        },
+        {
+          "type":    "range",
+          "id":      "content_text_size",
+          "min":     15,
+          "max":     30,
+          "step":    1,
+          "label":   "text Size",
+          "info":    "Update the text size",
+          "default": 22
         },
         {
           "type": "select",
@@ -224,22 +307,6 @@
           ]
         },
         {
-          "type": "select",
-          "id": "text_color",
-          "label": "Text color",
-          "default": "text--white",
-          "options": [
-            { "value": "text--neutral", "label": "Normal text"},
-            { "value": "text--white", "label": "White"},
-            { "value": "text--primary", "label": "Primary accent"},
-            { "value": "text--secondary", "label": "Secondary accent"},
-            { "value": "text--black", "label": "Black"},
-            { "value": "text--invert--primary", "label": "Primary dark accent"},
-            { "value": "text--invert--secondary", "label": "Secondary dark accent"},
-            { "value": "text--invert", "label": "Inverted text color"}
-          ]
-        },
-        {
           "type": "header",
           "content": "Button"
         },
@@ -256,28 +323,26 @@
           "label": "Link"
         },
         {
-          "type": "select",
-          "id": "button_color",
-          "label": "Color",
-          "default": "btn--white",
-          "options": [
-            { "value": "btn--primary", "label": "Bright accent" },
-            { "value": "btn--secondary", "label": "Secondary accent" },
-            { "value": "btn--neutral", "label": "Text color" },
-            { "value": "btn--black", "label": "Black" },
-            { "value": "btn--white", "label": "White" }
-          ]
+          "type": "color",
+          "id": "button_text_color",
+          "label": "button text color",
+          "default": "#fff"
         },
         {
-          "type": "select",
-          "id": "button_style",
-          "label": "Button style",
-          "default": "btn",
-          "options": [
-            { "value": "btn", "label": "Solid button"},
-            { "value": "btn--soft", "label": "Soft button"},
-            { "value": "btn--outline", "label": "Outlined button"}
-          ]
+          "type": "color",
+          "id": "button_bg_color",
+          "label": "button background color",
+          "default": "#000"
+        },
+        {
+          "type":    "range",
+          "id":      "button_text_size",
+          "min":     15,
+          "max":     30,
+          "step":    1,
+          "label":   "button text Size",
+          "info":    "Update the button text size",
+          "default": 22
         }
       ]
     }
