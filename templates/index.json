@@ -3,32 +3,32 @@
     "ebc6f0a2-711f-498d-8f30-8a2c80429ee7": {
       "type": "section-hero-new",
       "blocks": {
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "<p>Introducing<\/p>",
-            "enable_caps": false,
-            "kicker_color": "#d93939",
-            "kicker_size": 19
-          }
-        },
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1": {
           "type": "heading",
           "settings": {
-            "title": "<p>Image banner<\/p>",
-            "title_color": "#a2f463",
-            "title_size": 35
+            "title": "<p>Find Your Perfect Vitamin C Serum<\/p>",
+            "title_color": "#000000",
+            "title_size": 33
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>Choose from the widest collection of Vitamin C serums available on the market<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#000000",
+            "kicker_size": 13
           }
         },
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3": {
           "type": "button",
           "settings": {
-            "link_text_1": "View products",
-            "link_1": "",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn uppercase",
-            "button_color_1": "btn--white",
-            "link_text_2": "Learn More",
+            "link_text_1": "SHOP OUR SERUMS",
+            "link_1": "shopify:\/\/collections\/serums-1",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline uppercase",
+            "button_color_1": "btn--black",
+            "link_text_2": "",
             "link_2": "",
             "button_size_2": "btn--long",
             "button_style_2": "btn uppercase",
@@ -43,29 +43,30 @@
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2": {
           "type": "text",
           "settings": {
-            "richtext": "<p>This area is used to describe your store.<\/p>",
+            "richtext": "",
             "content_text_color": "#458aea",
             "content_text_size": 25
           }
         }
       },
       "block_order": [
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0",
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0",
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3",
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_banner.png",
-        "mobile_image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_mobile_banner_2a3ddd48-fc31-472b-9599-a1494fffdb06.png",
-        "bg_position": "center-bottom",
-        "height": "use_pixels_500",
-        "overlay_opacity": 10,
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-02_at_11.11.39_AM.png",
+        "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-02_at_11.11.39_AM.png",
+        "bg_position": "left-center",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 0,
         "overlay_color": "#000000",
         "enable_overlay_text": true,
         "content_width": 600,
+        "content_width_mobile": 280,
         "text_align": "align--top-right",
-        "text_align_mobile": "align--bottom-left",
+        "text_align_mobile": "align--top-left",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
@@ -139,29 +140,8 @@
         "height": "use_pixels_650"
       }
     },
-    "c18fe421-ec5c-441a-81f7-268d3b8c8645": {
-      "type": "section-hero",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/black_marble_background-small.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/black_marble_background-small.jpg",
-        "bg_position": "center-center",
-        "height": "use_screen_one_fifth",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "kicker": "LAST DAY!",
-        "title": "BLACK FRIDAY SAVINGS",
-        "richtext": "<p>$250-$499 SAVE 15% using code <strong>CYBER15<\/strong><\/p><p>$500-$999 SAVE 25% using code <strong>CYBER25<\/strong><\/p><p>$1000+ SAVE 30% using code <strong>CYBER30<\/strong><\/p>",
-        "text_align": "align--middle-center",
-        "text_color": "text--white",
-        "link_text": "LAST CHANCE TO SAVE",
-        "link": "shopify:\/\/collections\/all",
-        "button_color": "btn--primary",
-        "button_style": "btn"
-      }
-    },
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742": {
       "type": "section-html",
-      "disabled": true,
       "settings": {
         "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
         "full_width": true
@@ -169,7 +149,6 @@
     },
     "0a7c36e3-b929-449c-b777-67b55aa4dc67": {
       "type": "section-custom-content",
-      "disabled": true,
       "blocks": {
         "200ac3dd-0400-4305-9086-ba376fde94f7": {
           "type": "image",
@@ -194,7 +173,7 @@
           "settings": {
             "kicker": "c e peptides featured in the winter 2022 Jilly Box",
             "title": "",
-            "text": "<p>Our bestselling Vitamin C serum, C E PEPTIDES is featured in the 2022 Winter Jilly Box by Jillian Harris and her team! <\/p>",
+            "text": "<p>Our bestselling Vitamin C serum, C E PEPTIDES is featured in The 2022 Winter Jilly Box by Jillian Harris and her team! <\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -221,7 +200,6 @@
     },
     "5ec07eba-86ea-441f-bf81-036de893a084": {
       "type": "section-html",
-      "disabled": true,
       "settings": {
         "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
         "full_width": true
@@ -898,7 +876,6 @@
   "order": [
     "ebc6f0a2-711f-498d-8f30-8a2c80429ee7",
     "16498210446d2b7d31",
-    "c18fe421-ec5c-441a-81f7-268d3b8c8645",
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742",
     "0a7c36e3-b929-449c-b777-67b55aa4dc67",
     "5ec07eba-86ea-441f-bf81-036de893a084",
