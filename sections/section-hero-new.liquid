@@ -187,6 +187,13 @@
       max-width: {{ section.settings.content_width }}px;
       width:100%;
     }
+    @media (max-width:480px){
+      #shopify-section-{{ section.id }} .section--image .wrapper--none .section__inner .hero__content__wrapper .hero__content{
+        max-width: 100%;
+        width:{{ section.settings.content_width_mobile }}px;
+        margin:0;
+      }
+    }
   {% for block in section.blocks %}   
     {% case block.type %}
         {% when 'kicker' %}
@@ -297,12 +304,22 @@
     {
       "type": "range",
       "id": "content_width",
-      "label": "Width limit",
+      "label": "Width limit on desktop",
       "unit": "px",
       "min": 100,
       "max": 600,
       "step": 50,
       "default": 300
+    },
+    {
+      "type": "range",
+      "id": "content_width_mobile",
+      "label": "Width limit on mobile",
+      "unit": "px",
+      "min": 100,
+      "max": 480,
+      "step": 20,
+      "default": 380
     },
     {
       "type": "select",
