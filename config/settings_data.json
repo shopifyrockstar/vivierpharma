@@ -55,13 +55,13 @@
           "announce_text": {
             "type": "text",
             "settings": {
-              "text": "<p>Free shipping on orders over $100!<\/p>",
+              "text": "<p>Free shipping on orders over $100!     <\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
               "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
+              "target_device_enabled": true,
+              "target_device": "desktop"
             }
           },
           "announce_shipping": {
@@ -171,7 +171,7 @@
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "richtext": "",
+              "richtext": "<p><\/p>",
               "accordion_default": "accordion-is-open"
             }
           }

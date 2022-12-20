@@ -50,11 +50,19 @@
         "collection_sorting": true,
         "hide_sidebar": true
       }
+    },
+    "980cf762-221a-4b5d-af08-28ff4825ab2d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
     }
   },
   "order": [
     "hero",
     "subcollections",
-    "main"
+    "main",
+    "980cf762-221a-4b5d-af08-28ff4825ab2d"
   ]
 }

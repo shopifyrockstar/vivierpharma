@@ -1,33 +1,189 @@
 {
   "sections": {
-    "ebc6f0a2-711f-498d-8f30-8a2c80429ee7": {
+    "5c52831d-3a01-4cf4-a7a4-59d4d5aa4763": {
       "type": "section-hero-new",
       "blocks": {
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1": {
-          "type": "heading",
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-0": {
+          "type": "kicker",
           "settings": {
-            "title": "<p>Find Your Perfect Vitamin C Serum<\/p>",
-            "title_color": "#000000",
-            "title_size": 33
+            "kicker": "<p>In-clinic exclusive<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#ffffff",
+            "kicker_size": 15
           }
         },
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Vivier Holiday Gift Sets<\/p>",
+            "title_color": "#ffffff",
+            "title_size": 41
+          }
+        },
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Visit your local Vivier clinic to get these exclusive holiday gift sets while supplies last!<\/p>",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22
+          }
+        },
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Find a clinic",
+            "link_1": "shopify:\/\/pages\/sca-store-locator",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-0",
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-1",
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-2",
+        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_banner.png",
+        "mobile_image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_mobile_banner_2a3ddd48-fc31-472b-9599-a1494fffdb06.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 500,
+        "content_width_mobile": 280,
+        "text_align": "align--middle-right",
+        "text_align_mobile": "align--top-right",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "50b5a253-7ef7-4882-8ee7-8865da491370": {
+      "type": "section-hero-new",
+      "disabled": true,
+      "blocks": {
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>C E PEPTIDES<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#484747",
+            "kicker_size": 15
+          }
+        },
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>#1 SELLING VITAMIN C SERUM<\/p>",
+            "title_color": "#484747",
+            "title_size": 31
+          }
+        },
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "",
+            "content_text_color": "#fff",
+            "content_text_size": 22
+          }
+        },
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "SHOP ALL SERUMS",
+            "link_1": "",
+            "button_size_1": "btn--medium",
+            "button_style_1": "caps--link",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-0",
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-1",
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-2",
+        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0416_9x16_edb5ad3f-edce-4eb4-969b-3c0fefaf7a6a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Vivier_Dec2022_0416_9x16-mobile_d152cc5c-d7b0-47b2-b746-74e30f26a63a.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "enable_overlay_text": false,
+        "content_width": 550,
+        "content_width_mobile": 280,
+        "text_align": "align--middle-right",
+        "text_align_mobile": "align--top-right",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ebc6f0a2-711f-498d-8f30-8a2c80429ee7": {
+      "type": "section-hero-new",
+      "disabled": true,
+      "blocks": {
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0": {
           "type": "kicker",
           "settings": {
-            "kicker": "<p>Choose from the widest collection of Vitamin C serums available on the market<\/p>",
+            "kicker": "<p>NEW!<\/p>",
             "enable_caps": true,
             "kicker_color": "#000000",
-            "kicker_size": 13
+            "kicker_size": 17
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>ULTRA FOAMING CLEANSER<\/p>",
+            "title_color": "#97694f",
+            "title_size": 38
+          }
+        },
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>A fragrance-free, foaming cleanser that removes excess oils and impurities while leaving the skin refreshed and radiant!<\/p>",
+            "content_text_color": "#000000",
+            "content_text_size": 20
           }
         },
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3": {
           "type": "button",
           "settings": {
-            "link_text_1": "SHOP OUR SERUMS",
-            "link_1": "shopify:\/\/collections\/serums-1",
+            "link_text_1": "LEARN MORE",
+            "link_1": "shopify:\/\/collections\/serums",
             "button_size_1": "btn--medium",
             "button_style_1": "btn--outline uppercase",
-            "button_color_1": "btn--black",
+            "button_color_1": "btn--primary",
             "link_text_2": "",
             "link_2": "",
             "button_size_2": "btn--long",
@@ -39,105 +195,30 @@
             "button_style_3": "caps--link",
             "button_color_3": "btn--white"
           }
-        },
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2": {
-          "type": "text",
-          "settings": {
-            "richtext": "",
-            "content_text_color": "#458aea",
-            "content_text_size": 25
-          }
         }
       },
       "block_order": [
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1",
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0",
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3",
-        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2"
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-1",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2",
+        "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-02_at_11.11.39_AM.png",
-        "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-02_at_11.11.39_AM.png",
-        "bg_position": "left-center",
+        "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0165.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/UFC_with_foam_-_hero_banner_mobile.jpg",
+        "bg_position": "center-center",
         "height": "use_screen_one_third",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "enable_overlay_text": true,
-        "content_width": 600,
-        "content_width_mobile": 280,
+        "content_width": 350,
+        "content_width_mobile": 200,
         "text_align": "align--top-right",
-        "text_align_mobile": "align--top-left",
+        "text_align_mobile": "align--middle-left",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "16498210446d2b7d31": {
-      "type": "section-slideshow",
-      "disabled": true,
-      "blocks": {
-        "89dd7fff-18ed-49ff-afd1-178692305386": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Holiday_kits_have_arrived_banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_mobile_banner.png",
-            "bg_position": "right-center",
-            "overlay_opacity": 10,
-            "overlay_color": "#97694f",
-            "content_width": 400,
-            "kicker": "In-Clinic Exclusive!",
-            "kicker_color": "#010000",
-            "kicker_size": 10,
-            "title": "Vivier Holiday Gift Sets",
-            "title_color": "#838383",
-            "title_size": 32,
-            "richtext": "<p>Visit your local Vivier clinic to get these exclusive holiday gift sets while supplies last!<\/p>",
-            "content_text_color": "#e22120",
-            "content_text_size": 18,
-            "text_align": "align--bottom-right",
-            "link_text": "Find a clinic",
-            "link": "shopify:\/\/pages\/store-locator",
-            "button_text_color": "#f20b0b",
-            "button_bg_color": "#ffffff",
-            "button_text_size": 15
-          }
-        },
-        "37b8354e-3f7e-4bba-ac45-12e64ab1a761": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Holiday2022-Overview_Banner.jpg",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "content_width": 500,
-            "kicker": "",
-            "kicker_color": "#ffffff",
-            "kicker_size": 15,
-            "title": "",
-            "title_color": "#ffffff",
-            "title_size": 45,
-            "richtext": "",
-            "content_text_color": "#ffffff",
-            "content_text_size": 22,
-            "text_align": "align--middle-center",
-            "link_text": "",
-            "link": "",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "button_text_size": 22
-          }
-        }
-      },
-      "block_order": [
-        "89dd7fff-18ed-49ff-afd1-178692305386",
-        "37b8354e-3f7e-4bba-ac45-12e64ab1a761"
-      ],
-      "settings": {
-        "autoplay": false,
-        "custom_class": "",
-        "autoplay_speed": 15,
-        "height": "use_pixels_650"
       }
     },
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742": {
@@ -276,53 +357,45 @@
         "wrapper": true
       }
     },
-    "165032047775c1ec46": {
-      "type": "section-custom-content",
+    "24662792-b7af-4d1d-83bf-ba6599bb1deb": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 30px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "935144c9-de54-4242-a0b8-1252e7156f6f": {
+      "type": "section-collection-tabs",
       "blocks": {
-        "974909f1-8b2e-4d71-a49a-f94323a94c8e": {
+        "template--15023337373811__935144c9-de54-4242-a0b8-1252e7156f6f-16714572397c98ceec-0": {
           "type": "collection",
           "settings": {
-            "collection": "retinol",
-            "kicker": "",
-            "align_text": "text-center",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff",
-            "bg_accent": "#ffffff"
+            "collection": "2022-award-winners",
+            "title": "First collection"
           }
         },
-        "a467b9be-4003-4279-9a96-d9ca59757459": {
-          "type": "text",
+        "template--15023337373811__935144c9-de54-4242-a0b8-1252e7156f6f-16714572397c98ceec-1": {
+          "type": "collection",
+          "disabled": true,
           "settings": {
-            "kicker": "START YOUR RETINOL JOURNEY",
-            "title": "",
-            "text": "<p>With three levels of pure retinol to choose from, we have a formula perfect for you no matter your skin type, concern, experience with retinol, or desired results.<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "Find your perfect retinol",
-            "button_url": "shopify:\/\/pages\/retinol-journey",
-            "button_color": "btn--neutral",
-            "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
+            "collection": "",
+            "title": "Second collection"
           }
         }
       },
       "block_order": [
-        "974909f1-8b2e-4d71-a49a-f94323a94c8e",
-        "a467b9be-4003-4279-9a96-d9ca59757459"
+        "template--15023337373811__935144c9-de54-4242-a0b8-1252e7156f6f-16714572397c98ceec-0",
+        "template--15023337373811__935144c9-de54-4242-a0b8-1252e7156f6f-16714572397c98ceec-1"
       ],
       "settings": {
-        "height": "use_pixels_500",
-        "custom_class": "retinol-section",
-        "padding": false,
-        "borders": false,
-        "wrapper": true
+        "title": "AWARD-WINNING BEAUTY",
+        "grid": 3,
+        "limit": 6,
+        "bg": "palette--light bg--neutral"
       }
     },
     "1655906386933a3a65": {
       "type": "section-richtext",
-      "disabled": true,
       "settings": {
         "kicker": "VIVIER IN THE MEDIA",
         "title": "",
@@ -340,167 +413,63 @@
         "bg": "palette--light bg--accent"
       }
     },
-    "ec5f12ba-e830-46f0-bb3a-ea0479adf776": {
-      "type": "section-gallery",
-      "disabled": true,
+    "16ef9236-ffe5-4ea1-b23c-cde89b3cbed1": {
+      "type": "section-logos",
       "blocks": {
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-0": {
-          "type": "image",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/clin_d_oeil.jpg",
+            "link": ""
+          }
+        },
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-1": {
+          "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Elle_canada-01.png",
             "link": ""
           }
         },
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/marilyn-01.png",
-            "link": ""
-          }
-        },
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-2": {
-          "type": "image",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-2": {
+          "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/chatelaine-01.png",
             "link": ""
           }
         },
-        "b7e3207d-b036-43d3-b13b-c1a2b9517b8c": {
-          "type": "image",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-3": {
+          "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/elle_BGP-01.png",
+            "image": "shopify:\/\/shop_images\/marilyn-01.png",
             "link": ""
           }
         },
-        "7a53ce7c-7221-4486-b8b7-0d42cb87b032": {
-          "type": "image",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-4": {
+          "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cityline-01.png",
             "link": ""
           }
+        },
+        "af945ba6-3b6b-4451-b911-2a8268e8f52d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22WI-The_Jilly_Box-Logo_2000x_46717e9f-1dc5-4d26-8fcc-da2b3bdb404e.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-0",
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-1",
-        "template--14908067709043__ec5f12ba-e830-46f0-bb3a-ea0479adf776-16687824497e5f4d51-2",
-        "b7e3207d-b036-43d3-b13b-c1a2b9517b8c",
-        "7a53ce7c-7221-4486-b8b7-0d42cb87b032"
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-0",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-1",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-2",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-3",
+        "template--15023337373811__16ef9236-ffe5-4ea1-b23c-cde89b3cbed1-1671457286fe976af0-4",
+        "af945ba6-3b6b-4451-b911-2a8268e8f52d"
       ],
       "settings": {
-        "full_width": false,
-        "padding": true,
-        "scale_image": true,
-        "aspect_ratio": 1,
+        "title": "",
         "bg": "palette--light bg--accent"
-      }
-    },
-    "24662792-b7af-4d1d-83bf-ba6599bb1deb": {
-      "type": "section-html",
-      "settings": {
-        "html": "<div style='padding: 30px 0;'><h2><\/h2><\/div>",
-        "full_width": true
-      }
-    },
-    "332f9c4e-5182-4baf-8cea-7b8990c45a69": {
-      "type": "section-double",
-      "blocks": {
-        "template--14908067709043__332f9c4e-5182-4baf-8cea-7b8990c45a69-1668020048c96549e2-0": {
-          "type": "text",
-          "settings": {
-            "kicker": "Grenzcine Face",
-            "title": "Award Winning Results!",
-            "text": "<p>The Elle 2022 Beauty Grand Prix award winner for Anti-Aging Day Cream!<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "Learn More",
-            "button_url": "shopify:\/\/products\/grenzcine-face",
-            "button_color": "btn--neutral",
-            "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
-          }
-        },
-        "template--14908067709043__332f9c4e-5182-4baf-8cea-7b8990c45a69-1668020048c96549e2-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker_6.png",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "shopify:\/\/products\/grenzcine-face",
-            "button_color": "btn--white",
-            "button_style": "btn uppercase"
-          }
-        }
-      },
-      "block_order": [
-        "template--14908067709043__332f9c4e-5182-4baf-8cea-7b8990c45a69-1668020048c96549e2-0",
-        "template--14908067709043__332f9c4e-5182-4baf-8cea-7b8990c45a69-1668020048c96549e2-1"
-      ],
-      "settings": {
-        "height": "image-height",
-        "padding": true,
-        "borders": false,
-        "wrapper": true
-      }
-    },
-    "1663616836e5f0f698": {
-      "type": "section-double",
-      "disabled": true,
-      "blocks": {
-        "1663616836fd9558db-0": {
-          "type": "text",
-          "settings": {
-            "kicker": "VIVIER'S FAMILY OF RETINOLS DELIVERS IMPRESSIVE NOT IRRITATING RESULTS",
-            "title": "",
-            "text": "<p><strong>Are you looking to prevent or diminish fine lines and wrinkles? <\/strong><\/p><p><strong>Seeking smoother, firmer skin texture? <\/strong><\/p><p><strong>Struggling with blemishes and breakouts?<\/strong> <\/p><p>Our effective yet gentle formulas feature high potency microencapsulated pure retinol that is released over time, reinforced with powerhouse ingredients Vitamin C & E and Squalane to maximize your results, boost hydration and reduce inflammation and redness. <\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "LEARN WHICH ONE IS RIGHT FOR YOU",
-            "button_url": "http:\/\/www.vivierskin.ca\/pages\/retinol-journey#3steps",
-            "button_color": "btn--neutral",
-            "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
-          }
-        },
-        "1663616836fd9558db-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Retinol_trio.jpg",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "shopify:\/\/collections\/retinol",
-            "button_color": "btn--white",
-            "button_style": "btn uppercase"
-          }
-        }
-      },
-      "block_order": [
-        "1663616836fd9558db-0",
-        "1663616836fd9558db-1"
-      ],
-      "settings": {
-        "height": "use_screen_one_half",
-        "padding": false,
-        "borders": false,
-        "wrapper": false
       }
     },
     "16636171619e3625f6": {
@@ -520,7 +489,7 @@
         "overlay_color": "#ffffff",
         "kicker": "Our Mission is to",
         "title": "Empower you to look and feel your best.",
-        "richtext": "",
+        "richtext": "<p><\/p>",
         "text_align": "align--middle-center",
         "text_color": "text--invert",
         "link_text": "",
@@ -529,18 +498,50 @@
         "button_style": "btn--outline"
       }
     },
+    "61865fbd-29d0-41ba-a42d-aef770397ad9": {
+      "type": "collection-split",
+      "disabled": true,
+      "settings": {
+        "collection": "prepare",
+        "product_list": [
+
+        ],
+        "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0165.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/UFC_with_foam_-_hero_banner_mobile.jpg",
+        "bg_position": "center-center",
+        "sticky_image_enable": true,
+        "swap": true,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "heading": "",
+        "text_color": "text--black",
+        "link_text": "",
+        "link": "shopify:\/\/collections\/prepare",
+        "button_color": "btn--white",
+        "button_style": "btn--outline",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 10,
+        "bg": "palette--light bg--neutral",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/218269efe25c423ebb05bc10f8c61603.mp4",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 24,
+        "padding_bottom": 26
+      }
+    },
     "collection-grid": {
       "type": "section-collection-grid",
       "blocks": {
         "collection-grid-0": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": "acne",
-            "title": "ACNE",
+            "collection": "serums",
+            "title": "SERUMS",
             "link_text": "",
-            "image": "shopify:\/\/shop_images\/ACNE1.png",
-            "button_link": "shopify:\/\/collections\/acne"
+            "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0416_1x1_b6243139-8835-4415-9df9-b6ba9bf0046a.jpg",
+            "button_link": "shopify:\/\/collections\/serums"
           }
         },
         "collection-grid-1": {
@@ -549,7 +550,7 @@
             "collection": "retinol",
             "title": "RETINOL",
             "link_text": "",
-            "image": "shopify:\/\/shop_images\/retinol_collection_4b39e624-eb91-4290-8da4-e65afa20157c.png",
+            "image": "shopify:\/\/shop_images\/retinol_collection.jpg",
             "button_link": "shopify:\/\/collections\/retinol"
           }
         },
@@ -559,12 +560,13 @@
             "collection": "hyperpigmentation",
             "title": "SKIN BRIGHTENING",
             "link_text": "",
-            "image": "shopify:\/\/shop_images\/skin_brightening-new.png",
+            "image": "shopify:\/\/shop_images\/Fall2022-Skin_brightening_NON-HQ_7749fada-45e0-48bf-af42-6d1e634a96b8.jpg",
             "button_link": "shopify:\/\/collections\/hyperpigmentation"
           }
         },
         "082362d6-f166-4145-bbc9-194a7d4aa37f": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "moisturize",
             "title": "MOISTURIZERS",
@@ -849,6 +851,15 @@
         "wrapper": false
       }
     },
+    "8e5a34c2-8bd3-4a82-af0b-c23db91cc4a3": {
+      "type": "section-recent-products",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "product_recently_heading": "You may be interested in these",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4
+      }
+    },
     "165059743358f9e2a2": {
       "type": "apps",
       "blocks": {
@@ -874,27 +885,28 @@
     }
   },
   "order": [
+    "5c52831d-3a01-4cf4-a7a4-59d4d5aa4763",
+    "50b5a253-7ef7-4882-8ee7-8865da491370",
     "ebc6f0a2-711f-498d-8f30-8a2c80429ee7",
-    "16498210446d2b7d31",
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742",
     "0a7c36e3-b929-449c-b777-67b55aa4dc67",
     "5ec07eba-86ea-441f-bf81-036de893a084",
     "tabs",
     "c74bfca3-9703-40b8-a4e7-2d398e5c9239",
-    "165032047775c1ec46",
-    "1655906386933a3a65",
-    "ec5f12ba-e830-46f0-bb3a-ea0479adf776",
     "24662792-b7af-4d1d-83bf-ba6599bb1deb",
-    "332f9c4e-5182-4baf-8cea-7b8990c45a69",
-    "1663616836e5f0f698",
+    "935144c9-de54-4242-a0b8-1252e7156f6f",
+    "1655906386933a3a65",
+    "16ef9236-ffe5-4ea1-b23c-cde89b3cbed1",
     "16636171619e3625f6",
     "16559045109e7d8f31",
+    "61865fbd-29d0-41ba-a42d-aef770397ad9",
     "collection-grid",
     "16498218947565be77",
     "16498210493c2730d5",
     "164400874207f60a25",
     "16438374777cb8ccc2",
     "16498242313993b168",
+    "8e5a34c2-8bd3-4a82-af0b-c23db91cc4a3",
     "165059743358f9e2a2"
   ]
 }

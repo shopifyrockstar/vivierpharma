@@ -1,3 +1,4 @@
+{%- comment -%}Version 4.0.6{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -555,7 +556,11 @@
         if(langify.settings.observeCustomContents === false || !node.textContent || node.textContent.trim().length === 0) {
           return;
         }
-        var src = node.textContent.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+        var oldSrc = node.textContent.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+        var src = node.textContent.trim().replace(/(\r\n|\n|\r)/gim," ").replace(/\s+/g," ").toLowerCase();
+        if(customContents_text[oldSrc]) {
+          src = oldSrc;
+        }
         if(customContents_text[src] && node.textContent !== customContents_text[src]) {
           var newContent = node.textContent.replace(node.textContent.trim(), customContents_text[src]);
           if (newContent != node.textContent) {
@@ -593,7 +598,9 @@
         var isLocalized = (
           url.indexOf('/'+ langify.locale.iso_code +'/') === 0 || url === '/'+ langify.locale.iso_code || 
           url.indexOf('/'+ langify.locale.iso_code.toLowerCase() +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase() ||          
-          url.indexOf('/'+ langify.locale.iso_code.toLowerCase().substring(0,2) +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase().substring(0,2)
+          url.indexOf('/'+ langify.locale.iso_code.toLowerCase().substring(0,2) +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase().substring(0,2) ||
+          url.indexOf(langify.locale.root_url + '/') === 0 || url === langify.locale.root_url || 
+          url.indexOf(langify.locale.shop_url + langify.locale.root_url) === 0 || url === langify.locale.shop_url + langify.locale.root_url
         );
         var cleanUrl = url.replace(langify.locale.shop_url, '');
         var re = new RegExp(`\/\\b${langify.locale.iso_code.replace('-', '\-')}\\b\/`, 'gi');
@@ -1013,9 +1020,9 @@
   * @class LanguageDetection
   */
   class LanguageDetection {
-    hreflangList = null;
 
     constructor() {
+      this.hreflangList = null;
       LyHelper.log('LanguageDetection instantiation');
     }
 
@@ -1102,12 +1109,13 @@
     }
     redirectHref(href, userLang) {
       var queryString = window.location.search;
+      var url = href.split('?')[0];
       if(queryString === '') {
         queryString = '?redirected=true';
       } else {
         queryString += '&redirected=true';
       }
-      window.location.replace(href + queryString);
+      window.location.replace(url + queryString);
     }
     getHreflangList() {
       var hreflangTags = document.querySelectorAll('link[hreflang]');
@@ -1471,7 +1479,7 @@
     root_url: {{ request.locale.root_url | json }},
     language_id: {{ current_language | json }},
     shop_url: {{ shop.url | json }},
-    domain_feature_enabled: {{ shop.metafields.langify_v2.cross_domain_links | json }},
+    domain_feature_enabled: {% if shop.metafields.langify_v2.cross_domain_links.type %}{{ shop.metafields.langify_v2.cross_domain_links }}{% else %}{{ shop.metafields.langify_v2.cross_domain_links | json }}{% endif %},
     languages: [
     {%- for language in languages -%}
       {
@@ -1505,7 +1513,7 @@
   {% else %}
     {% assign used_request_locale_iso_code = request.locale.iso_code | slice: 0, 2 %}
   {% endif %}
-  if(langify.locale.domain_feature_enabled) {
+  if(langify.locale.root_url == '/') {
     langify.settings.observeLinks = false;
   }
 
@@ -1513,14 +1521,14 @@
     langify.helper = new LyHelper();
 
     // Custom Contents Section
-    {%- capture customs -%}{%- render 'ly-get-customs' -%}{%- endcapture -%}
+    {%- capture customs -%}{%- render 'ly-get-customs' with global_strict_mode: true -%}{%- endcapture -%}
     {%- assign customs = customs | split : '[ly_custom]' -%}
     {% for custom in customs %}
     {%- assign used_custom = custom | split: '[ly_custom_split]' -%}
     {%- assign src = used_custom | first -%}
     {%- assign dst = used_custom | last -%}
     {%- if dst -%}
-    customContents[{{ src | downcase | json }}.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ")] = '{{ dst | replace: "\", "\\\" |  replace: "'", "\\'" }}';
+    customContents[{{ src | json }}.toLowerCase().trim().replace(/(\r\n|\n|\r)/gim," ").replace(/\s+/g," ")] = '{{ dst | replace: "\", "\\\" |  replace: "'", "\\'" }}';
     {%- endif -%}
     {% endfor %}
 
@@ -1533,7 +1541,7 @@
     {%- assign translation_key = "id" | append: key -%}
     {%- if shop.metafields[translation_namespace][translation_key] -%}
     {%- assign translation = shop.metafields[translation_namespace][translation_key] %}
-    customContents_image[langify.helper.extractImageObject({{ src | downcase | json }}).file] = langify.helper.extractImageObject({{ translation | replace: "\", "\\\" |  replace: "'", "\\'"  | json}});
+    customContents_image[langify.helper.extractImageObject({{ src | append: '' | json }}.toLowerCase()).file] = langify.helper.extractImageObject({{ translation | replace: "\", "\\\" |  replace: "'", "\\'"  | json}});
     {%- endif %}
     {% endfor %}
 

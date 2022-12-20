@@ -8,6 +8,22 @@
     "theme_documentation_url": "https:\/\/groupthought.com\/link\/pipeline\/docs"
   },
   {
+    "name": "[Plus] Remove log out button",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Remove log out button on the checkout"
+      },
+      {
+        "type": "checkbox",
+        "id": "plus_remove_logout_btn",
+        "label": "Remove the 'log out' button on the checkout",
+        "info": "This stops customers from having a discount applied to their order, then changing their email address for the order.",
+        "default": true
+      }
+    ]
+  },
+  {
     "name": "Color",
     "settings": [
       {

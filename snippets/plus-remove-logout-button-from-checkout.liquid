@@ -1,0 +1,32 @@
+<script>
+  window.Plus = window.Plus || {};
+  window.Plus.checkout = window.Plus.checkout || {};
+  Plus.checkout.removeLogOutButton = Plus.checkout.removeLogOutButton || {};
+
+  Plus.checkout.settings = {
+    logOutButtonSelector: "[data-step] a[href*='logout']",
+  };
+
+  Plus.checkout.removeLogOutButton.init = (settings) => {
+    if (Shopify.Checkout.step === 'contact_information') {
+      Plus.checkout.removeLogOutButton.run(settings);
+    }
+  };
+
+  // Remove log out button only for logged in customers.
+  Plus.checkout.removeLogOutButton.run = (settings) => {
+    const logOutButton = document.querySelector(settings.logOutButtonSelector);
+    {% if customer %}
+      logOutButton ? logOutButton.remove() : null;
+    {% endif %}
+  };
+
+  // Entry point for the script
+  document.addEventListener('page:load', function () {
+    Plus.checkout.removeLogOutButton.init(Plus.checkout.settings);
+  });
+
+  document.addEventListener('page:change', function () {
+    Plus.checkout.removeLogOutButton.init(Plus.checkout.settings);
+  });
+</script>

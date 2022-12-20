@@ -97,56 +97,6 @@
         "collection_sorting": true,
         "hide_sidebar": true
       }
-    },
-    "7304cebf-8cc4-45bc-b350-89fb86540446": {
-      "type": "section-double",
-      "blocks": {
-        "template--14908067414131__7304cebf-8cc4-45bc-b350-89fb86540446-1666809677d02a9ccc-0": {
-          "type": "text",
-          "settings": {
-            "kicker": "save this holiday season",
-            "title": "GIFTS WITH PURCAHSE",
-            "text": "<p>Buy any program and get a FREE full-sized Vitamin C Scrub and Ultra Purifying Clay Mask automatically added to your order.<\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "shop programs and save",
-            "button_url": "shopify:\/\/collections\/skin-care-programs",
-            "button_color": "btn--neutral",
-            "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
-          }
-        },
-        "template--14908067414131__7304cebf-8cc4-45bc-b350-89fb86540446-1666809677d02a9ccc-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Holiday2022-Program_2HQ-edited_with_mask-small.png",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn uppercase"
-          }
-        }
-      },
-      "block_order": [
-        "template--14908067414131__7304cebf-8cc4-45bc-b350-89fb86540446-1666809677d02a9ccc-0",
-        "template--14908067414131__7304cebf-8cc4-45bc-b350-89fb86540446-1666809677d02a9ccc-1"
-      ],
-      "settings": {
-        "height": "image-height",
-        "padding": false,
-        "borders": false,
-        "wrapper": true
-      }
     }
   },
   "order": [
@@ -154,7 +104,6 @@
     "245131d4-000f-45ce-9784-b8bd1c2a8d8c",
     "hero",
     "subcollections",
-    "main",
-    "7304cebf-8cc4-45bc-b350-89fb86540446"
+    "main"
   ]
 }
