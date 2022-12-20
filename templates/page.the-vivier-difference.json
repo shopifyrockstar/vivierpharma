@@ -421,7 +421,7 @@
         "0a68349f-bd25-48af-8e52-334366f5b1a3": {
           "type": "collection",
           "settings": {
-            "collection": "serums-1",
+            "collection": "serums",
             "kicker": "",
             "align_text": "text-center",
             "text_color": "text--primary",

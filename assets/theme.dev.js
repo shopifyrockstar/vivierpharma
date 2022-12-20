@@ -3459,6 +3459,162 @@
     },
   };
 
+  const selectors$$ = {
+    holderItems: '[data-custom-scrollbar-items]',
+    scrollbar: '[data-custom-scrollbar]',
+    scrollbarTrack: '[data-custom-scrollbar-track]',
+  };
+
+  const classes$D = {
+    hide: 'hide',
+  };
+
+  const sectionss$o = {};
+
+  // class CustomScrollbar {
+  //   constructor(holder, children = null) {
+  //     this.holderItems = holder.querySelector(selectors$$.holderItems);
+  //     this.scrollbar = holder.querySelector(selectors$$.scrollbar);
+  //     this.scrollbarTrack = holder.querySelector(selectors$$.scrollbarTrack);
+  //     this.trackWidth = 0;
+  //     this.scrollWidth = 0;
+
+  //     if (this.scrollbar && this.holderItems) {
+  //       this.children = children || this.holderItems.children;
+  //       this.events();
+  //       this.calculateTrackWidth();
+  //     }
+  //   }
+
+  //   events() {
+  //     this.holderItems.addEventListener('scroll', this.calculatePosition.bind(this));
+  //     this.holderItems.addEventListener('theme:carousel:scroll', this.calculatePosition.bind(this));
+
+  //     document.addEventListener('theme:resize:width', this.calculateTrackWidth.bind(this));
+  //     document.addEventListener('theme:resize:width', this.calculatePosition.bind(this));
+  //   }
+
+  //   calculateTrackWidth() {
+  //     // Javascript can't execute calc() (from `--outer` variable) - create a new div with width property instead `getPropertyValue('--outer')` to can get the width of `after` on the holder
+  //     const htmlObject = document.createElement('div');
+  //     this.holderItems.prepend(htmlObject);
+  //     htmlObject.style.display = 'none';
+  //     htmlObject.style.width = getComputedStyle(this.holderItems).getPropertyValue('--outer');
+  //     const widthAfter = parseInt(getComputedStyle(htmlObject).getPropertyValue('width'));
+  //     this.holderItems.firstChild.remove();
+
+  //     this.scrollbarWidth = this.scrollbar.clientWidth === 0 ? this.scrollbar.parentNode.getBoundingClientRect().width : this.scrollbar.clientWidth;
+  //     setTimeout(() => {
+  //       const childWidth = this.children[0].clientWidth;
+  //       const childMarginRight = Number(getComputedStyle(this.children[0]).marginRight.replace('px', ''));
+  //       const childMarginLeft = Number(getComputedStyle(this.children[0]).marginLeft.replace('px', ''));
+
+  //       // Minus `childMarginRight` is added to the end with minus because the last child doesn't have margin-right
+  //       this.scrollWidth = this.children.length * (childWidth + childMarginRight + childMarginLeft) + widthAfter - childMarginRight;
+
+  //       this.trackWidth = ((this.scrollbarWidth + widthAfter) / this.scrollWidth) * 100;
+  //       this.trackWidth = this.trackWidth < 5 ? 5 : this.trackWidth;
+  //       this.scrollbar.style.setProperty('--track-width', `${this.trackWidth}%`);
+  //       const hideScrollbar = Math.ceil(this.trackWidth) >= 100;
+
+  //       this.scrollbar.classList.toggle(classes$D.hide, hideScrollbar);
+  //     }, 100);
+  //   }
+
+  //   calculatePosition() {
+  //     let position = this.holderItems.scrollLeft / (this.holderItems.scrollWidth - this.holderItems.clientWidth);
+  //     position *= this.scrollbar.clientWidth - this.scrollbarTrack.clientWidth;
+  //     position = position < 0 ? 0 : position;
+  //     position = isNaN(position) ? 0 : position;
+
+  //     this.scrollbar.style.setProperty('--position', `${Math.round(position)}px`);
+
+  //     document.dispatchEvent(
+  //       new CustomEvent('theme:scrollbar:scroll', {
+  //         bubbles: true,
+  //         detail: {
+  //           holder: this.holderItems,
+  //         },
+  //       })
+  //     );
+  //   }
+  // }
+
+  class CustomScrollbar {
+    constructor(holder, children = null) {
+      this.holderItems = holder.querySelector(selectors$$.holderItems);
+      this.scrollbar = holder.querySelector(selectors$$.scrollbar);
+      this.scrollbarTrack = holder.querySelector(selectors$$.scrollbarTrack);
+      this.trackWidth = 0;
+      this.scrollWidth = 0;
+
+      if (this.scrollbar && this.holderItems) {
+        this.children = children || this.holderItems.children;
+        this.events();
+        this.calculateTrackWidth();
+      }
+    }
+
+    events() {
+      this.holderItems.addEventListener('scroll', this.calculatePosition.bind(this));
+      this.holderItems.addEventListener('theme:carousel:scroll', this.calculatePosition.bind(this));
+
+      document.addEventListener('theme:resize:width', this.calculateTrackWidth.bind(this));
+      document.addEventListener('theme:resize:width', this.calculatePosition.bind(this));
+    }
+
+    calculateTrackWidth() {
+      // Javascript can't execute calc() (from `--outer` variable) - create a new div with width property instead `getPropertyValue('--outer')` to can get the width of `after` on the holder
+      const htmlObject = document.createElement('div');
+      this.holderItems.prepend(htmlObject);
+      htmlObject.style.display = 'none';
+      htmlObject.style.width = getComputedStyle(this.holderItems).getPropertyValue('--outer');
+      const widthAfter = parseInt(getComputedStyle(htmlObject).getPropertyValue('width'));
+      this.holderItems.firstChild.remove();
+
+      this.scrollbarWidth = this.scrollbar.clientWidth === 0 ? this.scrollbar.parentNode.getBoundingClientRect().width : this.scrollbar.clientWidth;
+      setTimeout(() => {
+        const childWidth = this.children[0].clientWidth;
+        const childMarginRight = Number(getComputedStyle(this.children[0]).marginRight.replace('px', ''));
+        const childMarginLeft = Number(getComputedStyle(this.children[0]).marginLeft.replace('px', ''));
+
+        // Minus `childMarginRight` is added to the end with minus because the last child doesn't have margin-right
+        this.scrollWidth = this.children.length * (childWidth + childMarginRight + childMarginLeft) + widthAfter - childMarginRight;
+
+        this.trackWidth = ((this.scrollbarWidth + widthAfter) / this.scrollWidth) * 100;
+        this.trackWidth = this.trackWidth < 5 ? 5 : this.trackWidth;
+        this.scrollbar.style.setProperty('--track-width', `${this.trackWidth}%`);
+        const hideScrollbar = Math.ceil(this.trackWidth) >= 100;
+
+        this.scrollbar.classList.toggle(classes$D.hide, hideScrollbar);
+      }, 100);
+    }
+
+    calculatePosition() {
+      let position = this.holderItems.scrollLeft / (this.holderItems.scrollWidth - this.holderItems.clientWidth);
+      position *= this.scrollbar.clientWidth - this.scrollbarTrack.clientWidth;
+      position = position < 0 ? 0 : position;
+      position = isNaN(position) ? 0 : position;
+
+      this.scrollbar.style.setProperty('--position', `${Math.round(position)}px`);
+
+      document.dispatchEvent(
+        new CustomEvent('theme:scrollbar:scroll', {
+          bubbles: true,
+          detail: {
+            holder: this.holderItems,
+          },
+        })
+      );
+    }
+  }
+
+  const customScrollbar = {
+    onLoad() {
+      sectionss$o[this.id] = new CustomScrollbar(this.container);
+    },
+  };
+
   const slideDown = (target, duration = 500, checkHidden = true) => {
     let display = window.getComputedStyle(target).display;
     if (checkHidden && display !== 'none') {
@@ -5197,6 +5353,7 @@
       const variant = event.detail.variant;      
       const url = `${window.theme.routes.root_url}variants/${variant.id}/?section_id=api-product-popdown`;
       console.log(this);
+      console.log("changed cart.js function");
       const instance = this;
       axios
         .get(url)
@@ -9673,3 +9830,103 @@ if ( $(window).width() < 480 ){
 }else{
   $('.retinol-section').removeClass('moved');
 }
+
+var open = window.XMLHttpRequest.prototype.open;
+var update_data = {};
+function openReplacement(method, url, async, user, password) {    
+    
+    if ( url == '/cart.js' && method == 'GET' ){
+      // console.log('cart.js called');
+      fetch(`${window.theme.routes.cart}.js`)        
+        .then((response) => {
+          return response.json();
+        })
+        .then((response) => {
+          // console.log(response);
+          let count = 0;          
+          // let shouldremovedproductids = [];
+          Object.keys(update_data).forEach(key => delete update_data[key]);
+          //getting all free sample products added by rebuy 
+          response.items.forEach((item) => {
+              if (item.properties?._widget_id === "34044") {
+                  count++;
+              }
+          });
+
+          // console.log(count, update_data);
+
+          if ( response.total_price < 10000 ){ //if total value < $100
+            if ( count > 0 ){ // if cart has more than 1 free sample
+              response.items.forEach((item) => {
+                if (item.properties?._widget_id === "34044") {
+                  update_data[item.id] = 0;
+                  // shouldremovedproductids.push(item.id);
+                }
+              });
+            }
+          }
+
+          if ( response.total_price > 9900 && response.total_price < 35000 ){ //if $100 < total value < $350
+            response.items.forEach((item) => {
+              if (count < 2) {              
+              } else { //if it has more than 2 sample products
+                if (item.properties?._widget_id === "34044") {
+                  update_data[item.id] = 0;
+                  // shouldremovedproductids.push(item.id);
+                }                
+              }
+              count--;
+            });            
+          }
+
+          if ( response.total_price > 35000 && response.total_price < 60000 ){ //if $350 < total value < $600
+            response.items.forEach((item) => {
+              if (count < 3) {              
+              } else { //if it has more than 2 sample products
+                if (item.properties?._widget_id === "34044") {
+                  update_data[item.id] = 0;
+                  // shouldremovedproductids.push(item.id);
+                }                
+              }
+              count--;
+            });
+          }
+
+          if ( response.total_price > 60000 ){ //if $600 < total value
+            response.items.forEach((item) => {
+              if (count < 4) {              
+              } else { //if it has more than 2 sample products
+                if (item.properties?._widget_id === "34044") {
+                  update_data[item.id] = 0;
+                  // shouldremovedproductids.push(item.id);
+                }                
+              }
+              count--;
+            });
+          }
+          
+        })
+        .catch((e) => {
+          console.error(e);
+        });
+    }
+
+    return open.apply(this, arguments);    
+}
+
+window.XMLHttpRequest.prototype.open = openReplacement;
+
+$("body").on('click', 'button[name="checkout"]', function(e) {
+  console.log("clicked checkout button");
+  e.preventDefault();
+  e.stopPropagation();
+  // return false;  
+  jQuery.post(window.Shopify.routes.root + 'cart/update.js', {
+    updates: update_data
+  });
+
+  setTimeout(function(){
+    window.location.href = '/checkout';
+  }, 300)  
+  
+})

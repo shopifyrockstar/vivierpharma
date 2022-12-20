@@ -136,6 +136,13 @@
         "full_width": true
       }
     },
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
+    },
     "related": {
       "type": "related",
       "settings": {
@@ -189,6 +196,7 @@
     "1649819827fb75749c",
     "reviews",
     "fce63dee-b232-45c9-a946-a18b70e4fec3",
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696",
     "related",
     "164982083885be647e"
   ]

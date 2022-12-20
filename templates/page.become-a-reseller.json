@@ -5,11 +5,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/waiting_room.png",
         "bg_position": "center-center",
-        "height": "use_screen_one_third",
+        "height": "use_screen_one_fifth",
         "overlay_opacity": 15,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "kicker": "",
-        "title": "BECOME A RESELLER",
+        "title": "INTERESTED IN BECOMING A VIVIER RESELLER?",
         "richtext": "",
         "text_align": "align--middle-left",
         "text_color": "text--white",
@@ -17,6 +17,25 @@
         "link": "",
         "button_color": "btn--white",
         "button_style": "btn"
+      }
+    },
+    "bce14543-49d2-4ee5-b875-e53effac4cff": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "PLEASE COMPLETE THE FORM BELOW AND A VIVIER REPRESENTATIVE WILL BE IN TOUCH SOON.",
+        "title": "",
+        "text": "<p><em>Would you prefer to talk to someone in person? Contact us directly, we’d love to hear from you!<\/em><\/p><p>1.877.484.8437 ext.1<\/p>",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
       }
     },
     "1656601814224da5a3": {
@@ -44,6 +63,7 @@
   },
   "order": [
     "1656613659d878fdc2",
+    "bce14543-49d2-4ee5-b875-e53effac4cff",
     "1656601814224da5a3",
     "main"
   ]

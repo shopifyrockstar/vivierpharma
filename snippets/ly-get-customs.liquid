@@ -1,4 +1,4 @@
-{%- comment -%}v1.0.0{%- endcomment -%}
+{%- comment -%}Version 1.6.2{%- endcomment -%}
 {%- assign current_language_num = 0 -%}
 {%- for language in shop.metafields.language_codes -%}
   {%- if language.last == request.locale.iso_code  -%}
@@ -34,6 +34,21 @@
     [ly_custom]{%- if src.type == 'json' -%}{{- src.value.text -}}{%- else -%}{{- src.text -}}{%- endif -%}[ly_custom_split]{{- translation -}}
   {%- endif-%}
 {%- endfor -%}
+
+{%- if global_strict_mode -%}
+{%- for custom in shop.metafields.ly_global_strict_mode_cu -%}
+  {%- assign src = custom | last -%}
+  {%- assign key = custom | first -%}
+  {%- assign key = key | split: "ly" | last -%}
+  {%- assign translation_namespace = language | append: "ncu" -%}
+  {%- assign translation_key = "id" | append: key -%}
+  {%- if shop.metafields[translation_namespace][translation_key] -%}
+    {%- assign translation = shop.metafields[translation_namespace][translation_key] -%}
+    [ly_custom]{{- src.value.text -}}[ly_custom_split]{{- translation -}}
+  {%- endif-%}
+{%- endfor -%}
+{%- endif -%}
+
 
 {%- case request.page_type -%}
 {%- when 'index' -%}
