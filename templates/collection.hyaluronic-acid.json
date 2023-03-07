@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "5f3fc2cc-a434-4f56-b84f-4cec70802685": {
+      "type": "section-hero-new",
+      "blocks": {
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>INGREDIENT SPOTLIGHT<\/p>",
+            "enable_caps": false,
+            "kicker_color": "#838383",
+            "kicker_size": 17
+          }
+        },
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>HYALURONIC ACID<\/p>",
+            "title_color": "#484747",
+            "title_size": 35
+          }
+        },
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Hyaluronic acid reduces the appearance of aging and increase hydration leaving skin soft and nourished.<\/p>",
+            "content_text_color": "#484747",
+            "content_text_size": 18
+          }
+        },
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-0",
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-1",
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-2",
+        "template--15040387121267__5f3fc2cc-a434-4f56-b84f-4cec70802685-1673637059f68eb655-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/swatches_684b83a6-9c8e-4f12-9600-a963cc799871.png",
+        "mobile_image": "shopify:\/\/shop_images\/swatches_684b83a6-9c8e-4f12-9600-a963cc799871.png",
+        "bg_position": "center-center",
+        "height": "use_image",
+        "overlay_opacity": 65,
+        "overlay_color": "#ffffff",
+        "enable_overlay_text": false,
+        "content_width": 400,
+        "content_width_mobile": 420,
+        "text_align": "align--middle-right",
+        "text_align_mobile": "align--middle-right",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": false,
+        "show_description_below": false,
+        "show_image": false,
+        "bg_position": "left-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "disabled": true,
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "All collections"
+          }
+        }
+      },
+      "block_order": [
+        "collections"
+      ],
+      "settings": {
+        "grid_setting_large": 3,
+        "grid_setting_small": 2,
+        "product_limit": 50,
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": true
+      }
+    },
+    "980cf762-221a-4b5d-af08-28ff4825ab2d": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "5f3fc2cc-a434-4f56-b84f-4cec70802685",
+    "hero",
+    "subcollections",
+    "main",
+    "980cf762-221a-4b5d-af08-28ff4825ab2d"
+  ]
+}

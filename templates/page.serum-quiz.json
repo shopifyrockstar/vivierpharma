@@ -1,7 +1,85 @@
 {
   "sections": {
+    "12fe3225-075e-463d-a6fc-221bf1d7682d": {
+      "type": "section-hero-new",
+      "disabled": true,
+      "blocks": {
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>WHICH VITAMIN C SERUM IS RIGHT FOR YOU?<\/p>",
+            "title_color": "#484747",
+            "title_size": 24,
+            "title_line_height": 29
+          }
+        },
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>TAKE THE QUIZ BELOW<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#97694f",
+            "kicker_size": 22
+          }
+        },
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "richtext": "",
+            "content_text_color": "#97694f",
+            "content_text_size": 30
+          }
+        },
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text_1": "TAKE THE QUIZ",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-1",
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-0",
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-2",
+        "template--15023338061939__12fe3225-075e-463d-a6fc-221bf1d7682d-167476497945f13798-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SERUM_RETINOL_BANNER_MOBILE.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/SERUM_RETINOL_BANNER_MOBILE-2.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 600,
+        "content_width_mobile": 380,
+        "text_align": "align--middle-right",
+        "text_align_mobile": "align--top-center",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "165661852607e2465c": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
@@ -44,6 +122,7 @@
     }
   },
   "order": [
+    "12fe3225-075e-463d-a6fc-221bf1d7682d",
     "165661852607e2465c",
     "main",
     "abbd8aa9-915d-4fcf-b0a3-579b9c28aa6e"

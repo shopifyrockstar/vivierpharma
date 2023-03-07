@@ -19,25 +19,6 @@
         "button_style": "btn"
       }
     },
-    "32004471-8b11-423e-a9fa-6ebb2e46fd17": {
-      "type": "section-richtext",
-      "settings": {
-        "kicker": "Looking for holiday gift sets?",
-        "title": "",
-        "text": "<p>Contact your local clinic for availability. <\/p>",
-        "text_size": 1,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "caps--link",
-        "height": "margin--small",
-        "width": "wrapper",
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral"
-      }
-    },
     "sca-storelocator": {
       "type": "sca-storelocator",
       "settings": {
@@ -46,7 +27,6 @@
   },
   "order": [
     "16511595196c389c2c",
-    "32004471-8b11-423e-a9fa-6ebb2e46fd17",
     "sca-storelocator"
   ]
 }

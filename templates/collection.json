@@ -48,7 +48,7 @@
         "product_limit": 50,
         "enable_layout_toggle": true,
         "collection_sorting": true,
-        "hide_sidebar": true
+        "hide_sidebar": false
       }
     },
     "980cf762-221a-4b5d-af08-28ff4825ab2d": {
