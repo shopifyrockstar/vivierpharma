@@ -6624,28 +6624,28 @@
     }
 
     showFilters() {
-      this.container.classList.remove(classes$6.hide);
-      // animates after display none is removed
-      setTimeout(() => {
-        this.filtersToggleButtons.forEach((btn) => btn.setAttribute('aria-expanded', true));
-        this.filtersToggleButtons.forEach((btn) => btn.classList.add(classes$6.show));
-        this.container.classList.add(classes$6.show);
-        this.container.querySelector(selectors$f.focusable).focus();
-      }, 1);
+      // this.container.classList.remove(classes$6.hide);
+      // // animates after display none is removed
+      // setTimeout(() => {
+      //   this.filtersToggleButtons.forEach((btn) => btn.setAttribute('aria-expanded', true));
+      //   this.filtersToggleButtons.forEach((btn) => btn.classList.add(classes$6.show));
+      //   this.container.classList.add(classes$6.show);
+      //   this.container.querySelector(selectors$f.focusable).focus();
+      // }, 1);
     }
 
     hideFilters() {
-      this.filtersToggleButtons.forEach((btn) => btn.setAttribute('aria-expanded', false));
-      this.container.classList.remove(classes$6.show);
-      this.container.classList.remove(classes$6.defaultVisible);
-      this.filtersToggleButtons.forEach((btn) => btn.classList.remove(classes$6.show));
-      this.filtersToggleButtons.forEach((btn) => btn.classList.remove(classes$6.defaultVisible));
-      // adds display none after animations
-      setTimeout(() => {
-        if (!this.container.classList.contains(classes$6.show)) {
-          this.container.classList.add(classes$6.hide);
-        }
-      }, 800);
+      // this.filtersToggleButtons.forEach((btn) => btn.setAttribute('aria-expanded', false));
+      // this.container.classList.remove(classes$6.show);
+      // this.container.classList.remove(classes$6.defaultVisible);
+      // this.filtersToggleButtons.forEach((btn) => btn.classList.remove(classes$6.show));
+      // this.filtersToggleButtons.forEach((btn) => btn.classList.remove(classes$6.defaultVisible));
+      // // adds display none after animations
+      // setTimeout(() => {
+      //   if (!this.container.classList.contains(classes$6.show)) {
+      //     this.container.classList.add(classes$6.hide);
+      //   }
+      // }, 800);
     }
   }
 
@@ -9767,16 +9767,16 @@ $(".tag-filters .tag-filters__item .close").on('click', function(evt){
   
 })
 
-$(".tag-header-mobile").on('click', function(){
-  $(".collection__filters__outer").addClass("should-show");
-  $(".collection__filters__wrapper").removeClass("hidden");  
-  $(".collection__filters__wrapper").addClass("drawer--visible");    
-})
-$(".drawer__button-mobile").on('click', function(){
-  $(".collection__filters__outer").removeClass("should-show");
-  $(".collection__filters__wrapper").removeClass("drawer--visible");
-  $(".collection__filters__wrapper").addClass("hidden");
-})
+// $(".tag-header-mobile").on('click', function(){
+//   $(".collection__filters__outer").addClass("should-show");
+//   $(".collection__filters__wrapper").removeClass("hidden");  
+//   $(".collection__filters__wrapper").addClass("drawer--visible");    
+// })
+// $(".drawer__button-mobile").on('click', function(){
+//   $(".collection__filters__outer").removeClass("should-show");
+//   $(".collection__filters__wrapper").removeClass("drawer--visible");
+//   $(".collection__filters__wrapper").addClass("hidden");
+// })
 
 
 

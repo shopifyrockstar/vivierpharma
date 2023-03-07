@@ -1,120 +1,31 @@
 {
   "sections": {
-    "5c52831d-3a01-4cf4-a7a4-59d4d5aa4763": {
-      "type": "section-hero-new",
-      "blocks": {
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-0": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "<p>In-clinic exclusive<\/p>",
-            "enable_caps": true,
-            "kicker_color": "#ffffff",
-            "kicker_size": 15
-          }
-        },
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-1": {
-          "type": "heading",
-          "settings": {
-            "title": "<p>Vivier Holiday Gift Sets<\/p>",
-            "title_color": "#ffffff",
-            "title_size": 41
-          }
-        },
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-2": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Visit your local Vivier clinic to get these exclusive holiday gift sets while supplies last!<\/p>",
-            "content_text_color": "#ffffff",
-            "content_text_size": 22
-          }
-        },
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-3": {
-          "type": "button",
-          "settings": {
-            "link_text_1": "Find a clinic",
-            "link_1": "shopify:\/\/pages\/sca-store-locator",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn uppercase",
-            "button_color_1": "btn--primary",
-            "link_text_2": "",
-            "link_2": "",
-            "button_size_2": "btn--long",
-            "button_style_2": "caps--link",
-            "button_color_2": "btn--white",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "caps--link",
-            "button_color_3": "btn--white"
-          }
-        }
-      },
-      "block_order": [
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-0",
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-1",
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-2",
-        "template--15023337373811__5c52831d-3a01-4cf4-a7a4-59d4d5aa4763-1671457285065113f7-3"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_banner.png",
-        "mobile_image": "shopify:\/\/shop_images\/Holiday_sets_have_arrived_mobile_banner_2a3ddd48-fc31-472b-9599-a1494fffdb06.png",
-        "bg_position": "center-center",
-        "height": "use_screen_one_fifth",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "enable_overlay_text": false,
-        "content_width": 500,
-        "content_width_mobile": 280,
-        "text_align": "align--middle-right",
-        "text_align_mobile": "align--top-right",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "50b5a253-7ef7-4882-8ee7-8865da491370": {
       "type": "section-hero-new",
       "disabled": true,
       "blocks": {
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-0": {
-          "type": "kicker",
-          "settings": {
-            "kicker": "<p>C E PEPTIDES<\/p>",
-            "enable_caps": true,
-            "kicker_color": "#484747",
-            "kicker_size": 15
-          }
-        },
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-1": {
+        "7a91ef68-9ad5-49ee-86df-dff5d6d2fc9e": {
           "type": "heading",
           "settings": {
-            "title": "<p>#1 SELLING VITAMIN C SERUM<\/p>",
-            "title_color": "#484747",
-            "title_size": 31
-          }
-        },
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-2": {
-          "type": "text",
-          "settings": {
-            "richtext": "",
-            "content_text_color": "#fff",
-            "content_text_size": 22
+            "title": "<p>A VITAMIN C SERUM FOR EVERY NEED<\/p>",
+            "title_color": "#97694f",
+            "title_size": 28,
+            "title_line_height": 25
           }
         },
         "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-3": {
           "type": "button",
           "settings": {
-            "link_text_1": "SHOP ALL SERUMS",
-            "link_1": "",
+            "link_text_1": "SHOP OUR SERUMS",
+            "link_1": "shopify:\/\/collections\/serums",
             "button_size_1": "btn--medium",
-            "button_style_1": "caps--link",
+            "button_style_1": "btn uppercase",
             "button_color_1": "btn--primary",
-            "link_text_2": "",
-            "link_2": "",
-            "button_size_2": "btn--long",
-            "button_style_2": "caps--link",
-            "button_color_2": "btn--white",
+            "link_text_2": "Take the serum quiz",
+            "link_2": "shopify:\/\/pages\/serum-quiz",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn uppercase",
+            "button_color_2": "btn--primary",
             "link_text_3": "",
             "link_3": "",
             "button_size_3": "btn--long",
@@ -124,23 +35,21 @@
         }
       },
       "block_order": [
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-0",
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-1",
-        "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-2",
+        "7a91ef68-9ad5-49ee-86df-dff5d6d2fc9e",
         "template--15023337373811__50b5a253-7ef7-4882-8ee7-8865da491370-1671545402393089f2-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0416_9x16_edb5ad3f-edce-4eb4-969b-3c0fefaf7a6a.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Vivier_Dec2022_0416_9x16-mobile_d152cc5c-d7b0-47b2-b746-74e30f26a63a.jpg",
+        "image": "shopify:\/\/shop_images\/Serums_banner.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Serums_banner.jpg",
         "bg_position": "center-center",
-        "height": "use_screen_two_thirds",
+        "height": "use_screen_one_half",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "enable_overlay_text": false,
         "content_width": 550,
-        "content_width_mobile": 280,
-        "text_align": "align--middle-right",
-        "text_align_mobile": "align--top-right",
+        "content_width_mobile": 440,
+        "text_align": "align--top-center",
+        "text_align_mobile": "align--top-center",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
@@ -149,14 +58,13 @@
     },
     "ebc6f0a2-711f-498d-8f30-8a2c80429ee7": {
       "type": "section-hero-new",
-      "disabled": true,
       "blocks": {
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-0": {
           "type": "kicker",
           "settings": {
             "kicker": "<p>NEW!<\/p>",
             "enable_caps": true,
-            "kicker_color": "#000000",
+            "kicker_color": "#97694f",
             "kicker_size": 17
           }
         },
@@ -165,24 +73,25 @@
           "settings": {
             "title": "<p>ULTRA FOAMING CLEANSER<\/p>",
             "title_color": "#97694f",
-            "title_size": 38
+            "title_size": 38,
+            "title_line_height": 43
           }
         },
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-2": {
           "type": "text",
           "settings": {
-            "richtext": "<p>A fragrance-free, foaming cleanser that removes excess oils and impurities while leaving the skin refreshed and radiant!<\/p>",
+            "richtext": "",
             "content_text_color": "#000000",
-            "content_text_size": 20
+            "content_text_size": 19
           }
         },
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3": {
           "type": "button",
           "settings": {
-            "link_text_1": "LEARN MORE",
-            "link_1": "shopify:\/\/collections\/serums",
+            "link_text_1": "GET AN ULTRA FRESH START",
+            "link_1": "shopify:\/\/products\/ultra-foaming-cleanser",
             "button_size_1": "btn--medium",
-            "button_style_1": "btn--outline uppercase",
+            "button_style_1": "btn uppercase",
             "button_color_1": "btn--primary",
             "link_text_2": "",
             "link_2": "",
@@ -204,16 +113,16 @@
         "template--15011683434611__ebc6f0a2-711f-498d-8f30-8a2c80429ee7-166967221652f277cd-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Vivier_Dec2022_0165.jpg",
+        "image": "shopify:\/\/shop_images\/Ultra_Foaming_Cleanser_web.jpg",
         "mobile_image": "shopify:\/\/shop_images\/UFC_with_foam_-_hero_banner_mobile.jpg",
         "bg_position": "center-center",
-        "height": "use_screen_one_third",
+        "height": "use_screen_two_thirds",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "enable_overlay_text": true,
-        "content_width": 350,
-        "content_width_mobile": 200,
-        "text_align": "align--top-right",
+        "content_width": 400,
+        "content_width_mobile": 240,
+        "text_align": "align--middle-right",
         "text_align_mobile": "align--middle-left",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
@@ -228,58 +137,57 @@
         "full_width": true
       }
     },
-    "0a7c36e3-b929-449c-b777-67b55aa4dc67": {
-      "type": "section-custom-content",
+    "c74bfca3-9703-40b8-a4e7-2d398e5c9239": {
+      "type": "section-double",
       "blocks": {
-        "200ac3dd-0400-4305-9086-ba376fde94f7": {
+        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "DISCOVER YOUR PERFECT VITAMIN C SERUM",
+            "text": "<p>At Vivier, we are proud to offer the widest selection of pharmaceutical grade Vitamin C serums on the market, but we know that can make choosing the right one a challenge. <br\/><br\/>Now, your perfect serum is just 30-seconds away with our new <strong>Serum Quiz!<\/strong><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "TAKE THE QUIZ",
+            "button_url": "shopify:\/\/pages\/serum-quiz",
+            "button_color": "btn--black",
+            "button_style": "btn--outline btn--long uppercase",
+            "text_color": "text--black",
+            "bg_color": "#ffffff"
+          }
+        },
+        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Collage1-01.png",
+            "image": "shopify:\/\/shop_images\/Serums_banner.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "kicker": "",
             "title": "",
             "richtext": "",
-            "text_align": "align--middle-center",
+            "text_align": "align--bottom-right",
             "text_color": "text--white",
             "link_text": "",
-            "link": "shopify:\/\/products\/c-e-peptides",
+            "link": "shopify:\/\/pages\/serum-quiz",
             "button_color": "btn--white",
             "button_style": "btn uppercase"
-          }
-        },
-        "61f0524e-95b6-41fc-aba1-597c1da1dc15": {
-          "type": "text",
-          "settings": {
-            "kicker": "c e peptides featured in the winter 2022 Jilly Box",
-            "title": "",
-            "text": "<p>Our bestselling Vitamin C serum, C E PEPTIDES is featured in The 2022 Winter Jilly Box by Jillian Harris and her team! <\/p>",
-            "text_size": 2,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--link",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "200ac3dd-0400-4305-9086-ba376fde94f7",
-        "61f0524e-95b6-41fc-aba1-597c1da1dc15"
+        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-0",
+        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-1"
       ],
       "settings": {
-        "height": "use_screen_three_quarters",
-        "custom_class": "",
+        "height": "use_screen_one_half",
         "padding": false,
         "borders": false,
         "wrapper": false
       }
     },
-    "5ec07eba-86ea-441f-bf81-036de893a084": {
+    "6345abd0-e77e-446d-b70b-e977f9f0a101": {
       "type": "section-html",
       "settings": {
         "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
@@ -307,54 +215,92 @@
         "bg": "palette--light bg--neutral"
       }
     },
-    "c74bfca3-9703-40b8-a4e7-2d398e5c9239": {
-      "type": "section-double",
+    "0a7c36e3-b929-449c-b777-67b55aa4dc67": {
+      "type": "section-custom-content",
       "blocks": {
-        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-0": {
+        "61f0524e-95b6-41fc-aba1-597c1da1dc15": {
           "type": "text",
           "settings": {
-            "kicker": "",
-            "title": "FIND YOUR PERFECT VITAMIN C SERUM",
-            "text": "<p>At Vivier, we are proud to offer the widest selection of pharmaceutical grade Vitamin C serums on the market, but we know that can make choosing the right one a challenge. <br\/><br\/>Now, finding your perfect serum is fast and easy with our new <strong>\"Find your Serum Quiz\"<\/strong><\/p>",
+            "kicker": "WHY WE LOVE ULTRA FOAMING CLEANSER",
+            "title": "",
+            "text": "<p>An instant foaming, deep cleanser that removes excess oils and pore-clogging impurities without stripping the skin of essential moisture.<\/p><p><\/p><ul><li>Self-foaming (liquid to foam)<\/li><li>Non-irritating, comforting formula <\/li><li>Protects the skin’s moisture barrier<\/li><li>pH balanced<\/li><li>Ideal for all skin types<\/li><\/ul>",
             "text_size": 2,
             "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "TAKE THE QUIZ",
-            "button_url": "shopify:\/\/pages\/serum-quiz",
-            "button_color": "btn--black",
+            "align_text": "text-center",
+            "button_text": "LEARN MORE",
+            "button_url": "shopify:\/\/products\/ultra-foaming-cleanser",
+            "button_color": "btn--neutral",
             "button_style": "btn--outline btn--long uppercase",
-            "text_color": "text--black",
+            "text_color": "text--neutral",
             "bg_color": "#ffffff"
           }
         },
-        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-1": {
+        "200ac3dd-0400-4305-9086-ba376fde94f7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vivier_Quintiserum-6_Revised.jpg",
+            "image": "shopify:\/\/shop_images\/UFC_model-female.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "kicker": "",
             "title": "",
             "richtext": "",
-            "text_align": "align--bottom-right",
+            "text_align": "align--middle-center",
             "text_color": "text--white",
             "link_text": "",
-            "link": "shopify:\/\/pages\/serum-quiz",
+            "link": "shopify:\/\/products\/c-e-peptides",
             "button_color": "btn--white",
             "button_style": "btn uppercase"
           }
         }
       },
       "block_order": [
-        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-0",
-        "template--14908067709043__c74bfca3-9703-40b8-a4e7-2d398e5c9239-1669410031ed83b9d6-1"
+        "61f0524e-95b6-41fc-aba1-597c1da1dc15",
+        "200ac3dd-0400-4305-9086-ba376fde94f7"
       ],
       "settings": {
-        "height": "use_screen_one_half",
+        "height": "image-height",
+        "custom_class": "",
         "padding": false,
         "borders": false,
         "wrapper": true
+      }
+    },
+    "5ec07eba-86ea-441f-bf81-036de893a084": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "eeefb1fb-739a-4f77-90ee-0bc82cae5bb5": {
+      "type": "collection-split",
+      "settings": {
+        "collection": "prepare",
+        "product_list": [
+
+        ],
+        "bg_position": "center-top",
+        "sticky_image_enable": false,
+        "swap": false,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "NEW!",
+        "heading": "ULTRA FOAMING CLEANSER",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "shopify:\/\/products\/ultra-foaming-cleanser",
+        "button_color": "btn--white",
+        "button_style": "btn",
+        "grid_large": 2,
+        "grid_small": 1,
+        "limit": 4,
+        "bg": "palette--light bg--neutral",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/218269efe25c423ebb05bc10f8c61603.mp4",
+        "object_position": "center-center",
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 76
       }
     },
     "24662792-b7af-4d1d-83bf-ba6599bb1deb": {
@@ -453,6 +399,7 @@
         },
         "af945ba6-3b6b-4451-b911-2a8268e8f52d": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/22WI-The_Jilly_Box-Logo_2000x_46717e9f-1dc5-4d26-8fcc-da2b3bdb404e.jpg",
             "link": ""
@@ -714,13 +661,13 @@
             "title_size": 45,
             "richtext": "<p>Giving back is part of our DNA, and that means giving back to the planet as well. Learn about the ways we are reducing our carbon footprint and increasing sustainble practices.<\/p>",
             "content_text_color": "#ffffff",
-            "content_text_size": 22,
+            "content_text_size": 19,
             "text_align": "align--middle-left",
             "link_text": "Learn More",
             "link": "shopify:\/\/pages\/vivierpharmastory",
             "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "button_text_size": 22
+            "button_bg_color": "#838383",
+            "button_text_size": 17
           }
         },
         "164400874218cea646-1": {
@@ -737,16 +684,16 @@
             "kicker_size": 15,
             "title": "VIVIER SUPPORTS OUR COMMUNITY",
             "title_color": "#ffffff",
-            "title_size": 45,
+            "title_size": 29,
             "richtext": "<p>We follow the guiding principle that giving back is the right thing to do - we support many local and national causes<\/p>",
             "content_text_color": "#ffffff",
-            "content_text_size": 22,
+            "content_text_size": 19,
             "text_align": "align--middle-left",
             "link_text": "Learn More",
             "link": "shopify:\/\/pages\/vivierpharmastory",
             "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "button_text_size": 22
+            "button_bg_color": "#838383",
+            "button_text_size": 19
           }
         },
         "7a2c57da-9ec1-4cab-bafc-e1f2efa9311c": {
@@ -791,7 +738,7 @@
       "type": "section-blog",
       "settings": {
         "title": "BLOGS From the Experts",
-        "homepage_blog": "vivier-life",
+        "homepage_blog": "vivierlife",
         "homepage_blog_count": 3,
         "bg": "palette--light bg--neutral",
         "color": "text--white",
@@ -851,15 +798,6 @@
         "wrapper": false
       }
     },
-    "8e5a34c2-8bd3-4a82-af0b-c23db91cc4a3": {
-      "type": "section-recent-products",
-      "settings": {
-        "bg": "palette--light bg--neutral",
-        "product_recently_heading": "You may be interested in these",
-        "product_recently_limit": 6,
-        "product_recently_minimum": 4
-      }
-    },
     "165059743358f9e2a2": {
       "type": "apps",
       "blocks": {
@@ -885,14 +823,15 @@
     }
   },
   "order": [
-    "5c52831d-3a01-4cf4-a7a4-59d4d5aa4763",
     "50b5a253-7ef7-4882-8ee7-8865da491370",
     "ebc6f0a2-711f-498d-8f30-8a2c80429ee7",
     "7a2e5ec8-7b3e-4a73-91cf-2e8b617ed742",
+    "c74bfca3-9703-40b8-a4e7-2d398e5c9239",
+    "6345abd0-e77e-446d-b70b-e977f9f0a101",
+    "tabs",
     "0a7c36e3-b929-449c-b777-67b55aa4dc67",
     "5ec07eba-86ea-441f-bf81-036de893a084",
-    "tabs",
-    "c74bfca3-9703-40b8-a4e7-2d398e5c9239",
+    "eeefb1fb-739a-4f77-90ee-0bc82cae5bb5",
     "24662792-b7af-4d1d-83bf-ba6599bb1deb",
     "935144c9-de54-4242-a0b8-1252e7156f6f",
     "1655906386933a3a65",
@@ -906,7 +845,6 @@
     "164400874207f60a25",
     "16438374777cb8ccc2",
     "16498242313993b168",
-    "8e5a34c2-8bd3-4a82-af0b-c23db91cc4a3",
     "165059743358f9e2a2"
   ]
 }

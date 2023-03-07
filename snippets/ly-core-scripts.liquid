@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.0.6{%- endcomment -%}
+{%- comment -%}Version 4.0.7{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -600,7 +600,8 @@
           url.indexOf('/'+ langify.locale.iso_code.toLowerCase() +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase() ||          
           url.indexOf('/'+ langify.locale.iso_code.toLowerCase().substring(0,2) +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase().substring(0,2) ||
           url.indexOf(langify.locale.root_url + '/') === 0 || url === langify.locale.root_url || 
-          url.indexOf(langify.locale.shop_url + langify.locale.root_url) === 0 || url === langify.locale.shop_url + langify.locale.root_url
+          url.indexOf(langify.locale.shop_url + langify.locale.root_url) === 0 || url === langify.locale.shop_url + langify.locale.root_url ||
+          url.indexOf(langify.locale.root_url === Shopify.routes.root)
         );
         var cleanUrl = url.replace(langify.locale.shop_url, '');
         var re = new RegExp(`\/\\b${langify.locale.iso_code.replace('-', '\-')}\\b\/`, 'gi');
@@ -1027,7 +1028,11 @@
     }
 
     init() {
-      if(LyHelper.inIframe()) return null;
+      if(LyHelper.inIframe()
+      || window.location.pathname.indexOf('preview_key=') > 0) {
+        return null;
+      }
+
       var currentLang = langify.locale.iso_code.toLowerCase();
       //var localizationData = this.getLocalizationData();
       this.hreflangList = this.getHreflangList();

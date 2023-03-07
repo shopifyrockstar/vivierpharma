@@ -150,7 +150,7 @@
         </div>
       </div>
       
-        <div class="image-overlay" style="--bg: {{ section.settings.overlay_color }}; opacity: {{ section.settings.overlay_opacity | times: 0.01 }};{% if section.settings.enable_overlay_text %}z-index:2;{% else %}z-index:12;{% endif %}"></div>
+        <div class="image-overlay" style="--bg: {{ section.settings.overlay_color }}; opacity: {{ section.settings.overlay_opacity | times: 0.01 }};{% if section.settings.enable_overlay_text %}z-index:2;{% else %}z-index:2;{% endif %}"></div>
       
 
       {% if section.settings.link_text == '' and section.settings.link %}
@@ -200,6 +200,7 @@
             #shopify-section-{{ section.id }} .section--image .wrapper--none .section__inner .hero__content__wrapper .hero__content .hero__kicker p{
                 color: {{ block.settings.kicker_color }};
                 font-size: {{ block.settings.kicker_size }}px;
+                margin-bottom: 20px;
             }
             {% if block.settings.enable_caps %}
                 #shopify-section-{{ section.id }} .section--image .wrapper--none .section__inner .hero__content__wrapper .hero__content .hero__kicker p{
@@ -215,7 +216,9 @@
                 color: {{ block.settings.title_color }};
                 font-size: {{ block.settings.title_size }}px;
                 margin-top: 0;                
-            }
+                line-height: {{ block.settings.title_line_height }}px;
+                margin-bottom:0;
+            }            
         {% when 'text' %}
             #shopify-section-{{ section.id }} .section--image .wrapper--none .section__inner .hero__content__wrapper .hero__content .hero__description p{
                 color: {{ block.settings.content_text_color }};
@@ -629,6 +632,16 @@
           "label":   "Title Size",
           "info":    "Update the Title size",
           "default": 45
+        },
+        {
+          "type":    "range",
+          "id":      "title_line_height",
+          "min":     10,
+          "max":     50,
+          "step":    1,
+          "label":   "Title Line Height",
+          "info":    "Update the Title line height",
+          "default": 25
         }
       ]
     },

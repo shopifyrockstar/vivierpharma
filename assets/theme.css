@@ -1047,3 +1047,9 @@ html[lang="fr"] .product__details_collection button{
     opacity: 1;
   } 
 }
+
+body *{
+  font-family:'AndesRounded' !important;
+}
+
+

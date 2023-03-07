@@ -84,7 +84,10 @@
               </button>
             </div>
             <div class="collection__filters__inner">
+              {% comment %}
               {% render 'collection-filters-sidebar', section: section, collection: collection %}
+              {% endcomment %}
+              <div id="cloud_search_filters_sidebar"></div>
             </div>
           </div>
           <span class="drawer__underlay" data-filters-underlay>

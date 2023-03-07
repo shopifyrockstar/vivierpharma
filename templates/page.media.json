@@ -1,0 +1,301 @@
+{
+  "sections": {
+    "398a652b-f0eb-4e09-b0c7-bc0ce3ca6f31": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "VIVIER IN THE MEDIA",
+        "text": "",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "0ad7adac-44d5-4ee9-a362-97e4fea2a54f": {
+      "type": "section-double",
+      "blocks": {
+        "template--15040401604723__0ad7adac-44d5-4ee9-a362-97e4fea2a54f-16736398043d129438-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELLE_FINAL.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/www.ellecanada.com\/beauty\/skincare\/20-notable-beauty-products-that-launched-in-october-2022",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "80f485b5-1cc8-4adf-87de-a75dec4f7151": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHATELAINE_FINAL.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/www.chatelaine.com\/style\/beauty\/what-is-hyperpigmentation-melasma-treat-prevent\/",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--15040401604723__0ad7adac-44d5-4ee9-a362-97e4fea2a54f-16736398043d129438-1",
+        "80f485b5-1cc8-4adf-87de-a75dec4f7151"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "ead413df-b262-419c-bea4-7f801de6e4ff": {
+      "type": "section-double",
+      "blocks": {
+        "f91bbafb-b97f-4ed9-8dfc-5beb900dc79a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PEOPLE_FINAL.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/people.com\/style\/vanessa-williams-favorite-beauty-products\/",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "9ea24d24-3982-4e4d-b8af-2e566df691f4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ELLE_FINAL_1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/www.ellecanada.com\/beauty\/skincare\/best-retinol-products-to-use",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "f91bbafb-b97f-4ed9-8dfc-5beb900dc79a",
+        "9ea24d24-3982-4e4d-b8af-2e566df691f4"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "7978f861-e8ea-4570-8c76-b8b1ee5f04c7": {
+      "type": "section-double",
+      "blocks": {
+        "c00a007e-6c1a-4c57-a023-eaf47cd01114": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marilyn_Dennis_1.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "217c9164-52b3-44ec-9083-d792ec9040ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHCH.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "c00a007e-6c1a-4c57-a023-eaf47cd01114",
+        "217c9164-52b3-44ec-9083-d792ec9040ff"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "baec6b7a-4cba-4c8f-973b-14b15ec91cad": {
+      "type": "section-double",
+      "blocks": {
+        "d7d4482f-de5c-457b-ab34-7cc971bcabd1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CITYLINE_-_FINAL.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "d381ebd0-436f-4456-8c65-24a6f3fe1344": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marilyn_Dennis_2.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "d7d4482f-de5c-457b-ab34-7cc971bcabd1",
+        "d381ebd0-436f-4456-8c65-24a6f3fe1344"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "4e8eda72-1f86-4933-bcaf-2d9c7d4088ba": {
+      "type": "section-double",
+      "blocks": {
+        "6fc7dcfe-581f-4d76-961b-b3d63eba5819": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CLIN_D_OEIL_-QUINTI_-_FINAL_cbbed869-ceb9-48d2-b66d-cc2f4c082b35.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/www.clindoeil.ca\/2022\/12\/07\/prix-beaute-clin-doeil-choix-des-experts-les-40-produits-gagnants-de-2022",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "a11da134-8df2-45a1-9ca1-fdababfcc846": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CLIN_D_OEIL_-AGE_DEFYING_BODY_LOTION_-_FINAL_ee32eaec-4205-4afc-88b2-94f4a1327684.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/www.clindoeil.ca\/2022\/12\/07\/prix-beaute-clin-doeil-choix-des-experts-les-40-produits-gagnants-de-2022",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "6fc7dcfe-581f-4d76-961b-b3d63eba5819",
+        "a11da134-8df2-45a1-9ca1-fdababfcc846"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "398a652b-f0eb-4e09-b0c7-bc0ce3ca6f31",
+    "0ad7adac-44d5-4ee9-a362-97e4fea2a54f",
+    "ead413df-b262-419c-bea4-7f801de6e4ff",
+    "7978f861-e8ea-4570-8c76-b8b1ee5f04c7",
+    "baec6b7a-4cba-4c8f-973b-14b15ec91cad",
+    "4e8eda72-1f86-4933-bcaf-2d9c7d4088ba",
+    "main"
+  ]
+}

@@ -71,6 +71,14 @@
         "bg": "palette--light bg--neutral"
       }
     },
+    "51182d60-ab7e-4cd5-bd81-8577a8d29446": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 23,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
     "1649819827fb75749c": {
       "type": "section-double",
       "blocks": {
@@ -194,6 +202,7 @@
   },
   "order": [
     "main",
+    "51182d60-ab7e-4cd5-bd81-8577a8d29446",
     "1649819827fb75749c",
     "reviews",
     "fce63dee-b232-45c9-a946-a18b70e4fec3",
