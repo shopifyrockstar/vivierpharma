@@ -45,9 +45,6 @@ var customerTags = {{ customer.tags | json }} || [];
 var customer_tags = {{ customer.tags | json }} || [];
 
 try{
-  customerTags = JSON.parse(customerTags);
-}catch(e){}
-try{
   customer_tags = JSON.parse(customer_tags);
 }catch(e){}
 var is_loggedIn = {% if customer %}true{%else%}false{% endif %};

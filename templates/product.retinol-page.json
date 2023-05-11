@@ -65,7 +65,7 @@
       "settings": {
         "image_width": "half",
         "align": "left",
-        "product_breadcrumbs": true,
+        "product_breadcrumbs": false,
         "enable_video_looping": true,
         "zoom_enable": true,
         "bg": "palette--light bg--neutral"
@@ -90,7 +90,7 @@
             "title": "0.3% RETINOL SR COMPLEX",
             "text": "<p>Vivier 0.3% Retinol SR Complex is the ideal choice for retinol beginners and those with mild skin concerns.<\/p>",
             "button_label": "LEVEL 1",
-            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "button_link": "shopify:\/\/products\/retinol-03",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }

@@ -18,8 +18,8 @@
           "settings": {
             "title": "<p>FIND YOUR PERFECT VITAMIN C SERUM<\/p>",
             "title_color": "#ffffff",
-            "title_size": 39,
-            "title_line_height": 42
+            "title_size": 33,
+            "title_line_height": 36
           }
         },
         "template--15023337078899__aa3236f9-7b7c-4797-970f-4270ae474fab-1674830466037f4f5f-2": {
@@ -36,7 +36,7 @@
           "settings": {
             "link_text_1": "TAKE THE QUIZ",
             "link_1": "shopify:\/\/pages\/serum-quiz",
-            "button_size_1": "btn--medium",
+            "button_size_1": "btn--small",
             "button_style_1": "btn uppercase",
             "button_color_1": "btn--primary",
             "link_text_2": "",
@@ -76,25 +76,23 @@
         "padding_bottom": 0
       }
     },
-    "2cab3fd4-f80b-4925-8a09-c4a89eee5109": {
-      "type": "section-hero",
-      "disabled": true,
+    "e37a4df9-5631-4c9b-88dd-160688158243": {
+      "type": "section-richtext",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Group-serums-6-resized_c003fc3b-04d2-49cd-89a5-bec45cc50166.jpg",
-        "bg_position": "center-bottom",
-        "height": "use_screen_one_fifth",
-        "overlay_opacity": 10,
-        "overlay_color": "#000000",
-        "kicker": "",
-        "title": "Find Your Perfect Vitamin C Serum",
-        "richtext": "",
-        "text_align": "align--middle-right",
-        "text_color": "text--white",
-        "link_text": "TAKE THE QUIZ",
-        "link": "shopify:\/\/pages\/serum-quiz",
-        "button_color": "btn--white",
-        "button_style": "btn--outline"
+        "kicker": "Vitamin C Serums",
+        "title": "",
+        "text": "<p>Our best-selling serums are formulated with the purest form of Vitamin C (L-Ascorbic Acid USP) and proprietary delivery system for the ultimate anti-aging and skin brightening results. With several to choose from, we have a serum for every skin type and concern.<\/p>",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--secondary",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--primary",
+        "bg": "palette--light bg--neutral"
       }
     },
     "hero": {
@@ -158,7 +156,7 @@
   },
   "order": [
     "aa3236f9-7b7c-4797-970f-4270ae474fab",
-    "2cab3fd4-f80b-4925-8a09-c4a89eee5109",
+    "e37a4df9-5631-4c9b-88dd-160688158243",
     "hero",
     "subcollections",
     "main"

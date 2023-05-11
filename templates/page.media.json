@@ -274,6 +274,57 @@
         "wrapper": true
       }
     },
+    "874a4070-d1ef-4a24-b944-333d355771c1": {
+      "type": "section-double",
+      "blocks": {
+        "template--15040401604723__874a4070-d1ef-4a24-b944-333d355771c1-16788186201a3d5575-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ULTIMAGE_WWD_-_FINAL_0820351f-59b0-4f24-9e3a-dc2442f7414e.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "https:\/\/wwd.com\/shop\/shop-beauty\/best-hyaluronic-acid-serums-1235133325\/",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "bbbb5ec0-0f0d-47ff-8c33-279da02e6fbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WHITE_SQUARE_-_FOR_BLANK_SECTIONS.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--15040401604723__874a4070-d1ef-4a24-b944-333d355771c1-16788186201a3d5575-1",
+        "bbbb5ec0-0f0d-47ff-8c33-279da02e6fbf"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
     "main": {
       "type": "page",
       "settings": {
@@ -296,6 +347,7 @@
     "7978f861-e8ea-4570-8c76-b8b1ee5f04c7",
     "baec6b7a-4cba-4c8f-973b-14b15ec91cad",
     "4e8eda72-1f86-4933-bcaf-2d9c7d4088ba",
+    "874a4070-d1ef-4a24-b944-333d355771c1",
     "main"
   ]
 }

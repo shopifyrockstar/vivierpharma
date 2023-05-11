@@ -1053,3 +1053,6 @@ body *{
 }
 
 
+#rebuy-reorder-landing-page .fal, #rebuy-reactivate-landing-page .fal, #rebuy-smart-banner .fal, .rebuy-cart .fal, .rebuy-widget .fal, body.recharge-customer-portal#recharge-novum.recharge-theme-novum #recharge-te #rc_te-template-wrapper .rebuy-widget .fal, body.recharge-customer-portal#recharge-novum.recharge-theme-novum #shopify-section-footer .rebuy-widget .fal, .rebuy-recommended-products .fal, .rebuy-landing-page .fal{
+  font-family: "Font Awesome 5 Pro" !important;
+}

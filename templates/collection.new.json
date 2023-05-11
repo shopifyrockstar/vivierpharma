@@ -1,0 +1,296 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": true,
+        "show_description": true,
+        "show_description_below": false,
+        "show_image": false,
+        "bg_position": "left-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "disabled": true,
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "6bed4574-aa47-48db-aa90-741cce483700": {
+      "type": "section-hero-new",
+      "blocks": {
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_caps": true,
+            "kicker_color": "#5c5c5c",
+            "kicker_size": 15
+          }
+        },
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>TARGETED CARE BUNDLES<\/p>",
+            "title_color": "#97694f",
+            "title_size": 28,
+            "title_line_height": 28
+          }
+        },
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "richtext": "",
+            "content_text_color": "#5c5c5c",
+            "content_text_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-0",
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-1",
+        "template--15088260644979__6bed4574-aa47-48db-aa90-741cce483700-1680184052671f6334-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bundle_-_Clear_Complexion-edited.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/mobile_header_-_new_collection.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 20,
+        "overlay_color": "#ffffff",
+        "enable_overlay_text": false,
+        "content_width": 300,
+        "content_width_mobile": 180,
+        "text_align": "align--middle-left",
+        "text_align_mobile": "align--top-left",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "15c874c0-6d0d-4c96-9334-aac50f1dc737": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "A NEW way to address your skin's needs",
+        "title": "",
+        "text": "<p>We’ve expertly curated 3 targeted care bundles to address your specific skin care concerns. <\/p>",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--primary",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "c421f9ba-10f6-4204-85a0-6dd76da55335": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "template--15088260644979__c421f9ba-10f6-4204-85a0-6dd76da55335-1681153532487406e2-0": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "kicker": "",
+            "badge_string": "",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "48e50eca-1d73-47ae-b73e-4e12a0c62f26": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "",
+            "object_position": "center-center",
+            "bg_position": "center-center",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "template--15088260644979__c421f9ba-10f6-4204-85a0-6dd76da55335-1681153532487406e2-0",
+        "48e50eca-1d73-47ae-b73e-4e12a0c62f26"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "2ef98f42-275d-4a9f-8e4f-5218d9753441": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "96d0990d-8ba4-4604-b832-0dba7bf4f15a": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "",
+            "object_position": "center-center",
+            "bg_position": "center-center",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "85426be7-c3a5-4b20-bb4a-83cea0ba65e8": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "kicker": "",
+            "badge_string": "",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "96d0990d-8ba4-4604-b832-0dba7bf4f15a",
+        "85426be7-c3a5-4b20-bb4a-83cea0ba65e8"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "8d907295-a6b9-40d9-8036-b65d7a316309": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "61e02261-0b68-42dc-88b2-00edaa9f238c": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "kicker": "",
+            "badge_string": "",
+            "align_text": "text-center",
+            "text_color": "text--neutral",
+            "bg_color": "#f7f7f7",
+            "bg_accent": "#ffffff"
+          }
+        },
+        "d68953a9-9e71-4464-8b39-fbedb8eebb82": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "",
+            "object_position": "center-center",
+            "bg_position": "center-center",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "61e02261-0b68-42dc-88b2-00edaa9f238c",
+        "d68953a9-9e71-4464-8b39-fbedb8eebb82"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "821b6eed-2641-4b38-be66-e8308df6e255": {
+          "type": "filters",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "821b6eed-2641-4b38-be66-e8308df6e255"
+      ],
+      "settings": {
+        "grid_setting_large": 3,
+        "grid_setting_small": 2,
+        "product_limit": 50,
+        "enable_layout_toggle": false,
+        "collection_sorting": true,
+        "hide_sidebar": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "6bed4574-aa47-48db-aa90-741cce483700",
+    "15c874c0-6d0d-4c96-9334-aac50f1dc737",
+    "c421f9ba-10f6-4204-85a0-6dd76da55335",
+    "2ef98f42-275d-4a9f-8e4f-5218d9753441",
+    "8d907295-a6b9-40d9-8036-b65d7a316309",
+    "main"
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "cc559482-f600-4ce2-84cc-0372561221bc": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 16px;\" data-mce-style=\"font-size: 14px;\"><span style=\"color: #f40707;\" data-mce-style=\"color: #f40707;\">$350 value<br> 10% Bundle Savings<\/span><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Usage",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.usage.value }}<\/p>",
+            "title_2": "Ingredients",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
+            "title_3": "FAQ",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "title_4": "Before & After",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.beforeafter.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a6f354b0-0746-480e-bd09-5a4747952ab1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "36458",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "cc559482-f600-4ce2-84cc-0372561221bc",
+        "form",
+        "description",
+        "sharing",
+        "a6f354b0-0746-480e-bd09-5a4747952ab1"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "3b620bba-0472-461e-9e39-ce79bec442a9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "243f2e22-9f0b-41e4-8d3f-6b076dd69b8e": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9c9e8efd979e4760bd17fd216f7a1261.mp4",
+            "object_position": "center-bottom",
+            "bg_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "b37e008e-2d28-452b-80d7-6f8789f45c20": {
+          "type": "text",
+          "settings": {
+            "kicker": "FOR ALL SKIN TYPES",
+            "title": "",
+            "text": "<p>Simplify your evening routine with skin cycling for radiant, healthier, younger-looking skin<\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "243f2e22-9f0b-41e4-8d3f-6b076dd69b8e",
+        "b37e008e-2d28-452b-80d7-6f8789f45c20"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1649819827fb75749c": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "1649819827ba1f47e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sample_Sizes.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649819827ba1f47e6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "spend more, try more",
+            "title": "GET YOUR CHOICE OF SAMPLE !",
+            "text": "<p><\/p><p>Get <strong>1 FREE<\/strong> deluxe sample with every order of <strong>$100.<\/strong><\/p><p>Get <strong>2 FREE<\/strong> deluxe samples with every order of <strong>$350.<\/strong><\/p><p>Get <strong>3 FREE<\/strong> deluxe samples with every order of <strong>$600.<\/strong><\/p><p><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649819827ba1f47e6-1",
+        "1649819827ba1f47e6-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Exfoliante_Forte_-2.jpg",
+            "title": "Night 1 - Exfoliation",
+            "text": "<p>This enhanced chemical exfoliating lotion removes dead skin cells and prepares the skin to achieve maximum results from your night 2 product, Retinol 1% Night Complex.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Retinol_1_crop.png",
+            "title": "Night 2 - Retinol",
+            "text": "<p>This powerful yet gentle retinol is designed to boost cellular turnover and collagen production to visibly reduce the look of deep lines and wrinkles, improve skin tone and texture, and reduce blemishes. <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/LEXXEL.jpg",
+            "title": "Nights 3 & 4 - Recovery",
+            "text": "<p>This gentle moisturizer is ideal for recovery nights 3 & 4 as it soothes, calms, and hydrates the skin. Once the four day cycle is complete, start again with Night 1 - Exfoliation.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2"
+      ],
+      "settings": {
+        "title": "HOW IT WORKS",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "64b968b9-8b35-4097-b108-3a75d3c4c972": {
+      "type": "section-hero-new",
+      "blocks": {
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>LEARN MORE ABOUT SKIN CYCLING<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#97694f",
+            "kicker_size": 15
+          }
+        },
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "<p>SKIN CYCLING 101<\/p>",
+            "title_color": "#97694f",
+            "title_size": 35,
+            "title_line_height": 34
+          }
+        },
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-2": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>HAVE YOU TRIED SKIN CYCLING?<\/p>",
+            "content_text_color": "#97694f",
+            "content_text_size": 29
+          }
+        },
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "READ NOW",
+            "link_1": "https:\/\/vivierskin.ca\/blogs\/vivierlife\/have-you-tried-skin-cycling",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-0",
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-1",
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-2",
+        "template--15087448785011__64b968b9-8b35-4097-b108-3a75d3c4c972-16800944004b1783a3-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Retinol_1_-M_edited_0733440e-938e-4be5-bf0c-815251457881.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Retinol_1_-M_edited.png",
+        "bg_position": "center-center",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 500,
+        "content_width_mobile": 200,
+        "text_align": "align--middle-left",
+        "text_align_mobile": "align--top-left",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fce63dee-b232-45c9-a946-a18b70e4fec3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": ""
+      }
+    },
+    "6669f2b7-ece8-4480-8ee9-9dbe574764af": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
+    },
+    "1680119580fd67392a": {
+      "type": "apps",
+      "blocks": {
+        "192ca3ee-212c-413e-8ce0-ebb819204948": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "192ca3ee-212c-413e-8ce0-ebb819204948"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "164982083885be647e": {
+      "type": "apps",
+      "blocks": {
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        },
+        "51f90231-6b0c-4b90-8581-35d98bd147cd": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf",
+        "51f90231-6b0c-4b90-8581-35d98bd147cd"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3b620bba-0472-461e-9e39-ce79bec442a9",
+    "1649819827fb75749c",
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e",
+    "64b968b9-8b35-4097-b108-3a75d3c4c972",
+    "fce63dee-b232-45c9-a946-a18b70e4fec3",
+    "reviews",
+    "related",
+    "6669f2b7-ece8-4480-8ee9-9dbe574764af",
+    "1680119580fd67392a",
+    "164982083885be647e"
+  ]
+}
