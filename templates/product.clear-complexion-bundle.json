@@ -1,0 +1,348 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "cc559482-f600-4ce2-84cc-0372561221bc": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 16px;\" data-mce-style=\"font-size: 14px;\"><span style=\"color: #f40707;\" data-mce-style=\"color: #f40707;\">$238 value<br> 10% Bundle Savings <\/span><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Usage",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.usage.value }}<\/p>",
+            "title_2": "Ingredients",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
+            "title_3": "FAQ",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "title_4": "Before & After",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.beforeafter.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a6f354b0-0746-480e-bd09-5a4747952ab1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "36458",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "cc559482-f600-4ce2-84cc-0372561221bc",
+        "form",
+        "description",
+        "sharing",
+        "a6f354b0-0746-480e-bd09-5a4747952ab1"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "0aa16840-152d-490c-972a-1efda4065fe5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "525980a5-e405-4202-a0b5-86541961adcc": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f99a311f5e484500ad0383081a4e6df4.mp4",
+            "object_position": "center-bottom",
+            "bg_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "3392d1e1-400b-40ba-92e2-4ce7daa0512a": {
+          "type": "text",
+          "settings": {
+            "kicker": "Best for blemish-prone, congested or oily skin types",
+            "title": "",
+            "text": "<p>Ingredients such as Salicylic Acid USP, Alpha Hydroxy Acids and Kaolin Clay will help exfoliate, purify and clear your skin.<\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "525980a5-e405-4202-a0b5-86541961adcc",
+        "3392d1e1-400b-40ba-92e2-4ce7daa0512a"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "custom_class": "",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1649819827fb75749c": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "1649819827ba1f47e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sample_Sizes.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649819827ba1f47e6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "spend more, try more",
+            "title": "GET YOUR CHOICE OF SAMPLE !",
+            "text": "<p><\/p><p>Get <strong>1 FREE<\/strong> deluxe sample with every order of <strong>$100.<\/strong><\/p><p>Get <strong>2 FREE<\/strong> deluxe samples with every order of <strong>$350.<\/strong><\/p><p>Get <strong>3 FREE<\/strong> deluxe samples with every order of <strong>$600.<\/strong><\/p><p><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649819827ba1f47e6-1",
+        "1649819827ba1f47e6-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Medicated_Wash.jpg",
+            "title": "MEDICATED WASH",
+            "text": "<p>An oil-free, pH balanced medicated cleanser. Formulated with 2% Salicylic Acid USP and Hexamidine, it removes bacteria, excess oil, and thoroughly deep cleans pores.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/medicated-wash",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/AHA_BHA.jpg",
+            "title": "AHA\/BHA EXFOLIATING CREAM",
+            "text": "<p>A 3-in-1 exfoliating cream for smooth, flawless skin. Formulated with AHAs and BHAs to gently remove dead skin cells and reduce blemishes.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/aha-bha-exfoliating-cream",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/ultra_purifying._clay_mask-8.jpg",
+            "title": "ULTRA PURIFYING CLAY MASK",
+            "text": "<p>A luxurious purifying clay mask crafted from red and white Kaolin clay. Formulated with AHA's to exfoliate dead skin cells and unclog pores, Vitamin E and other hydrating ingredients.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/ultra-purifying-clay-mask",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2"
+      ],
+      "settings": {
+        "title": "CLEAR YOUR COMPLEXION",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "fce63dee-b232-45c9-a946-a18b70e4fec3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": ""
+      }
+    },
+    "1680120543a9f0a9f1": {
+      "type": "apps",
+      "blocks": {
+        "59178139-2fc7-4a09-9fd6-f48bd58ca947": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "59178139-2fc7-4a09-9fd6-f48bd58ca947"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "164982083885be647e": {
+      "type": "apps",
+      "blocks": {
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        },
+        "51f90231-6b0c-4b90-8581-35d98bd147cd": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf",
+        "51f90231-6b0c-4b90-8581-35d98bd147cd"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0aa16840-152d-490c-972a-1efda4065fe5",
+    "1649819827fb75749c",
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e",
+    "fce63dee-b232-45c9-a946-a18b70e4fec3",
+    "reviews",
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696",
+    "related",
+    "1680120543a9f0a9f1",
+    "164982083885be647e"
+  ]
+}

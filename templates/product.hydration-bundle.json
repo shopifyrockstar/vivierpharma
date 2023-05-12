@@ -1,0 +1,424 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": true,
+            "show_rating_count": false
+          }
+        },
+        "cc559482-f600-4ce2-84cc-0372561221bc": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 16px;\" data-mce-style=\"font-size: 14px;\"><span style=\"color: #f40707;\" data-mce-style=\"color: #f40707;\">$396 value<br> 10% Bundle Savings<\/span><\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": true,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Usage",
+            "raw_content_1": "<p>{{ product.metafields.my_fields.usage.value }}<\/p>",
+            "title_2": "Ingredients",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.ingredients.value }}<\/p>",
+            "title_3": "FAQ",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.faq.value }}<\/p>",
+            "title_4": "Before & After",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.beforeafter.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "a6f354b0-0746-480e-bd09-5a4747952ab1": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "36458",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "cc559482-f600-4ce2-84cc-0372561221bc",
+        "form",
+        "description",
+        "sharing",
+        "a6f354b0-0746-480e-bd09-5a4747952ab1"
+      ],
+      "settings": {
+        "image_width": "half",
+        "align": "left",
+        "product_breadcrumbs": false,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "d4f0b695-4598-4ca1-a13d-d76c20ec350c": {
+      "type": "section-custom-content",
+      "blocks": {
+        "6a6e28ba-47fc-4a41-9599-e9ec1baffa27": {
+          "type": "text",
+          "settings": {
+            "kicker": "BEST FOR DRY, DEHYDRATED SKIN",
+            "title": "",
+            "text": "<p>Soothe your skin with a combination of ultimate hydrating ingredients; Vitamin E, Shea butter and Sweet Almond extract to moisturize, protect and repair dry skin.<\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--primary",
+            "button_style": "caps--link",
+            "text_color": "text--primary",
+            "bg_color": "#ffffff"
+          }
+        },
+        "54c448b9-90f7-4009-82c9-16a78364d78f": {
+          "type": "video",
+          "settings": {
+            "video_link_bg": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/318cc8ef7b2b4293a2ecf57499de7fbc.mp4",
+            "object_position": "center-bottom",
+            "bg_position": "center-center",
+            "video_link": "",
+            "popup_text": "",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "6a6e28ba-47fc-4a41-9599-e9ec1baffa27",
+        "54c448b9-90f7-4009-82c9-16a78364d78f"
+      ],
+      "settings": {
+        "height": "use_screen_three_quarters",
+        "custom_class": "",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1649819827fb75749c": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "1649819827ba1f47e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sample_Sizes.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1649819827ba1f47e6-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "spend more, try more",
+            "title": "GET YOUR CHOICE OF SAMPLE !",
+            "text": "<p><\/p><p>Get <strong>1 FREE<\/strong> deluxe sample with every order of <strong>$100.<\/strong><\/p><p>Get <strong>2 FREE<\/strong> deluxe samples with every order of <strong>$350.<\/strong><\/p><p>Get <strong>3 FREE<\/strong> deluxe samples with every order of <strong>$600.<\/strong><\/p><p><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1649819827ba1f47e6-1",
+        "1649819827ba1f47e6-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/C_E_PEPTIDES-1.jpg",
+            "title": "CE PEPTIDES",
+            "text": "<p>This best-selling serum contains 10% Vitamin C, Vitamin E, and a combination of 3 proprietary peptides to protect, correct, brighten, and nourish the skin.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/c-e-peptides",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DailyAgeDefying_Moisturizer.jpg",
+            "title": "DAILY AGE-DEFYING MOISTURIZER",
+            "text": "<p>A lightweight moisturizing day cream formulated with antioxidants and moisturizers to increase smoothness while diminishing the signs of aging.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/daily-age-defying-moisturizer",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Ultra_hydrating_Mask.jpg",
+            "title": "ULTRA HYDRATING MASK",
+            "text": "<p>A nourishing mask that provides maximum hydration. Vitamin E, Sweet Almond extract and Shea butter soothe and protect the skin from dehydration as well as reduce appearance of fine lines and wrinkles.<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/ultra-hydrating-mask",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-0",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-1",
+        "template--15087448785011__1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e-1680094069f63916c0-2"
+      ],
+      "settings": {
+        "title": "YOUR HYDRATION ESSENTIALS",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1
+      }
+    },
+    "54d62feb-1ec1-4cc3-a66b-4fad3ddeb174": {
+      "type": "section-hero-new",
+      "disabled": true,
+      "blocks": {
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-0": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "<p>LEARN ABOUT SKIN HYDRATION<\/p>",
+            "enable_caps": true,
+            "kicker_color": "#97694f",
+            "kicker_size": 15
+          }
+        },
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>MOISTURIZING 101<\/p>",
+            "title_color": "#97694f",
+            "title_size": 32,
+            "title_line_height": 34
+          }
+        },
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p>This area is used to describe your store.<\/p>",
+            "content_text_color": "#ffffff",
+            "content_text_size": 22
+          }
+        },
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-3": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "READ NOW",
+            "link_1": "https:\/\/vivierskin.ca\/blogs\/vivierlife\/how-to-moisturize-your-face",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn uppercase",
+            "button_color_1": "btn--primary",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "caps--link",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "caps--link",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-0",
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-1",
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-2",
+        "template--15087575335027__54d62feb-1ec1-4cc3-a66b-4fad3ddeb174-168011432696f56576-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hydration_Bundle_Model-Daily_Age-defying_moisturizer.jpg",
+        "bg_position": "right-center",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "content_width": 450,
+        "content_width_mobile": 200,
+        "text_align": "align--middle-left",
+        "text_align_mobile": "align--top-left",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
+      }
+    },
+    "fce63dee-b232-45c9-a946-a18b70e4fec3": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div style='padding: 20px 0;'><h2><\/h2><\/div>",
+        "full_width": true
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "settings": {
+        "heading": "YOU MIGHT ALSO LIKE",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recently_heading": ""
+      }
+    },
+    "168011502922eca27e": {
+      "type": "apps",
+      "blocks": {
+        "45edc907-984e-4809-bf17-54632d936bcc": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "45edc907-984e-4809-bf17-54632d936bcc"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "164982083885be647e": {
+      "type": "apps",
+      "blocks": {
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        },
+        "51f90231-6b0c-4b90-8581-35d98bd147cd": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "disabled": true,
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "3bb017dc-66bb-4a63-93fd-12ee2ed28dbf",
+        "51f90231-6b0c-4b90-8581-35d98bd147cd"
+      ],
+      "settings": {
+        "custom_class": "",
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d4f0b695-4598-4ca1-a13d-d76c20ec350c",
+    "1649819827fb75749c",
+    "1611aa6f-9ec4-4b6f-8ade-aa7bf68eec6e",
+    "54d62feb-1ec1-4cc3-a66b-4fad3ddeb174",
+    "3dfd2123-d63e-4ceb-ab79-74f275e18696",
+    "fce63dee-b232-45c9-a946-a18b70e4fec3",
+    "reviews",
+    "related",
+    "168011502922eca27e",
+    "164982083885be647e"
+  ]
+}

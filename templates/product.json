@@ -65,7 +65,7 @@
       "settings": {
         "image_width": "half",
         "align": "left",
-        "product_breadcrumbs": true,
+        "product_breadcrumbs": false,
         "enable_video_looping": true,
         "zoom_enable": true,
         "bg": "palette--light bg--neutral"

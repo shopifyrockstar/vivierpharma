@@ -1,130 +1,22 @@
 {
   "sections": {
-    "cc0fba20-f0f5-4a97-9686-c840087e114d": {
-      "type": "section-double",
-      "blocks": {
-        "template--15023336947827__cc0fba20-f0f5-4a97-9686-c840087e114d-16757939733cca279a-0": {
-          "type": "text",
-          "settings": {
-            "kicker": "{{ collection.metafields.custom.collection_header.value }}",
-            "title": "",
-            "text": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
-            "text_size": 1,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "button_text": "",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "caps--link",
-            "text_color": "text--neutral",
-            "bg_color": "#ffffff"
-          }
-        },
-        "template--15023336947827__cc0fba20-f0f5-4a97-9686-c840087e114d-16757939733cca279a-1": {
-          "type": "image",
-          "settings": {
-            "image": "{{ collection.image }}",
-            "bg_position": "center-center",
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "kicker": "",
-            "title": "",
-            "richtext": "",
-            "text_align": "align--middle-center",
-            "text_color": "text--white",
-            "link_text": "",
-            "link": "",
-            "button_color": "btn--white",
-            "button_style": "btn uppercase"
-          }
-        }
-      },
-      "block_order": [
-        "template--15023336947827__cc0fba20-f0f5-4a97-9686-c840087e114d-16757939733cca279a-0",
-        "template--15023336947827__cc0fba20-f0f5-4a97-9686-c840087e114d-16757939733cca279a-1"
-      ],
+    "5df1eb28-3f8d-4d34-9d93-30e38c2ad21e": {
+      "type": "section-richtext",
       "settings": {
-        "height": "image-height",
-        "padding": false,
-        "borders": false,
-        "wrapper": true
-      }
-    },
-    "54c74fac-84e6-4cc2-8e9a-9747d4f05afd": {
-      "type": "section-hero-new",
-      "disabled": true,
-      "blocks": {
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-0": {
-          "type": "kicker",
-          "disabled": true,
-          "settings": {
-            "kicker": "<p>{{ collection.metafields.custom.collection_header.value }}<\/p>",
-            "enable_caps": true,
-            "kicker_color": "#97694f",
-            "kicker_size": 15
-          }
-        },
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-1": {
-          "type": "heading",
-          "settings": {
-            "title": "<p>{{ collection.metafields.custom.collection_header.value }}<\/p>",
-            "title_color": "#97694f",
-            "title_size": 28,
-            "title_line_height": 44
-          }
-        },
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-2": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
-            "content_text_color": "#97694f",
-            "content_text_size": 16
-          }
-        },
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-3": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_text_1": "View products",
-            "link_1": "",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn uppercase",
-            "button_color_1": "btn--white",
-            "link_text_2": "Learn more",
-            "link_2": "",
-            "button_size_2": "btn--long",
-            "button_style_2": "caps--link",
-            "button_color_2": "btn--white",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "caps--link",
-            "button_color_3": "btn--white"
-          }
-        }
-      },
-      "block_order": [
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-0",
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-1",
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-2",
-        "template--15023336947827__54c74fac-84e6-4cc2-8e9a-9747d4f05afd-1675792512363ba099-3"
-      ],
-      "settings": {
-        "image": "{{ collection.image }}",
-        "mobile_image": "{{ collection.image }}",
-        "bg_position": "center-center",
-        "height": "use_image",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "enable_overlay_text": false,
-        "content_width": 400,
-        "content_width_mobile": 380,
-        "text_align": "align--middle-center",
-        "text_align_mobile": "align--middle-center",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "kicker": "{{ collection.metafields.custom.collection_header.value }}",
+        "title": "",
+        "text": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+        "text_size": 1,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--primary",
+        "bg": "palette--light bg--neutral"
       }
     },
     "hero": {
@@ -182,16 +74,23 @@
         "grid_setting_small": 2,
         "product_limit": 50,
         "enable_layout_toggle": false,
-        "collection_sorting": true,
-        "hide_sidebar": true
+        "collection_sorting": false,
+        "hide_sidebar": false
+      }
+    },
+    "99e10976-23d6-4b77-b28a-8fcfdc41eb30": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div data-rebuy-id=\"68667\" data-rebuy-shopify-product-ids=\"{{ product.id }}\"><\/div>",
+        "full_width": true
       }
     }
   },
   "order": [
-    "cc0fba20-f0f5-4a97-9686-c840087e114d",
-    "54c74fac-84e6-4cc2-8e9a-9747d4f05afd",
+    "5df1eb28-3f8d-4d34-9d93-30e38c2ad21e",
     "hero",
     "subcollections",
-    "main"
+    "main",
+    "99e10976-23d6-4b77-b28a-8fcfdc41eb30"
   ]
 }

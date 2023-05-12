@@ -251,7 +251,7 @@
           {%- if shop.customer_accounts_enabled and section.settings.enable_account -%}
             <a class="drawer__account" href="{{ routes.account_url }}">
               {% render 'icon-account' %}
-              <span class="visually-hidden">{{ 'customer.account.title' | t }}</span>
+              <span class="">{{ 'customer.account.title' | t }}</span>
             </a>
           {%- endif -%}
         </div>

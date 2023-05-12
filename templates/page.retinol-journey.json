@@ -173,7 +173,7 @@
             "title": "0.3% Retinol SR Complex",
             "text": "<p>Vivier 0.3% Retinol SR Complex is the ideal choice for retinol beginners and those with mild skin concerns.<\/p>",
             "button_label": "Level 1",
-            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "button_link": "shopify:\/\/products\/retinol-03",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
@@ -186,7 +186,7 @@
             "title": "NEW! Retinol 0.5%",
             "text": "<p>After pre-conditioning the skin with Vivier 0.3% retinol SR, this is the next step in your journey for targeting moderate skin concerns.<\/p>",
             "button_label": "Level 2",
-            "button_link": "shopify:\/\/products\/0-3-retinol-sr-complex",
+            "button_link": "shopify:\/\/products\/retinol-03",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
@@ -233,11 +233,8 @@
             "title": "MYTH",
             "richtext": "<p><strong>FACT:<\/strong> Not all retinols are created equal. Ingredient quality, strength, formula base and complimentary ingredients all play an important role.<\/p>",
             "text_align": "align--middle-right",
-            "text_color": "text--white",
             "link_text": "SHOP NOW",
-            "link": "shopify:\/\/collections\/retinol",
-            "button_color": "btn--white",
-            "button_style": "btn--outline"
+            "link": "shopify:\/\/collections\/retinol"
           }
         },
         "1663600986deb0a70a-1": {
@@ -252,11 +249,8 @@
             "title": "MYTH",
             "richtext": "<p><strong>FACT:<\/strong> Retinol is a powerful skincare ingredient, but it doesn't need to be aggressive on the skin to be effective.<\/p>",
             "text_align": "align--middle-right",
-            "text_color": "text--white",
             "link_text": "SHOP NOW",
-            "link": "shopify:\/\/collections\/retinol",
-            "button_color": "btn--white",
-            "button_style": "btn--outline"
+            "link": "shopify:\/\/collections\/retinol"
           }
         },
         "2d18767d-d992-4882-920f-45a9a6ccaf45": {
@@ -271,11 +265,8 @@
             "title": "MYTH",
             "richtext": "<p><strong>FACT: <\/strong> Incorporating a low-strength retinol into your skincare routine in your 20's will help prevent the development of fine lines and wrinkles. <\/p>",
             "text_align": "align--middle-right",
-            "text_color": "text--white",
             "link_text": "SHOP NOW",
-            "link": "shopify:\/\/collections\/retinol",
-            "button_color": "btn--white",
-            "button_style": "btn--outline"
+            "link": "shopify:\/\/collections\/retinol"
           }
         }
       },

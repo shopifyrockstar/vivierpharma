@@ -137,3 +137,55 @@
     opacity: 0.9;
   }
 }
+
+
+.new-hero-section .banner-link{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 11;
+}
+.header__drawer .drawer__top__left .drawer__account{
+  width: 100%;
+  padding: 0;
+  padding-left: 10px;
+}
+.header__drawer .drawer__top__left .drawer__account span{
+  display: inline-block;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.collection .collection__nav{
+  display: none;
+}
+.collection-review-wrapper{
+  display: none;
+}
+@media (max-width:767px){
+  [data-section-type="collection"] .collection{
+    margin-top: 0;
+  }
+  .collection .collection__content #cloud_search_filters_root{
+    border: 1px solid var(--border);
+    margin-bottom: 30px;
+  }
+  .collection .collection__content #cloud_search_filters_root .cloud-search-page-controls{
+    margin: 0;
+    padding-left: 10px;
+  }
+  .collection .product-grid-item .product__grid__info--under{
+    padding-top: 0;
+  }
+  .collection-review-wrapper{
+    display: block;
+  }
+  .collection .product__details_collection .atc-button-collection .btn-state-ready span:not(:first-child){
+    display: none;
+  }
+  .collection-review-wrapper .product__grid__price{
+    font-size: 16px;
+  }
+}

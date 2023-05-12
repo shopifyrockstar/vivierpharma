@@ -34,6 +34,24 @@
             "title": "Email"
           }
         },
+        "3192ed5d-82e8-4b13-8228-ee41a6532247": {
+          "type": "select",
+          "settings": {
+            "title": "Subject",
+            "label_one": "Product \/ Ingredient Question",
+            "label_two": "Online Order Inquiry",
+            "label_three": "Influencer \/ Partnership \/ Media Inquiry",
+            "label_four": "Clinic Question",
+            "label_five": "My Account",
+            "label_six": "General Inquiry"
+          }
+        },
+        "8ac4c7eb-7652-417b-902d-00540489f0d4": {
+          "type": "text",
+          "settings": {
+            "title": "Order Number if applicable"
+          }
+        },
         "message": {
           "type": "body",
           "settings": {
@@ -44,6 +62,8 @@
       "block_order": [
         "name",
         "email",
+        "3192ed5d-82e8-4b13-8228-ee41a6532247",
+        "8ac4c7eb-7652-417b-902d-00540489f0d4",
         "message"
       ],
       "settings": {
