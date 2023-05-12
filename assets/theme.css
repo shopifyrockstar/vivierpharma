@@ -403,10 +403,10 @@
     justify-content: space-between;
   }
   .product-grid-item-wrapper .product__grid__info .product__grid__title{
-    min-height: 67px;
+    min-height: 45px;
   }
   .product-grid-item-wrapper .product__details_collection{
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .product-grid-item-wrapper .product__details_collection{
     visibility: visible;

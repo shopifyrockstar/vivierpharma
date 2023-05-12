@@ -11,7 +11,7 @@
   {% assign hero_content_class = 'hero__content hero__content--large' %}
 {% endif %}
 
-<div class="section--image fade-in-child js-overflow-container {{ scroll_class }}"
+<div class="section--image fade-in-child js-overflow-container {{ scroll_class }} new-hero-section"
   data-section-id="{{ section.id }}"
   data-section-type="hero"
   {% if section.settings.width == "wrapper--none" and section.settings.padding_top == 0 %} data-overlay-header {% endif %}
@@ -21,6 +21,10 @@
   --CONTENT-WIDTH: {{ section.settings.content_width }}px;">
   <div class="{{ section.settings.width }} section-padding">
     <div class="section__inner">
+      {% if section.settings.banner_link != blank %}
+        <a class="banner-link" href="{{ section.settings.banner_link }}"></a>
+      {% endif %}
+      
       <div class="hero__content__wrapper {{ section.settings.text_align }} mobile--{{ section.settings.text_align_mobile }}">
         <div class="{{ hero_content_class }} {{ section.settings.color_bg }} js-overflow-content">
           {%- assign animation_anchor = "[data-section-id='" | append: section.id | append: "']" -%}
@@ -150,7 +154,8 @@
         </div>
       </div>
       
-        <div class="image-overlay" style="--bg: {{ section.settings.overlay_color }}; opacity: {{ section.settings.overlay_opacity | times: 0.01 }};{% if section.settings.enable_overlay_text %}z-index:2;{% else %}z-index:2;{% endif %}"></div>
+        <div class="image-overlay" style="--bg: {{ section.settings.overlay_color }}; opacity: {{ section.settings.overlay_opacity | times: 0.01 }};{% if section.settings.enable_overlay_text %}z-index:2;{% else %}z-index:2;{% endif %}">          
+        </div>
       
 
       {% if section.settings.link_text == '' and section.settings.link %}
@@ -194,6 +199,20 @@
         margin:0;
       }
     }
+    @media (max-width:767px){
+      .new-hero-section .section__inner{
+        display:flex;
+        flex-direction:column-reverse;
+      }
+      .new-hero-section .section__inner .hero__content__wrapper{
+        position: relative;
+        padding: 16px;
+      }
+      .new-hero-section .section__inner .hero__content__wrapper .hero__content{
+        background: lightgrey;
+        width: 100% !important;
+      }
+    }
   {% for block in section.blocks %}   
     {% case block.type %}
         {% when 'kicker' %}
@@ -232,7 +251,6 @@
     {% endcase %}
   {% endfor %}
 </style>
-
 {% schema %}
 {
   "name": "New Image banner",
@@ -246,6 +264,11 @@
       "type": "image_picker",
       "id": "mobile_image",
       "label": "Mobile image"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner Link"
     },
     {
       "type": "select",

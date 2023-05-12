@@ -41,6 +41,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/serums_banner_desktop.png",
         "mobile_image": "shopify:\/\/shop_images\/serums_banner_mobile.png",
+        "banner_link": "",
         "bg_position": "center-top",
         "height": "use_screen_one_half",
         "overlay_opacity": 0,
@@ -115,6 +116,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Mothers_day_web_banner-desktop.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Mothers_day_web_banner-mobile.jpg",
+        "banner_link": "shopify:\/\/collections\/skin-care-programs",
         "bg_position": "center-center",
         "height": "use_screen_two_thirds",
         "overlay_opacity": 20,
@@ -231,6 +233,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Bundle_-_Hydration_Essentials_-v2.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Bundle_-_Hydration_Essentials_-mobile.jpg",
+        "banner_link": "",
         "bg_position": "center-center",
         "height": "use_screen_two_thirds",
         "overlay_opacity": 20,

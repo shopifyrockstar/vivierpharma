@@ -160,6 +160,40 @@
           <p class="product__grid__title">
             {{ product.title }}
           </p>
+          <div class="collection-review-wrapper">
+            {% render 'okendo-reviews-product-rating-summary', product: product %}
+            <div class="product__grid__price">
+              <span class="price{% if on_sale %} on-sale{% endif %}">
+                {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
+                {{ product.price | money }}
+              </span>
+              {% if on_sale %}
+                <span class="compare-at">
+                  {{ product.compare_at_price | money }}
+                </span>
+              {% endif %}
+              {% if current_variant.unit_price %}
+                {% capture unit_price_separator %}
+                  <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+                {% endcapture %}
+                {% capture unit_price_base_unit %}
+                  {% if current_variant.unit_price_measurement.reference_value != 1 %}
+                    {{ current_variant.unit_price_measurement.reference_value }}
+                  {% endif %}
+                  {{ current_variant.unit_price_measurement.reference_unit }}
+                {% endcapture %}
+                <br>
+                  <span class="visually-hidden">{{ 'products.product.unit_price_label' | t }}</span>
+                  <span class="price-per-unit">{{ current_variant.unit_price | money }}{{ unit_price_separator }}{{ unit_price_base_unit }}</span>
+              {% endif %}
+              {% comment %}
+              {% if sold_out %}
+                <br /><em>{{ 'products.product.sold_out' | t }}</em>
+              {% endif %}
+              {% endcomment %}
+              {{ swatches }}
+            </div> 
+          </div>
           {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
             <div class="rating__wrapper__grid">
               {% render 'product-rating', product: product, show_rating_count: settings.product_grid_show_rating_count %}
